@@ -1,3 +1,31 @@
+Built with
+
+- https://sveltekit.org
+- https://picocss.com/
+- https://fontsource.org/
+- https://github.com/joshnuss/svelte-local-storage-store
+
+## TODOs / ideas
+
+- [ ] Implement accessible modal to accept all social media embed providers at one (cookie banner), e.g. https://github.com/AgnosticUI/svelte-a11y-dialog?
+
+## How was it created?
+
+```bash
+npm create svelte@latest .
+npm i @picocss/pico
+npm i -D sass
+
+npm install -D svelte-preprocess
+npm i svelte-local-storage-store
+```
+
+Resources used:
+
+- https://joyofcode.xyz/using-pico-css-with-svelte
+
+<hr>
+
 # create-svelte
 
 Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
