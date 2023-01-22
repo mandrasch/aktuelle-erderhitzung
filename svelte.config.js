@@ -12,10 +12,12 @@ const config = {
 			fallback: null,
 			precompress: false
 		}),
-		prerender: {
+		// This was removed? 
+		/*prerender: {
 			default: true,
-		},
-		trailingSlash: 'always',
+		},*/
+		// This was removed? 
+		// trailingSlash: 'always',
 		paths: {
 			base: '/wie-steht-es-um-das-klima-so'
 		}
