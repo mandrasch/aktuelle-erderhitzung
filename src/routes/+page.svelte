@@ -14,6 +14,8 @@
 	<h1>Wie steht es um das Klima so?</h1>
 	<p>Ein aktueller Überblick, Stand: 21. Jänner 2023.</p>
 
+	{JSON.stringify(base)}
+
 	<h2>Die aktuelle Erderhitzung</h2>
 
 	<img src={imgAktuelleErderhitzungPng} alt="Aktuelle Erhitzung laut klimadashboard.at: 1,1 Grad" />
