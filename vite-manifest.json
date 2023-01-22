@@ -43,32 +43,6 @@
     "file": "_app/immutable/assets/_layout-e2739750.css",
     "src": "src/routes/+layout.css"
   },
-  "_singletons-4fa8c447.js": {
-    "file": "_app/immutable/chunks/singletons-4fa8c447.js",
-    "imports": [
-      "_index-1928e79b.js"
-    ]
-  },
-  ".svelte-kit/generated/nodes/0.js": {
-    "file": "_app/immutable/chunks/0-7f1d6761.js",
-    "src": ".svelte-kit/generated/nodes/0.js",
-    "isDynamicEntry": true,
-    "imports": [
-      "__layout-da46b06b.js",
-      "src/routes/+layout.svelte"
-    ]
-  },
-  ".svelte-kit/generated/nodes/1.js": {
-    "file": "_app/immutable/chunks/1-a7e7b571.js",
-    "src": ".svelte-kit/generated/nodes/1.js",
-    "isDynamicEntry": true,
-    "imports": [
-      "node_modules/@sveltejs/kit/src/runtime/components/error.svelte"
-    ]
-  },
-  "__layout-da46b06b.js": {
-    "file": "_app/immutable/chunks/_layout-da46b06b.js"
-  },
   "src/routes/+layout.js": {
     "file": "_app/immutable/modules/pages/_layout.js-9cbb603b.js",
     "src": "src/routes/+layout.js",
@@ -77,13 +51,14 @@
       "__layout-da46b06b.js"
     ]
   },
-  ".svelte-kit/generated/nodes/2.js": {
-    "file": "_app/immutable/chunks/2-f329233e.js",
-    "src": ".svelte-kit/generated/nodes/2.js",
-    "isDynamicEntry": true,
+  "_stores-81ee4942.js": {
+    "file": "_app/immutable/chunks/stores-81ee4942.js",
     "imports": [
-      "src/routes/+page.svelte"
+      "_index-1928e79b.js"
     ]
+  },
+  "__layout-da46b06b.js": {
+    "file": "_app/immutable/chunks/_layout-da46b06b.js"
   },
   "node_modules/@sveltejs/kit/src/runtime/components/error.svelte": {
     "file": "_app/immutable/components/error.svelte-e358026c.js",
@@ -92,23 +67,6 @@
     "imports": [
       "_index-1928e79b.js",
       "_singletons-4fa8c447.js"
-    ]
-  },
-  "_index-1928e79b.js": {
-    "file": "_app/immutable/chunks/index-1928e79b.js"
-  },
-  "node_modules/@sveltejs/kit/src/runtime/client/start.js": {
-    "file": "_app/immutable/start-db43cf54.js",
-    "src": "node_modules/@sveltejs/kit/src/runtime/client/start.js",
-    "isEntry": true,
-    "imports": [
-      "_index-1928e79b.js",
-      "_singletons-4fa8c447.js"
-    ],
-    "dynamicImports": [
-      ".svelte-kit/generated/nodes/0.js",
-      ".svelte-kit/generated/nodes/1.js",
-      ".svelte-kit/generated/nodes/2.js"
     ]
   },
   "src/routes/+page.svelte": {
@@ -130,10 +88,52 @@
       "_app/immutable/assets/aktuelle_erderhitzung_klimadashboard_at-c5dd08d1.png"
     ]
   },
-  "_stores-81ee4942.js": {
-    "file": "_app/immutable/chunks/stores-81ee4942.js",
+  ".svelte-kit/generated/nodes/0.js": {
+    "file": "_app/immutable/chunks/0-7f1d6761.js",
+    "src": ".svelte-kit/generated/nodes/0.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "__layout-da46b06b.js",
+      "src/routes/+layout.svelte"
+    ]
+  },
+  ".svelte-kit/generated/nodes/2.js": {
+    "file": "_app/immutable/chunks/2-f329233e.js",
+    "src": ".svelte-kit/generated/nodes/2.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "src/routes/+page.svelte"
+    ]
+  },
+  "_singletons-4fa8c447.js": {
+    "file": "_app/immutable/chunks/singletons-4fa8c447.js",
     "imports": [
       "_index-1928e79b.js"
+    ]
+  },
+  "_index-1928e79b.js": {
+    "file": "_app/immutable/chunks/index-1928e79b.js"
+  },
+  ".svelte-kit/generated/nodes/1.js": {
+    "file": "_app/immutable/chunks/1-a7e7b571.js",
+    "src": ".svelte-kit/generated/nodes/1.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "node_modules/@sveltejs/kit/src/runtime/components/error.svelte"
+    ]
+  },
+  "node_modules/@sveltejs/kit/src/runtime/client/start.js": {
+    "file": "_app/immutable/start-db43cf54.js",
+    "src": "node_modules/@sveltejs/kit/src/runtime/client/start.js",
+    "isEntry": true,
+    "imports": [
+      "_index-1928e79b.js",
+      "_singletons-4fa8c447.js"
+    ],
+    "dynamicImports": [
+      ".svelte-kit/generated/nodes/0.js",
+      ".svelte-kit/generated/nodes/1.js",
+      ".svelte-kit/generated/nodes/2.js"
     ]
   },
   "src/routes/+layout.svelte": {
