@@ -24,7 +24,7 @@ jobs:
       # See: https://www.11ty.dev/docs/config/#deploy-to-a-subdirectory-with-a-path-prefix
       - name: Install and Build for Github Pages 🔧
         run: |
-          npm install
+          npm ci
           npm run build
           # TODO: use env vars in svelte.config.js
         env:
