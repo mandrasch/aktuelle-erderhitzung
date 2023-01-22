@@ -1,6 +1,8 @@
 <script>
 	import TwoClickPrivacyEmbed from '../components/TwoClickPrivacyEmbed.svelte';
 
+	import { base } from '$app/paths';
+
 	import img5GradPng from '../images/5_grad_grafik_moment_at.png';
 	import img5GradWebP from '../images/5_grad_grafik_moment_at.webp';
 	import imgTemperaturLebenszeitPng from '../images/temperaturanstieg_lebenszeit_moment_at.png';
@@ -61,10 +63,10 @@
 
 	<h3>Wie bedeuten 1,5, 2, 3 Grad mehr?</h3>
 	<picture>
-		<source type="image/webp" srcset={img5GradWebP} />
-		<source type="image/png" srcset={img5GradPng} />
+		<source type="image/webp" srcset={base + '/' + img5GradWebP} />
+		<source type="image/png" srcset={base + '/' + img5GradPng} />
 		<img
-			src={img5GradPng}
+			src={base + '/' + img5GradPng}
 			alt="Infografik von moment.at: Was die Klimakrise für uns Menschen bedeutet, Szenarien aufgeteilt nach der jeweiligen Grad-Erhöhung"
 		/>
 	</picture>
