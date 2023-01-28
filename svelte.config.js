@@ -4,7 +4,8 @@ import sveltePreprocess from 'svelte-preprocess';
 //import { env } from '$env/dynamic/private';
 
 let pathsBase = '';
-if(Object.prototype.hasOwnProperty.call(process.env,'pathsBase')){
+// https://stackoverflow.com/posts/67978668/revisions
+if(process.env['PATHS_BASE'] != undefined){
 	console.log('paths.base was set via node env variable',process.env.PATHS_BASE);
 	pathsBase = process.env.PATHS_BASE;
 }else{
