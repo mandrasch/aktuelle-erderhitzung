@@ -1,12 +1,12 @@
 import adapter from '@sveltejs/adapter-static';
 import sveltePreprocess from 'svelte-preprocess';
 
-import { env } from '$env/dynamic/private';
+//import { env } from '$env/dynamic/private';
 
 let pathsBase = '';
-if(Object.prototype.hasOwnProperty.call(env,'pathsBase')){
-	console.log('paths.base was set via node env variable',env.PATHS_BASE);
-	pathsBase = env.PATHS_BASE;
+if(Object.prototype.hasOwnProperty.call(process.env,'pathsBase')){
+	console.log('paths.base was set via node env variable',process.env.PATHS_BASE);
+	pathsBase = process.env.PATHS_BASE;
 }else{
 	console.log('No paths.base set, defaults to \'\'');
 }
