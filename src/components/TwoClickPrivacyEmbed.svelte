@@ -43,7 +43,7 @@ IsAccepted?{JSON.stringify(isAccepted)}; Provider: {JSON.stringify(provider)}; -
 						<a href="https://policies.google.com/privacy">Datenschutzerklärung</a>
 						von YouTube/Google zu.
 					</p>
-					<button on:click={acceptProvider} class={provider}> Video anzeigen </button>
+					<button on:click={acceptProvider} class={provider}> Videos anzeigen </button>
 				</div>
 			</div>
 		{:else}
@@ -71,7 +71,7 @@ IsAccepted?{JSON.stringify(isAccepted)}; Provider: {JSON.stringify(provider)}; -
 						<a href="https://twitter.com/de/privacy">Datenschutzerklärung</a>
 						von Twitter zu.
 					</p>
-					<button on:click={acceptProvider} class={provider}> Tweet anzeigen </button>
+					<button on:click={acceptProvider} class={provider}> Tweets anzeigen </button>
 				</div>
 			</div>
 		{:else}
@@ -91,7 +91,7 @@ IsAccepted?{JSON.stringify(isAccepted)}; Provider: {JSON.stringify(provider)}; -
 						>
 						von Instagram/Meta zu.
 					</p>
-					<button on:click={acceptProvider} class={provider}> Post anzeigen </button>
+					<button on:click={acceptProvider} class={provider}> Posts anzeigen </button>
 				</div>
 			</div>
 		{:else}
