@@ -410,17 +410,20 @@
 	<h2>Disclaimer: Klimaangst? Du bist nicht allein!</h2>
 
 	<p>
-		Du hast starke negative Gefühle, Ängste, Sorgen o.ä. in Bezug auf die Klimakrise? Du bist nicht
-		allein! Die Psychologists for Future haben hierzu Tipps und Ratschläge gesammelt: <a
-			href="https://utopia.de/ratgeber/klimaangst-richtiger-umgang-psychologe/"
-			>Wie geht man mit „Klimaangst“ um?</a
-		>.<br />
+		<strong>"Klimaangst"?</strong> Du hast starke negative Gefühle, Ängste, Sorgen o.ä. in Bezug auf
+		die Klimakrise? Du bist nicht allein! Die Psychologists for Future haben hierzu Tipps und
+		Ratschläge gesammelt:
+		<a href="https://utopia.de/ratgeber/klimaangst-richtiger-umgang-psychologe/"
+			>„Wie geht man mit „Klimaangst“ um?“</a
+		>.
+	</p>
+	<p>
 		Kürzlich erschien das Buch
 		<a
 			rel="noreferrer noopener"
 			href="https://www.droemer-knaur.de/buch/lea-dohm-mareike-schulze-klimagefuehle-9783426286159"
 			target="_blank"
-			>Klimagefühle - Wie wir an der Umweltkrise wachsen, statt zu verzweifeln
+			>„Klimagefühle - Wie wir an der Umweltkrise wachsen, statt zu verzweifeln“
 		</a>
 		von Lea Dohm und Mareike Schulze. Es ist auch als Hörbuch
 		<a
