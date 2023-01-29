@@ -69,8 +69,11 @@
 			>
 		</p>
 		<p>
-			Mehr zu Daten auf <a href="https://klimadashboard.at/">klimadashboard.at</a> sowie
-			<a href="https://www.spiegel.de/thema/klimawandel/">spiegel.de/thema/klimawandel</a>
+			<small>
+				Mehr zu den Datenquellen auf <a href="https://klimadashboard.at/">klimadashboard.at</a>
+				sowie
+				<a href="https://www.spiegel.de/thema/klimawandel/">spiegel.de/thema/klimawandel</a></small
+			>
 		</p>
 	</details>
 

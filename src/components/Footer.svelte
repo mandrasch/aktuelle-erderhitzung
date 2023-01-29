@@ -12,15 +12,16 @@
 
 <div class="container container-gdpr">
 	<p>
-		Du hast der Nutzung folgender Dienste zugestimmt: {JSON.stringify(
+		Du hast der Nutzung und Einbettung folgender <br />Dienste zugestimmt: {JSON.stringify(
 			$preferences.gdprAcceptedEmbedProviders
 		)}
 	</p>
-	<button class="outline" on:click={resetPreferences}>Datenschutz-Einstellungen zurücksetzen</button
-	>
+	<button class="outline" on:click={resetPreferences}>Einstellungen zurücksetzen</button>
 </div>
 
-<div class="container">Datenschutz | Impressum</div>
+<div class="container" style="text-align:center;margin-bottom:30px;">
+	<a href="https://matthias-andrasch.eu/blog/impressum-datenschutz/">Datenschutz & Impressum</a>
+</div>
 
 <style lang="scss">
 	button {
