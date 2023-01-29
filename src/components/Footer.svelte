@@ -1,11 +1,10 @@
 <script>
-	import TwoClickPrivacyEmbedSettings from './TwoClickPrivacyEmbedSettings.svelte';
+	import { base } from '$app/paths';
+	//import TwoClickPrivacyEmbedSettings from './TwoClickPrivacyEmbedSettings.svelte';
 </script>
 
-<TwoClickPrivacyEmbedSettings />
-
 <div class="container" style="text-align:center;margin-bottom:30px;">
-	<a href="https://matthias-andrasch.eu/blog/impressum-datenschutz/">Datenschutz & Impressum</a>
+	<a href="{base}/impressum">Datenschutz & Impressum</a>
 </div>
 
 <style lang="scss">
