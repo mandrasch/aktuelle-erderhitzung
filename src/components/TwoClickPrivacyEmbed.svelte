@@ -47,15 +47,17 @@ IsAccepted?{JSON.stringify(isAccepted)}; Provider: {JSON.stringify(provider)}; -
 				</div>
 			</div>
 		{:else}
-			<iframe
-				width="100%"
-				height="315"
-				src={'https://www.youtube-nocookie.com/embed/' + contentId}
-				title="YouTube video player"
-				frameborder="0"
-				allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-				allowfullscreen
-			/>
+			<div class="embed-display">
+				<iframe
+					width="100%"
+					height="315"
+					src={'https://www.youtube-nocookie.com/embed/' + contentId}
+					title="YouTube video player"
+					frameborder="0"
+					allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+					allowfullscreen
+				/>
+			</div>
 		{/if}
 	{/if}
 
@@ -73,7 +75,7 @@ IsAccepted?{JSON.stringify(isAccepted)}; Provider: {JSON.stringify(provider)}; -
 				</div>
 			</div>
 		{:else}
-			<div class="twitter-embed-code"><slot /></div>
+			<div class="embed-display"><slot /></div>
 		{/if}
 	{/if}
 
@@ -93,7 +95,7 @@ IsAccepted?{JSON.stringify(isAccepted)}; Provider: {JSON.stringify(provider)}; -
 				</div>
 			</div>
 		{:else}
-			<div class="twitter-embed-code"><slot /></div>
+			<div class="embed-display"><slot /></div>
 		{/if}
 	{/if}
 
@@ -102,6 +104,8 @@ IsAccepted?{JSON.stringify(isAccepted)}; Provider: {JSON.stringify(provider)}; -
 
 <style lang="scss">
 	.two-click-privacy-box {
+		margin: 0 auto;
+
 		.dialog {
 			border: 1px dashed var(--secondary);
 			padding: 10px;
@@ -127,6 +131,11 @@ IsAccepted?{JSON.stringify(isAccepted)}; Provider: {JSON.stringify(provider)}; -
 					border-color: #ff3932;
 				}
 			}
+		}
+
+		.embed-display {
+			display: flex;
+			justify-content: center;
 		}
 	}
 </style>

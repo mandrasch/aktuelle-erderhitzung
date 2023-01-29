@@ -3,28 +3,95 @@
 
 	import { base } from '$app/paths';
 
+	// We could use /static/images as well and use these images via regular path,
+	// see https://kit.svelte.dev/docs/assets for more information
 	import img5GradPng from '../images/5_grad_grafik_moment_at.png';
 	import img5GradWebP from '../images/5_grad_grafik_moment_at.webp';
 	import imgTemperaturLebenszeitPng from '../images/temperaturanstieg_lebenszeit_moment_at.png';
 	import imgTemperaturLebenszeitWebP from '../images/temperaturanstieg_lebenszeit_moment_at.webp';
 	import imgAktuelleErderhitzungPng from '../images/aktuelle_erderhitzung_klimadashboard_at.png';
+	import imgAktuelleErderhitzungSpiegelOnline from '../images/aktuelle_erderhitzung_spiegel_online.png';
 </script>
 
+<!-- Base URL: {JSON.stringify(base)} -->
+
 <article>
-	<h1>Wie steht es um das Klima so?</h1>
-	<p>Ein aktueller Überblick, Stand: 21. Jänner 2023.</p>
-
-	{JSON.stringify(base)}
-
-	<h2>Die aktuelle Erderhitzung</h2>
-
-	<img src={imgAktuelleErderhitzungPng} alt="Aktuelle Erhitzung laut klimadashboard.at: 1,1 Grad" />
-	<div class="image-source">
-		Quelle / Urheberrechte: <a href="https://klimadashboard.at">klimadashboard.at</a>
+	<header>
+		<h1>Aktuelle Erderhitzung 🔥</h1>
+	</header>
+	<p>
+		Viele reden vom Klimwandel und der Erderwärmung. Aber wie sehr hat sich der Planet Erde nun
+		schon erhitzt? Und wo steuern wir hin als Gemeinschaft?
+	</p>
+	<p>
+		Die aktuelle Erderwärmung wird derzeit mit 1,1 Grad - teils schon mit 1,2 Grad Celsius -
+		angegeben (Stand: 21. Jänner 2023):
+	</p>
+	<div class="image-block">
+		<a href="https://klimadashboard.at">
+			<img
+				src={imgAktuelleErderhitzungPng}
+				alt="Aktuelle Erhitzung laut klimadashboard.at: 1,1 Grad Celsius"
+			/>
+		</a>
+		<div class="image-source">
+			Quelle / Urheberrechte: <a href="https://klimadashboard.at">klimadashboard.at</a>
+		</div>
 	</div>
-	<p>TODO: SpiegelOnline</p>
+	<div class="image-block">
+		<a href="https://www.spiegel.de/thema/klimawandel/">
+			<img
+				src={imgAktuelleErderhitzungSpiegelOnline}
+				alt="Aktuelle Erhitzung laut Spiegel Online: 1,2 Grad Celsius"
+			/>
+		</a>
+		<div class="image-source">
+			Quelle / Urheberrechte: <a href="https://www.spiegel.de/thema/klimawandel/"
+				>spiegel.de/thema/klimawandel</a
+			>
+		</div>
+	</div>
 
-	<h3>Können wir das 1,5 Grad Limit noch einhalten?</h3>
+	<details>
+		<summary role="button" class="secondary">Datenquellen</summary>
+		<p>
+			<small>
+				Die Daten stammen aus den Forschungsberichten des <a
+					href="https://de.wikipedia.org/wiki/Intergovernmental_Panel_on_Climate_Change"
+					>Intergovernmental Panel on Climate Change (IPCC)</a
+				>, oft umgangssprachlich als "Weltklimarat" bezeichnet. Das IPCC wurde gegründet, „um für
+				politische Entscheidungsträger den Stand der wissenschaftlichen Forschung zum Klimawandel
+				zusammenzufassen“ (<a
+					href="https://de.wikipedia.org/wiki/Intergovernmental_Panel_on_Climate_Change"
+					>Wikipedia</a
+				>). Deep dive: Der sechste IPCC-Sachstandsbericht (August 2021) wird u.a. im Podcast
+				<a href="https://dasklima.podigee.io/">Das Klima</a> besprochen.</small
+			>
+		</p>
+		<p>
+			Mehr zu Daten auf <a href="https://klimadashboard.at/">klimadashboard.at</a> sowie
+			<a href="https://www.spiegel.de/thema/klimawandel/">spiegel.de/thema/klimawandel</a>
+		</p>
+	</details>
+
+	<h3>Können wir das "1,5 Grad"-Limit noch schaffen?</h3>
+
+	<p>
+		Alle (!) Staaten dieser Welt haben sich mit dem <a
+			href="https://www.ardalpha.de/wissen/umwelt/klima/klimawandel/klimaabkommen-paris-protokoll-klimapolitik-klimawandel-102.html"
+			>Pariser Klimaabkommen</a
+		>
+		das Ziel gesetzt, die globale Erhitzung gemeinsam auf 1,5 Grad - allerhöchstens 2 Grad - zu begrenzen.
+		Diese Zielvereinbarung wurde inzwischen von allen Staaten weltweit
+		<a
+			href="https://treaties.un.org/Pages/ViewDetails.aspx?src=TREATY&mtdsg_no=XXVII-7-d&chapter=27&clang=_en"
+			aria-label="Link zur Unterzeichnungsliste der UN">unterzeichnet.</a
+		><!-- , nur 4 Staaten (Eritrea, Iran, Lybien, Yemen) haben den Vertrag noch nicht ratifiziert.-->
+		<br />Die Dramatik: Bisher reichen die Handlungen der Staaten bei Weitem nicht aus. Für das
+		Stoppen der Erhitzung bei 1,5 Grad bleibt nur noch ein schmaler Pfad, sehr schnelle und sehr
+		konsequente Maßnahmen sind jetzt nötig:
+	</p>
+
 	<!-- TODO: mark second param as optional in JSDoc-->
 	<TwoClickPrivacyEmbed provider="twitter">
 		<blockquote class="twitter-tweet">
@@ -42,7 +109,16 @@
 		<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 	</TwoClickPrivacyEmbed>
 
-	<h3>Auf welchem Emissionspfad befinden wir uns?</h3>
+	<p>
+		<small
+			>Mehr zu den Maßnahmen einzelner Staaten u.a. auf <a
+				href="https://climateactiontracker.org/countries/">climateactiontracker.org/countries/</a
+			>.</small
+		>
+	</p>
+
+	<p>Derzeit befinden wir uns sogar auf dem Weg zu 3 Grad Erwärmung:</p>
+
 	<TwoClickPrivacyEmbed provider="twitter">
 		<blockquote class="twitter-tweet">
 			<p lang="de" dir="ltr">
@@ -60,10 +136,7 @@
 		<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 	</TwoClickPrivacyEmbed>
 
-	https://twitter.com/ReiSteurer/status/1605972450172211424
-	https://twitter.com/ReiSteurer/status/1605972445608808450
-
-	<h3>Wie bedeuten 1,5, 2, 3 Grad mehr?</h3>
+	<h3>Welchen Unterschied macht das?</h3>
 	<picture>
 		<source type="image/webp" srcset={img5GradWebP} />
 		<source type="image/png" srcset={img5GradPng} />
@@ -78,8 +151,40 @@
 			>moment.at</a
 		>
 	</div>
+	<h3>Welche Erhitzung erlebt man selbst noch?</h3>
+	<p>
+		Wenn es bei den derzeitigen, unzureichenden Maßnahmen bleibt und sich die Erde weiter stark
+		erhitzt - welche Erhitzung erlebt man sebst noch, welche Erhitzung erleben die jungen und
+		zukünftigen Generationen?
+	</p>
+	<picture>
+		<source type="image/webp" srcset={imgTemperaturLebenszeitWebP} />
+		<source type="image/png" srcset={imgTemperaturLebenszeitPng} />
+		<img
+			src={imgTemperaturLebenszeitPng}
+			alt="Infografik moment.at: Diese Erwärmung könntest du noch erleben."
+		/>
+	</picture>
+	<div class="image-source">
+		Quelle / Urheberrechte: <a
+			href="https://www.moment.at/story/klimakrise-so-heiss-koennte-es-deinem-leben-noch-werden"
+			>moment.at</a
+		>
+	</div>
 
-	<h3>Die entscheidenden nächsten Jahre</h3>
+	<h3>Die nächsten 7 Jahre entscheiden:</h3>
+
+	<blockquote>
+		"Wir leben in einer Zeit, in der eine große Verantwortung auf uns lastet, das Ruder noch
+		herumzureißen. Egal, ob wir das doof finden - so ist es nun einmal." <br />-
+		<cite
+			>Lea Dohm & Mareike Schulze, <a
+				href="https://www.droemer-knaur.de/buch/lea-dohm-mareike-schulze-klimagefuehle-9783426286159"
+				>Klimagefühle (2022)</a
+			></cite
+		>
+	</blockquote>
+
 	<TwoClickPrivacyEmbed provider="twitter">
 		<blockquote class="twitter-tweet">
 			<p lang="de" dir="ltr">
@@ -97,23 +202,24 @@
 		<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 	</TwoClickPrivacyEmbed>
 
-	<h3>Welche Erhitzung erlebt man selbst noch?</h3>
-	<picture>
-		<source type="image/webp" srcset={imgTemperaturLebenszeitWebP} />
-		<source type="image/png" srcset={imgTemperaturLebenszeitPng} />
-		<img
-			src={imgTemperaturLebenszeitPng}
-			alt="Infografik moment.at: Diese Erwärmung könntest du noch erleben."
-		/>
-	</picture>
-	<div class="image-source">
-		Quelle / Urheberrechte: <a
-			href="https://www.moment.at/story/klimakrise-so-heiss-koennte-es-deinem-leben-noch-werden"
-			>moment.at</a
-		>
-	</div>
+	<TwoClickPrivacyEmbed provider="twitter">
+		<blockquote class="twitter-tweet">
+			<p lang="de" dir="ltr">
+				Es geht dabei in erster Linie um den Schutz von Leben und von unserer Zivilisation. In den
+				nächsten Jahren entscheiden wir darüber, ob unsere Gesellschaften eine gute Zukunft haben
+				oder noch in diesem Jahrhundert im Chaos versinken werden. 2/ <a
+					href="https://t.co/dGjVoBkxJh">pic.twitter.com/dGjVoBkxJh</a
+				>
+			</p>
+			&mdash; Reinhard @Steurer@mas.to (@ReiSteurer)<a
+				href="https://twitter.com/ReiSteurer/status/1605972450172211424?ref_src=twsrc%5Etfw"
+				>December 22, 2022</a
+			>
+		</blockquote>
+		<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+	</TwoClickPrivacyEmbed>
 
-	<h3>Österreich hat doch nur einen kleinen Anteil?!</h3>
+	<h3>Mein Land hat doch nur einen ganz kleinen Anteil?!</h3>
 
 	<TwoClickPrivacyEmbed provider="twitter">
 		<blockquote class="twitter-tweet">
@@ -133,25 +239,21 @@
 		<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 	</TwoClickPrivacyEmbed>
 
-	<TwoClickPrivacyEmbed provider="twitter">
-		<blockquote class="twitter-tweet">
-			<p lang="de" dir="ltr">
-				&quot;Was wünschten Sie, würden alle über die Klimakrise verstehen?&quot; Das fragt mich ein
-				Magazin aus der Schweiz.<br /><br />Ich wünschte, eine große Mehrheit würde verstehen, dass
-				es bei Klimaschutz nicht um Umweltschutz geht, dass es kein &quot;grünes Projekt&quot; ist.
-				1/ <a href="https://t.co/Yvk1QVWHlY">pic.twitter.com/Yvk1QVWHlY</a>
-			</p>
-			&mdash; Reinhard @Steurer@mas.to (@ReiSteurer)<a
-				href="https://twitter.com/ReiSteurer/status/1605972445608808450?ref_src=twsrc%5Etfw"
-				>December 22, 2022</a
-			>
-		</blockquote>
-		<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-	</TwoClickPrivacyEmbed>
-
 	<h2>Artensterben / Biodiversitätskrise</h2>
 
-	<TwoClickPrivacyEmbed provider="instagram">
+	<p>
+		Die Erhitzung der Erde beschleunigt potenziell auch weitere Krisen: Aktuell sterben massiv Tier-
+		und Pflanzenarten aus. Der Kriminalbiologe Mark Benecke war zum Thema Klimakrise und
+		Artensterben bei nachhaltig.kritisch im Podcast: <a
+			href="https://podcasts.google.com/feed/aHR0cHM6Ly9wb2RsYWJlbC5wb2RjYXN0ZXIuZGUvbmFjaGhhbHRpZ2tyaXRpc2NocG9kY2FzdC5yc3M/episode/cG9kLTYzYzQ5YTAwNmE2NjQzMDU4MzQ5NDI?sa=X&ved=0CAUQkfYCahcKEwjg1Oqa4ez8AhUAAAAAHQAAAAAQAQ"
+			>„Wer hat das Klima ermordet“</a
+		>. Des Weiteren hielt er auf der republica 2022 den schonungslosen Talk
+		<a href="https://www.youtube.com/watch?v=UAkZz3DMppg"
+			>„Bienchen und Blümchen: Warum der Arten-Schwund so herbe nervt“</a
+		>.
+	</p>
+
+	<!-- <TwoClickPrivacyEmbed provider="instagram">
 		<blockquote
 			class="instagram-media"
 			data-instgrm-captioned
@@ -265,54 +367,102 @@
 			</div>
 		</blockquote>
 		<script async src="//www.instagram.com/embed.js"></script>
+	</TwoClickPrivacyEmbed> -->
+
+	<h2>Warum hat vorher niemand etwas unternommen?</h2>
+
+	<TwoClickPrivacyEmbed provider="twitter">
+		<blockquote class="twitter-tweet">
+			<p lang="de" dir="ltr">
+				Seit 25 Jahren versuche ich, die größte Krise der Menschheit zu verstehen und zu einer
+				Lösung durch Wissen beizutragen. In dieser Zeit hat sie sich von Klimawandel zu
+				Klimanotstand radikalisiert. Wie hält man das aus &amp; was hat das mit meinen Erkenntnissen
+				gemacht? Langer 🧵 1/24 <a href="https://t.co/Y7AJK1qpjF">pic.twitter.com/Y7AJK1qpjF</a>
+			</p>
+			&mdash; Reinhard @Steurer@mas.to (@ReiSteurer)<a
+				href="https://twitter.com/ReiSteurer/status/1599000778273828864?ref_src=twsrc%5Etfw"
+				>December 3, 2022</a
+			>
+		</blockquote>
+		<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 	</TwoClickPrivacyEmbed>
 
-	<TwoClickPrivacyEmbed provider="youtube" contentId="UAkZz3DMppg" />
+	<p>
+		<small
+			>Mehr dazu auch im Video <a href="https://www.youtube.com/watch?v=G86wu0BOOJI"
+				>"Was man in den 70ern wusste – und verschwiegen hat | Harald Lesch</a
+			>
+			".</small
+		>
+	</p>
 
+	<h2>Was muss jetzt passieren?</h2>
+
+	<p>https://www.maja-goepel.de/, Transformationsforscherin.</p>
+
+	<p>https://www.youtube.com/watch?v=bCvUwnIdqBI</p>
+
+	<p>https://www.youtube.com/watch?v=s2txunrkr8M</p>
+
+	<h2>Disclaimer: Klimaangst? Du bist nicht allein!</h2>
+
+	<p>
+		Du hast starke negative Gefühle, Ängste, Sorgen o.ä. in Bezug auf die Klimakrise? Du bist nicht
+		allein! Die Psychologists for Future haben hierzu Tipps und Ratschläge gesammelt: <a
+			href="https://utopia.de/ratgeber/klimaangst-richtiger-umgang-psychologe/"
+			>Wie geht man mit „Klimaangst“ um?</a
+		>.<br />
+		Kürzlich erschien das Buch
+		<a
+			rel="noreferrer noopener"
+			href="https://www.droemer-knaur.de/buch/lea-dohm-mareike-schulze-klimagefuehle-9783426286159"
+			target="_blank"
+			>Klimagefühle - Wie wir an der Umweltkrise wachsen, statt zu verzweifeln
+		</a>
+		von Lea Dohm und Mareike Schulze. Es ist auch als Hörbuch
+		<a
+			rel="noreferrer noopener"
+			href="https://open.spotify.com/album/4jiOmIlad5pxgOGH1dQCT3"
+			target="_blank">auf Spotify verfügbar.</a
+		>
+	</p>
+	<p>
+		Eine detaillierte Auseinandersetzung mit dem umgangssprachlichen Begriff „Klimaangst" findet
+		sich
+		<a href="https://www.psychologistsforfuture.org/klimaangst/">hier</a>.
+	</p>
+	<p>
+		<strong>Ohnmacht?</strong>
+		Im Podcast Hotel Matze erschien die Folge
+		<a
+			rel="noreferrer noopener"
+			href="https://mitvergnuegen.com/hotelmatze/luisa-neubauer-2022/"
+			target="_blank">„Wie bekämpft man die Ohnmacht?“</a
+		> mit Luisa Neubauer (Fridays for Future Deutschland).
+	</p>
 	<h2>Mehr erfahren</h2>
-
-	<TwoClickPrivacyEmbed provider="youtube" contentId="Pao0gGwaW9c" />
-
-	<TwoClickPrivacyEmbed provider="youtube" contentId="7jCMcqA41Kk" />
-
-	<!-- <h2>People to follow</h2>
-
-	- Micha Bloss - Klimavolksbegehren -->
-
-	<h2>Disclaimer: Klimagefühle</h2>
-
-	<p>
-		„<strong><em>Klimaangst“?</em></strong>
-		<em
-			>Du hast starke negative Gefühle, Angst, o.ä. in Bezug auf die Klimakrise? Die Psychologists
-			for Future haben hierzu Tipps und Ratschläge: <a
-				href="https://utopia.de/ratgeber/klimaangst-richtiger-umgang-psychologe/"
-				>Wie geht man mit „Klimaangst“ um?</a
-			>. Kürzlich erschien auch das Buch
-			<a
-				rel="noreferrer noopener"
-				href="https://www.droemer-knaur.de/buch/lea-dohm-mareike-schulze-klimagefuehle-9783426286159"
-				target="_blank">Klimagefühle</a
-			> von Lea Dohm und Mareike Schulze.</em
-		>
-		<em
-			>Dieses ist auch als Hörbuch <a
-				rel="noreferrer noopener"
-				href="https://open.spotify.com/album/4jiOmIlad5pxgOGH1dQCT3"
-				target="_blank">auf Spotify verfügbar.</a
-			></em
-		>
-	</p>
-	<p>
-		<strong><em>Ohnmacht?</em></strong>
-		<em
-			>Im Podcast Hotel Matze erschien zudem die Folge <a
-				rel="noreferrer noopener"
-				href="https://mitvergnuegen.com/hotelmatze/luisa-neubauer-2022/"
-				target="_blank">„Wie bekämpft man die Ohnmacht? – Luisa Neubauer (2022)“</a
-			>.</em
-		>
-	</p>
+	<ul>
+		<li>
+			<a href="https://www.youtube.com/watch?v=Pao0gGwaW9c"
+				>Crashkurs Klimakrise mit Prof. Reinhard Steurer (YouTube)</a
+			>
+		</li>
+		<li>
+			<a href="https://www.youtube.com/watch?v=Pao0gGwaW9c"
+				>7 Fakten zum menschengemachten Klimawandel - TerraX (YouTube)</a
+			>
+		</li>
+		<li>
+			Nachhaltiges Wirtschaften?
+			<ul>
+				<li>https://www.bcorporation.net/en-us/</li>
+				<li>Donut Ökonomie</li>
+				<li>Green Growth</li>
+				<li>Degrowth</li>
+				<li>Gemeinwohlökonomie</li>
+			</ul>
+		</li>
+	</ul>
 </article>
 
 <style lang="scss">
@@ -321,7 +471,18 @@
 		margin: 50px auto;
 	}
 
+	header {
+		text-align: center;
+		h1 {
+			margin-top: unset;
+			margin-bottom: unset;
+		}
+	}
+
+	.image-block {
+		margin: 1rem 0;
+	}
 	.image-source {
-		font-size: 0.8rem;
+		font-size: 70%;
 	}
 </style>

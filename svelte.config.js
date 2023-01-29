@@ -3,12 +3,13 @@ import sveltePreprocess from 'svelte-preprocess';
 
 //import { env } from '$env/dynamic/private';
 
+// TODO: use env from github actions -> 
 let pathsBase = '';
 // https://stackoverflow.com/posts/67978668/revisions
-if(process.env['PATHS_BASE'] != undefined){
-	console.log('paths.base was set via node env variable',process.env.PATHS_BASE);
+if (process.env['PATHS_BASE'] != undefined) {
+	console.log('paths.base was set via node env variable', process.env.PATHS_BASE);
 	pathsBase = process.env.PATHS_BASE;
-}else{
+} else {
 	console.log('No paths.base set, defaults to \'\'');
 }
 
@@ -23,15 +24,9 @@ const config = {
 			fallback: null,
 			precompress: false
 		}),
-		// This was removed? 
-		/*prerender: {
-			default: true,
-		},*/
-		// This was removed? 
-		// trailingSlash: 'always',
 		paths: {
 			base: pathsBase
-			// e.g. for github pagees: '/wie-steht-es-um-das-klima-so'
+			// e.g. for github pages -> repository name: '/repository-name'
 			//https://kit.svelte.dev/docs/adapter-static#github-pages
 		}
 	}
