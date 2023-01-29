@@ -1,7 +1,10 @@
 <script>
+	import { gdprAcceptedEmbedProvidersStore } from './../stores.js';
+
+	// Old implementation via
 	// https://github.com/joshnuss/svelte-local-storage-store
-	import { get } from 'svelte/store';
-	import { preferences } from './../stores';
+	//import { get } from 'svelte/store';
+	// import { preferences } from './../stores';
 
 	// TODO: use allowed values for this? https://stackoverflow.com/questions/19093935/how-to-document-a-string-type-in-jsdoc-with-limited-possible-values; Look up svelte demo repo?
 	/** @type {string} */
@@ -9,19 +12,45 @@
 	/** @type {string} */
 	export let contentId;
 
-	$: isAccepted = $preferences.gdprAcceptedEmbedProviders.includes(provider);
+	// old - via persistent storage:
+	//$: isAccepted = $preferences.gdprAcceptedEmbedProviders.includes(provider);
+
+	let isAccepted = false;
+	/** @type {String[]} */
+	let gdprAcceptedEmbedProvidersValue = [];
+
+	gdprAcceptedEmbedProvidersStore.subscribe(
+		/**
+		 * @param {String[]} newValue
+		 */
+		(newValue) => {
+			console.log('New value received for gdprAcceptedEmbedProviders store', newValue);
+			isAccepted = newValue.includes(provider); // update acceptance state
+			gdprAcceptedEmbedProvidersValue = newValue; // update value within component
+		}
+	);
 
 	function acceptProvider() {
-		let newPrefs = get(preferences);
+		// old via persisting storage, can be removed later
+		// let newPrefs = get(preferences);
 		// console.log({ newPrefs });
 		// TODO: check if already exist
-		newPrefs.gdprAcceptedEmbedProviders.push(provider);
-		preferences.set(newPrefs);
-	}
+		//newPrefs.gdprAcceptedEmbedProviders.push(provider);
+		//preferences.set(newPrefs);
 
-	preferences.subscribe(function (newPrefs) {
-		console.log('PREF CHANGE!', { newPrefs });
-	});
+		gdprAcceptedEmbedProvidersStore.update(
+			/**
+			 *
+			 * @param {String[]} providers
+			 */
+			(providers) => {
+				// TODO: check if already exist
+				providers.push(provider);
+				console.log('Setting new prefs for gdpr settings:', { providers });
+				return providers;
+			}
+		);
+	}
 
 	// preferences.subscribe(...) // subscribe to changes
 	//preferences.update(...) // update value
@@ -34,12 +63,14 @@
 IsAccepted?{JSON.stringify(isAccepted)}; Provider: {JSON.stringify(provider)}; -->
 
 <div class="two-click-privacy-box">
+	<!-- {JSON.stringify(gdprAcceptedEmbedProvidersValue)} -->
+
 	{#if provider === 'youtube'}
 		{#if !isAccepted}
 			<div class="dialog">
 				<div class="dialog-content">
 					<p>
-						Mit dem Anzeigen des Videos stimmst Du der
+						Mit dem Anzeigen der Videos stimmst Du der
 						<a href="https://policies.google.com/privacy">Datenschutzerklärung</a>
 						von YouTube/Google zu.
 					</p>
@@ -67,7 +98,7 @@ IsAccepted?{JSON.stringify(isAccepted)}; Provider: {JSON.stringify(provider)}; -
 			<div class="dialog">
 				<div class="dialog-content">
 					<p>
-						Mit der Anzeige des Tweets stimmst Du der
+						Mit dem Anzeigen von Tweets stimmst Du der
 						<a href="https://twitter.com/de/privacy">Datenschutzerklärung</a>
 						von Twitter zu.
 					</p>
@@ -84,7 +115,7 @@ IsAccepted?{JSON.stringify(isAccepted)}; Provider: {JSON.stringify(provider)}; -
 			<div class="dialog">
 				<div class="dialog-content">
 					<p>
-						Mit der Anzeige des Instagram-Posts stimmst Du der
+						Mit dem Anzeigen von Instagram-Posts stimmst Du der
 						<a
 							href="https://privacycenter.instagram.com/policy/?entry_point=ig_help_center_data_policy_redirect"
 							>Datenschutzerklärung</a

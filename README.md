@@ -8,6 +8,7 @@ Built with
 ## TODOs / ideas
 
 - [ ] Implement accessible modal to accept all social media embed providers at one (cookie banner), e.g. https://github.com/AgnosticUI/svelte-a11y-dialog?
+- store settings for social media only in stores.js, clear after browser reload
 
 ## How was it created?
 
