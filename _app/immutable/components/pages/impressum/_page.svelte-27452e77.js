@@ -1,0 +1,13 @@
+import{S as J,i as O,s as Q,k as l,q as a,a as D,l as o,m as d,r as b,h as t,c as w,b as n,C as r,B as F}from"../../../chunks/index-a0c02d7a.js";/* empty css                                                                                 */function T(G){let p,S,E,s,B,H,P,W,C,_,f,M,v,u,R,z,h,q,k,m,y,x,c,A;return{c(){p=l("h2"),S=a("Impressum"),E=D(),s=l("p"),B=a("Matthias Andrasch"),H=l("br"),P=a(`
+	1160 Wien`),W=l("br"),C=a(`
+	Österreich`),_=D(),f=l("p"),M=a("Kontakt: matthias-andrasch-kontakt@mailbox.org"),v=D(),u=l("h2"),R=a("Datenschutz"),z=D(),h=l("p"),q=a("Diese Webseite erhebt keine personenbezogenen Daten."),k=D(),m=l("p"),y=a(`Diese Webseite wird beim Hostinganbieter Hetzner Cloud (Server-Standort: Nürnberg) betrieben, es
+	werden keine personenbezogenen Daten von Besucher:innen in Server-Logs o.ä. erhoben.`),x=D(),c=l("p"),A=a(`Für die Einbindung der externen Social Media Dienste wird die Einwilligung explizit abgefragt und
+	nach einem Browser-Reload wieder gelöscht. Die Datenschutzerklärungen der Drittanbieter findet
+	sich Einwilligungsdialog, die Einbettung erfolgt explizit erst nachdem der/die Besucher:in
+	eingewilligt hat:`)},l(e){p=o(e,"H2",{});var i=d(p);S=b(i,"Impressum"),i.forEach(t),E=w(e),s=o(e,"P",{});var g=d(s);B=b(g,"Matthias Andrasch"),H=o(g,"BR",{}),P=b(g,`
+	1160 Wien`),W=o(g,"BR",{}),C=b(g,`
+	Österreich`),g.forEach(t),_=w(e),f=o(e,"P",{});var I=d(f);M=b(I,"Kontakt: matthias-andrasch-kontakt@mailbox.org"),I.forEach(t),v=w(e),u=o(e,"H2",{});var K=d(u);R=b(K,"Datenschutz"),K.forEach(t),z=w(e),h=o(e,"P",{});var L=d(h);q=b(L,"Diese Webseite erhebt keine personenbezogenen Daten."),L.forEach(t),k=w(e),m=o(e,"P",{});var N=d(m);y=b(N,`Diese Webseite wird beim Hostinganbieter Hetzner Cloud (Server-Standort: Nürnberg) betrieben, es
+	werden keine personenbezogenen Daten von Besucher:innen in Server-Logs o.ä. erhoben.`),N.forEach(t),x=w(e),c=o(e,"P",{});var j=d(c);A=b(j,`Für die Einbindung der externen Social Media Dienste wird die Einwilligung explizit abgefragt und
+	nach einem Browser-Reload wieder gelöscht. Die Datenschutzerklärungen der Drittanbieter findet
+	sich Einwilligungsdialog, die Einbettung erfolgt explizit erst nachdem der/die Besucher:in
+	eingewilligt hat:`),j.forEach(t)},m(e,i){n(e,p,i),r(p,S),n(e,E,i),n(e,s,i),r(s,B),r(s,H),r(s,P),r(s,W),r(s,C),n(e,_,i),n(e,f,i),r(f,M),n(e,v,i),n(e,u,i),r(u,R),n(e,z,i),n(e,h,i),r(h,q),n(e,k,i),n(e,m,i),r(m,y),n(e,x,i),n(e,c,i),r(c,A)},p:F,i:F,o:F,d(e){e&&t(p),e&&t(E),e&&t(s),e&&t(_),e&&t(f),e&&t(v),e&&t(u),e&&t(z),e&&t(h),e&&t(k),e&&t(m),e&&t(x),e&&t(c)}}}class X extends J{constructor(p){super(),O(this,p,null,T,Q,{})}}export{X as default};
