@@ -1,14 +1,15 @@
 import adapter from '@sveltejs/adapter-static';
 import sveltePreprocess from 'svelte-preprocess';
 
-//import { env } from '$env/dynamic/private';
+// https://kit.svelte.dev/docs/modules#$env-static-public
+import { PATHS_BASE } from '$env/static/public';
 
 // TODO: use env from github actions -> 
 let pathsBase = '';
 // https://stackoverflow.com/posts/67978668/revisions
-if (process.env['PATHS_BASE'] != undefined) {
+if (PATHS_BASE != undefined) {
 	console.log('paths.base was set via node env variable', process.env.PATHS_BASE);
-	pathsBase = process.env.PATHS_BASE;
+	pathsBase = PATHS_BASE;
 } else {
 	console.log('No paths.base set, defaults to \'\'');
 }
