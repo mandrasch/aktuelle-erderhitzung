@@ -17,7 +17,10 @@
 
 	<p>Kontakt: matthias-andrasch-kontakt@mailbox.org</p>
 
-	<p>Ich bin interessierter Laie, die Mini-Webseite wurde als Privatperson verfasst.</p>
+	<p>
+		Ich bin interessierter Laie, diese Webseite wurde als Privatperson verfasst und ist
+		höchstwahrscheinlich nicht mehr als ein Tropfen auf den heißen Stein.
+	</p>
 
 	<h2>Copyright</h2>
 	<p>
@@ -27,7 +30,7 @@
 	</p>
 	<p>
 		Der <a href="https://github.com/mandrasch/aktuelle-erderhitzung">Source Code</a> steht auf GitHub
-		zur Nachnutzung bereit. Die Seite wurde mit SvelteKit und PicoCss erstellt.
+		zur Nachnutzung bereit. Die Seite wurde mit SvelteKit und PicoCSS erstellt.
 	</p>
 
 	<h2>Datenschutz</h2>

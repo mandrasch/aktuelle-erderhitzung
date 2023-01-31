@@ -3,7 +3,7 @@ Built with
 - https://sveltekit.org
 - https://picocss.com/
 - https://fontsource.org/
-- https://github.com/joshnuss/svelte-local-storage-store
+- https://github.com/janosh/svelte-toc
 
 ## TODOs / ideas
 
