@@ -110,7 +110,9 @@
 					>Re-Upload: Können wir 1,5 Grad Erderwärmung überhaupt noch einhalten?</a
 				>
 				(Original-Quelle:
-				<a href="https://twitter.com/rahmstorf/status/1593495465261256707">Twitter</a>)
+				<a href="https://twitter.com/rahmstorf/status/1593495465261256707"
+					>Stefan Rahmstorf - Twitter</a
+				>)
 			</div>
 
 			<!-- TODO: mark second param as optional in JSDoc-->
@@ -143,7 +145,19 @@
 
 			<p>Derzeit befinden wir uns sogar auf dem Weg zu einer +3 Grad Erwärmung:</p>
 
-			<TwoClickPrivacyEmbed provider="twitter">
+			<TwoClickPrivacyEmbed provider="youtube" contentId="atQbbMhZkbc" />
+			<div class="image-source">
+				Video: <a href="https://youtu.be/atQbbMhZkbc"
+					>Re-Upload: Auf welchem Emissionspfad sind wir, und wo sollten wir zur Einhaltung von 1,5
+					Grad sein?</a
+				>
+				(Original-Quelle:
+				<a href="https://twitter.com/rahmstorf/status/1593536876312420352"
+					>Stefan Rahmstorf - Twitter</a
+				>)
+			</div>
+
+			<!-- <TwoClickPrivacyEmbed provider="twitter">
 				<blockquote class="twitter-tweet">
 					<p lang="de" dir="ltr">
 						Auf welchem Emissionspfad sind wir, und wo sollten wir zur Einhaltung von 1,5 Grad sein? <br
@@ -158,7 +172,7 @@
 					>
 				</blockquote>
 				<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-			</TwoClickPrivacyEmbed>
+			</TwoClickPrivacyEmbed> -->
 
 			<h3>Welchen Unterschied macht das?</h3>
 			<picture>
