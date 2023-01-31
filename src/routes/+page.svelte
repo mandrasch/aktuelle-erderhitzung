@@ -18,7 +18,7 @@
 <!-- Base URL: {JSON.stringify(base)} -->
 
 <div class="main-layout">
-	<Toc title="Inhalt" --toc-font-size="0.2rem" --toc-desktop-width="300em" />
+	<Toc title="Inhalt" />
 
 	<main>
 		<article>
@@ -609,6 +609,13 @@
 	}
 	:global(aside.toc.desktop ul) {
 		font-size: 0.65rem;
+	}
+	// toc - mobile
+	:global(aside.toc.mobile) {
+		right: 3em;
+	}
+	:global(aside.toc.mobile ul) {
+		font-size: 0.75rem;
 	}
 
 	h2,
