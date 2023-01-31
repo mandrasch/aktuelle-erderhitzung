@@ -593,7 +593,10 @@
 				<a href="https://www.instagram.com/treibhauspost/">treibhauspost</a>,
 				<a href="https://www.instagram.com/gesunde.erde.gesunde.menschen/"
 					>gesunde.erde.gesunde.menschen</a
-				>, <a href="https://www.instagram.com/klimagefuehle/">Klimagefühle</a> & viele mehr.
+				>, <a href="https://www.instagram.com/klimagefuehle/">Klimagefühle</a> & viele mehr. Auch
+				Politiker:innen, die sich aktiv gegen die Klimakrise engagieren, finden sich auf Instagram -
+				bspw.
+				<a href="https://www.instagram.com/michabloss/?hl=de">Michael Bloss</a>.
 			</p>
 			<p>
 				In Bezug auf Nachhaltiges Wirtschaften gibt es ebenfalls viele Initiativen, z.B. <a
