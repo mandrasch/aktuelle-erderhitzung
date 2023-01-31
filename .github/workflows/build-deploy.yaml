@@ -29,7 +29,7 @@ jobs:
           npm ci
           npm run build
           # https://discord.com/channels/457912077277855764/1069175150433546240
-          PATHS_BASE=$PATHS_BASE npm run build
+          # PATHS_BASE=$PATHS_BASE npm run build
         env:
           #BASE_URL: 'https://${{ github.event.repository.owner.name }}.github.io/'
           # https://kit.svelte.dev/docs/adapter-static#github-pages
