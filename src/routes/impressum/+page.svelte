@@ -30,7 +30,8 @@
 	</p>
 	<p>
 		Der <a href="https://github.com/mandrasch/aktuelle-erderhitzung">Source Code</a> steht auf GitHub
-		zur Nachnutzung bereit. Die Seite wurde mit SvelteKit und PicoCSS erstellt.
+		zur Nachnutzung bereit. Die Seite wurde mit SvelteKit und PicoCSS erstellt. Das Deployment wird über
+		ploi.io realisiert.
 	</p>
 
 	<h2>Datenschutz</h2>

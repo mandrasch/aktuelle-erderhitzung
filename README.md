@@ -5,11 +5,16 @@ Built with
 - https://fontsource.org/
 - https://github.com/janosh/svelte-toc
 
+Deployed with adapter-static, ploi.io and Hetzner Cloud:
+
+- https://aktuelle-erderhitzung.de
+
 ## TODOs / ideas
 
 - [ ] Implement accessible modal to accept all social media embed providers at one (cookie banner), e.g. https://github.com/AgnosticUI/svelte-a11y-dialog?
-- [ ] Add Theme switcher
-- [ ] Add Sidebar https://www.google.com/search?q=sveltekit+sidebar, split sections to own sub pages?
+- [ ] Add Theme switcher dark/light mode
+- [ ] Style simple-toc, improve mobile styles, link title to first section?
+- [ ] a11y check
 
 ## How was it created?
 
