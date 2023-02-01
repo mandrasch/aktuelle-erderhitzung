@@ -70,7 +70,7 @@ IsAccepted?{JSON.stringify(isAccepted)}; Provider: {JSON.stringify(provider)}; -
 			<div class="dialog">
 				<div class="dialog-content">
 					<p>
-						Mit dem Anzeigen der Videos stimmst Du der
+						Mit dem Anzeigen der Videos stimmst Du <br /> der
 						<a href="https://policies.google.com/privacy">Datenschutzerklärung</a>
 						von YouTube/Google zu.
 					</p>
@@ -98,7 +98,7 @@ IsAccepted?{JSON.stringify(isAccepted)}; Provider: {JSON.stringify(provider)}; -
 			<div class="dialog">
 				<div class="dialog-content">
 					<p>
-						Mit dem Anzeigen von Tweets stimmst Du der
+						Mit dem Anzeigen von Tweets stimmst Du <br /> der
 						<a href="https://twitter.com/de/privacy">Datenschutzerklärung</a>
 						von Twitter zu.
 					</p>
@@ -142,7 +142,7 @@ IsAccepted?{JSON.stringify(isAccepted)}; Provider: {JSON.stringify(provider)}; -
 			padding: 10px;
 			margin: 10px 0;
 			text-align: center;
-			min-height: 300px;
+			min-height: 375px;
 
 			display: flex;
 			justify-content: center;

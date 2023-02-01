@@ -18,21 +18,179 @@
 <!-- Base URL: {JSON.stringify(base)} -->
 
 <div class="main-layout">
-	<Toc title="Inhalt" />
+	<div class="main-layout__sidebar">
+		<Toc title="" />
+	</div>
 
-	<main>
+	<div class="main-layout__main-region">
 		<article>
 			<header>
-				<h2>Aktuelle Erderhitzung 🔥</h2>
+				<h2>🌡 Wie hoch ist die Erderhitzung?</h2>
 			</header>
-			<h3>Wie hoch ist die aktuelle Erderhitzung?</h3>
+
 			<p>
 				Viele reden vom Klimwandel und der Erderwärmung. Aber wie sehr hat sich der Planet Erde nun
 				schon erhitzt? Und wo steuern wir hin als Gemeinschaft?
 			</p>
 			<p>
 				Die aktuelle Erderwärmung wird derzeit mit 1,1 Grad bzw. teils sogar schon mit 1,2 Grad
-				Celsius angegeben (Stand: 21. Jänner 2023):
+				Celsius angegeben. Der seit Jahrzehnten aktive Klimaforscher Stefan Rahmstorf fasste die
+				Situation kürzlich wie folgt zusammen:
+			</p>
+
+			<!-- <h3>Können wir das "1,5 Grad"-Limit noch schaffen?</h3>-->
+
+			<TwoClickPrivacyEmbed provider="youtube" contentId="V0TPithzs-A" />
+			<div class="image-source">
+				Video: <a href="https://youtu.be/V0TPithzs-A"
+					>Re-Upload: Können wir 1,5 Grad Erderwärmung überhaupt noch einhalten?</a
+				>
+				(Original-Quelle:
+				<a href="https://twitter.com/rahmstorf/status/1593495465261256707"
+					>Stefan Rahmstorf - Twitter 18. November 2022
+				</a>, gesamte Diskussion:
+				<a href="https://www.youtube.com/watch?v=xrdKdlZRb5M"
+					>Europe Calling Live von der Klimakonferenz #cop27 - Disaster oder Hoffnungsschimmer?
+					(YouTube)
+				</a>
+			</div>
+		</article>
+
+		<article>
+			<header>
+				<h2>📈 Auf welchem Pfad sind wir?</h2>
+			</header>
+
+			<!-- Auf welche Erhitzung bewegen wir uns zu?-->
+
+			<!-- TODO: mark second param as optional in JSDoc-->
+			<!-- <TwoClickPrivacyEmbed provider="twitter">
+				<blockquote class="twitter-tweet">
+					<p lang="de" dir="ltr">
+						Können wir 1,5 Grad Erderwärmung überhaupt noch einhalten?<br />Hab’s kurz erklärt
+						gestern Abend bei Europe calling u.a. mit Außenministerin Baerbock live von der
+						<a href="https://twitter.com/hashtag/COP27?src=hash&amp;ref_src=twsrc%5Etfw">#COP27</a>.
+						<a href="https://t.co/muo8xcuX0F">pic.twitter.com/muo8xcuX0F</a>
+					</p>
+					&mdash; Stefan Rahmstorf 🌏 fediscience.org/@rahmstorf 🦣 (@rahmstorf)<a
+						href="https://twitter.com/rahmstorf/status/1593495465261256707?ref_src=twsrc%5Etfw"
+						>November 18, 2022</a
+					>
+				</blockquote>
+				<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+			</TwoClickPrivacyEmbed>-->
+			<p>
+				Die Staaten dieser Welt haben sich mit dem <a
+					href="https://www.ardalpha.de/wissen/umwelt/klima/klimawandel/klimaabkommen-paris-protokoll-klimapolitik-klimawandel-102.html"
+					>Pariser Klimaabkommen</a
+				>
+				das Ziel gesetzt, die globale Erhitzung gemeinsam auf 1,5 Grad - allerhöchstens 2 Grad - zu begrenzen.
+				Diese Zielvereinbarung wurde inzwischen von allen (!) Staaten weltweit
+				<a
+					href="https://treaties.un.org/Pages/ViewDetails.aspx?src=TREATY&mtdsg_no=XXVII-7-d&chapter=27&clang=_en"
+					aria-label="Link zur Unterzeichnungsliste der UN">unterzeichnet.</a
+				><!-- , nur 4 Staaten (Eritrea, Iran, Lybien, Yemen) haben den Vertrag noch nicht ratifiziert.-->
+				<br />Die Dramatik: Bisher reichen die Handlungen der Staaten bei Weitem nicht aus. Für das
+				Stoppen der Erhitzung bei 1,5 Grad bleibt nur noch ein schmaler Pfad, sehr schnelle und sehr
+				tiefgreifende Maßnahmen sind jetzt nötig.
+			</p>
+			<p>Derzeit befinden wir uns sogar auf dem Weg zu einer +3 Grad Erwärmung:</p>
+
+			<TwoClickPrivacyEmbed provider="youtube" contentId="atQbbMhZkbc" />
+			<div class="image-source">
+				Video: <a href="https://youtu.be/atQbbMhZkbc"
+					>Re-Upload: Auf welchem Emissionspfad sind wir, und wo sollten wir zur Einhaltung von 1,5
+					Grad sein?</a
+				>
+				(Original-Quelle:
+				<a href="https://twitter.com/rahmstorf/status/1593536876312420352"
+					>Stefan Rahmstorf - Twitter 18. November 2022</a
+				>, gesamte Diskussion:
+				<a href="https://www.youtube.com/watch?v=xrdKdlZRb5M"
+					>Europe Calling Live von der Klimakonferenz #cop27 - Disaster oder Hoffnungsschimmer?
+					(YouTube)
+				</a>
+			</div>
+
+			<p style="margin-top:25px;">
+				<small
+					>Mehr zu den Maßnahmen einzelner Staaten u.a. auf <a
+						href="https://climateactiontracker.org/countries/"
+						>climateactiontracker.org/countries/</a
+					>.</small
+				>
+			</p>
+
+			<!-- <TwoClickPrivacyEmbed provider="twitter">
+				<blockquote class="twitter-tweet">
+					<p lang="de" dir="ltr">
+						Auf welchem Emissionspfad sind wir, und wo sollten wir zur Einhaltung von 1,5 Grad sein? <br
+						/>Hab’s kurz erklärt gestern Abend bei Europe Calling u.a. mit Außenministerin Baerbock
+						live von der
+						<a href="https://twitter.com/hashtag/COP27?src=hash&amp;ref_src=twsrc%5Etfw">#COP27</a>
+						. <a href="https://t.co/VwOwtSOw3A">pic.twitter.com/VwOwtSOw3A</a>
+					</p>
+					&mdash; Stefan Rahmstorf 🌏 fediscience.org/@rahmstorf 🦣 (@rahmstorf)<a
+						href="https://twitter.com/rahmstorf/status/1593536876312420352?ref_src=twsrc%5Etfw"
+						>November 18, 2022</a
+					>
+				</blockquote>
+				<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+			</TwoClickPrivacyEmbed> -->
+		</article>
+
+		<article>
+			<header>
+				<h2>⚠️ Welchen Unterschied macht das?</h2>
+			</header>
+			<picture>
+				<source type="image/webp" srcset={img5GradWebP} />
+				<source type="image/png" srcset={img5GradPng} />
+				<img
+					src={img5GradPng}
+					alt="Infografik von moment.at: Was die Klimakrise für uns Menschen bedeutet, Szenarien aufgeteilt nach der jeweiligen Grad-Erhöhung"
+				/>
+			</picture>
+			<div class="image-source">
+				Quelle / Urheberrechte: <a
+					href="https://www.moment.at/story/klimakrise-so-heiss-koennte-es-deinem-leben-noch-werden"
+					>moment.at</a
+				>
+			</div>
+		</article>
+
+		<article>
+			<header>
+				<h2>👪 Welche Erhitzung erleben wir?</h2>
+			</header>
+			<p>
+				Wenn es bei den derzeitigen, unzureichenden Maßnahmen bleibt und sich die Erde weiter stark
+				erhitzt - welche Erhitzung erlebt man sebst noch, welche Erhitzung erleben die jungen und
+				zukünftigen Generationen?
+			</p>
+			<picture>
+				<source type="image/webp" srcset={imgTemperaturLebenszeitWebP} />
+				<source type="image/png" srcset={imgTemperaturLebenszeitPng} />
+				<img
+					src={imgTemperaturLebenszeitPng}
+					alt="Infografik moment.at: Diese Erwärmung könntest du noch erleben."
+				/>
+			</picture>
+			<div class="image-source">
+				Quelle / Urheberrechte: <a
+					href="https://www.moment.at/story/klimakrise-so-heiss-koennte-es-deinem-leben-noch-werden"
+					>moment.at</a
+				>
+			</div>
+		</article>
+
+		<article>
+			<header>
+				<h2>🔄 Wo kann ich nachschauen?</h2>
+			</header>
+			<p>
+				Angaben zur aktuellen Erderhitzung finden sich u.a. beim Klimadashboard sowie bei Spiegel
+				Online:
 			</p>
 			<div class="image-block">
 				<a href="https://klimadashboard.at">
@@ -42,7 +200,8 @@
 					/>
 				</a>
 				<div class="image-source">
-					Quelle / Urheberrechte: <a href="https://klimadashboard.at">klimadashboard.at</a>
+					Quelle: <a href="https://klimadashboard.at">klimadashboard.at (Stand: 21. Jänner 2023))</a
+					>
 				</div>
 			</div>
 			<div class="image-block">
@@ -53,9 +212,10 @@
 					/>
 				</a>
 				<div class="image-source">
-					Quelle / Urheberrechte: <a href="https://www.spiegel.de/thema/klimawandel/"
+					Quelle: <a href="https://www.spiegel.de/thema/klimawandel/"
 						>spiegel.de/thema/klimawandel</a
 					>
+					(Stand: 21. Jänner 2023)
 				</div>
 			</div>
 
@@ -85,134 +245,14 @@
 					</small>
 				</p>
 			</details>
+		</article>
 
-			<h3>Können wir das "1,5 Grad"-Limit noch schaffen?</h3>
+		<article>
+			<header>
+				<h2>🚨 Die nächsten 7 Jahre entscheiden!</h2>
+			</header>
 
-			<p>
-				Alle (!) Staaten dieser Welt haben sich mit dem <a
-					href="https://www.ardalpha.de/wissen/umwelt/klima/klimawandel/klimaabkommen-paris-protokoll-klimapolitik-klimawandel-102.html"
-					>Pariser Klimaabkommen</a
-				>
-				das Ziel gesetzt, die globale Erhitzung gemeinsam auf 1,5 Grad - allerhöchstens 2 Grad - zu begrenzen.
-				Diese Zielvereinbarung wurde inzwischen von allen Staaten weltweit
-				<a
-					href="https://treaties.un.org/Pages/ViewDetails.aspx?src=TREATY&mtdsg_no=XXVII-7-d&chapter=27&clang=_en"
-					aria-label="Link zur Unterzeichnungsliste der UN">unterzeichnet.</a
-				><!-- , nur 4 Staaten (Eritrea, Iran, Lybien, Yemen) haben den Vertrag noch nicht ratifiziert.-->
-				<br />Die Dramatik: Bisher reichen die Handlungen der Staaten bei Weitem nicht aus. Für das
-				Stoppen der Erhitzung bei 1,5 Grad bleibt nur noch ein schmaler Pfad, sehr schnelle und sehr
-				konsequente Maßnahmen sind jetzt nötig:
-			</p>
-
-			<TwoClickPrivacyEmbed provider="youtube" contentId="V0TPithzs-A" />
-			<div class="image-source">
-				Video: <a href="https://youtu.be/V0TPithzs-A"
-					>Re-Upload: Können wir 1,5 Grad Erderwärmung überhaupt noch einhalten?</a
-				>
-				(Original-Quelle:
-				<a href="https://twitter.com/rahmstorf/status/1593495465261256707"
-					>Stefan Rahmstorf - Twitter</a
-				>)
-			</div>
-
-			<!-- TODO: mark second param as optional in JSDoc-->
-			<!-- <TwoClickPrivacyEmbed provider="twitter">
-				<blockquote class="twitter-tweet">
-					<p lang="de" dir="ltr">
-						Können wir 1,5 Grad Erderwärmung überhaupt noch einhalten?<br />Hab’s kurz erklärt
-						gestern Abend bei Europe calling u.a. mit Außenministerin Baerbock live von der
-						<a href="https://twitter.com/hashtag/COP27?src=hash&amp;ref_src=twsrc%5Etfw">#COP27</a>.
-						<a href="https://t.co/muo8xcuX0F">pic.twitter.com/muo8xcuX0F</a>
-					</p>
-					&mdash; Stefan Rahmstorf 🌏 fediscience.org/@rahmstorf 🦣 (@rahmstorf)<a
-						href="https://twitter.com/rahmstorf/status/1593495465261256707?ref_src=twsrc%5Etfw"
-						>November 18, 2022</a
-					>
-				</blockquote>
-				<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-			</TwoClickPrivacyEmbed>-->
-
-			<p style="margin-top:25px;">
-				<small
-					>Mehr zu den Maßnahmen einzelner Staaten u.a. auf <a
-						href="https://climateactiontracker.org/countries/"
-						>climateactiontracker.org/countries/</a
-					>.</small
-				>
-			</p>
-
-			<h3>Auf welche Erhitzung bewegen wir uns zu?</h3>
-
-			<p>Derzeit befinden wir uns sogar auf dem Weg zu einer +3 Grad Erwärmung:</p>
-
-			<TwoClickPrivacyEmbed provider="youtube" contentId="atQbbMhZkbc" />
-			<div class="image-source">
-				Video: <a href="https://youtu.be/atQbbMhZkbc"
-					>Re-Upload: Auf welchem Emissionspfad sind wir, und wo sollten wir zur Einhaltung von 1,5
-					Grad sein?</a
-				>
-				(Original-Quelle:
-				<a href="https://twitter.com/rahmstorf/status/1593536876312420352"
-					>Stefan Rahmstorf - Twitter</a
-				>)
-			</div>
-
-			<!-- <TwoClickPrivacyEmbed provider="twitter">
-				<blockquote class="twitter-tweet">
-					<p lang="de" dir="ltr">
-						Auf welchem Emissionspfad sind wir, und wo sollten wir zur Einhaltung von 1,5 Grad sein? <br
-						/>Hab’s kurz erklärt gestern Abend bei Europe Calling u.a. mit Außenministerin Baerbock
-						live von der
-						<a href="https://twitter.com/hashtag/COP27?src=hash&amp;ref_src=twsrc%5Etfw">#COP27</a>
-						. <a href="https://t.co/VwOwtSOw3A">pic.twitter.com/VwOwtSOw3A</a>
-					</p>
-					&mdash; Stefan Rahmstorf 🌏 fediscience.org/@rahmstorf 🦣 (@rahmstorf)<a
-						href="https://twitter.com/rahmstorf/status/1593536876312420352?ref_src=twsrc%5Etfw"
-						>November 18, 2022</a
-					>
-				</blockquote>
-				<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-			</TwoClickPrivacyEmbed> -->
-
-			<h3>Welchen Unterschied macht das?</h3>
-			<picture>
-				<source type="image/webp" srcset={img5GradWebP} />
-				<source type="image/png" srcset={img5GradPng} />
-				<img
-					src={img5GradPng}
-					alt="Infografik von moment.at: Was die Klimakrise für uns Menschen bedeutet, Szenarien aufgeteilt nach der jeweiligen Grad-Erhöhung"
-				/>
-			</picture>
-			<div class="image-source">
-				Quelle / Urheberrechte: <a
-					href="https://www.moment.at/story/klimakrise-so-heiss-koennte-es-deinem-leben-noch-werden"
-					>moment.at</a
-				>
-			</div>
-			<h3>Welche Erhitzung erlebt man selbst noch?</h3>
-			<p>
-				Wenn es bei den derzeitigen, unzureichenden Maßnahmen bleibt und sich die Erde weiter stark
-				erhitzt - welche Erhitzung erlebt man sebst noch, welche Erhitzung erleben die jungen und
-				zukünftigen Generationen?
-			</p>
-			<picture>
-				<source type="image/webp" srcset={imgTemperaturLebenszeitWebP} />
-				<source type="image/png" srcset={imgTemperaturLebenszeitPng} />
-				<img
-					src={imgTemperaturLebenszeitPng}
-					alt="Infografik moment.at: Diese Erwärmung könntest du noch erleben."
-				/>
-			</picture>
-			<div class="image-source">
-				Quelle / Urheberrechte: <a
-					href="https://www.moment.at/story/klimakrise-so-heiss-koennte-es-deinem-leben-noch-werden"
-					>moment.at</a
-				>
-			</div>
-
-			<h2>Die nächsten 7 Jahre entscheiden</h2>
-
-			<p>Der langjährige Klimaforscher Stefan Rahmstorf schreibt am 14.Januar 2023:</p>
+			<p>Klimaforscher Stefan Rahmstorf schreibt am 14.Januar 2023:</p>
 
 			<TwoClickPrivacyEmbed provider="twitter">
 				<blockquote class="twitter-tweet">
@@ -275,8 +315,12 @@
 					>„Should you not have kids because of climate change? It’s complicated“ (Washington Post)
 				</a>.
 			</p>
+		</article>
 
-			<h2>Maßnahmen gegen die Klimakrise</h2>
+		<article>
+			<header>
+				<h2>🌱 Maßnahmen gegen die Klimakrise</h2>
+			</header>
 
 			<p>
 				Was konkret nötig ist, um die Klimakrise zu stoppen, steht unter anderem seit Jahren in den
@@ -320,8 +364,12 @@
 					>
 				</li>
 			</ul>
+		</article>
 
-			<h2>Artensterben / Biodiversitätskrise</h2>
+		<article>
+			<header>
+				<h2>🐞 Artensterben / Biodiversitätskrise</h2>
+			</header>
 
 			<p>
 				Die Erhitzung der Erde beschleunigt potenziell auch weitere Krisen: Aktuell sterben massiv
@@ -344,12 +392,13 @@
 
 			<p>
 				Den Blick auf das gesamte System richten Transformationsforscher:innen wie Maja Göpel: <a
-					href=""
+					href="https://www.youtube.com/watch?v=Ylql_4epV-Y"
 					>„re:publica 2022: Maja Göpel: Her mit der besseren Zukunft“
 				</a>.
 			</p>
+		</article>
 
-			<!-- <TwoClickPrivacyEmbed provider="instagram">
+		<!-- <TwoClickPrivacyEmbed provider="instagram">
 		<blockquote
 			class="instagram-media"
 			data-instgrm-captioned
@@ -465,7 +514,10 @@
 		<script async src="//www.instagram.com/embed.js"></script>
 	</TwoClickPrivacyEmbed> -->
 
-			<h2>Warum hat niemand etwas unternommen?</h2>
+		<article>
+			<header>
+				<h2>🏭 Warum hat es niemand verhindert?</h2>
+			</header>
 
 			<p>
 				Klimaforscher Reinhard Steurer blickte auf Twitter auf die letzten 25 Jahre wie folgt
@@ -499,10 +551,14 @@
 					>Die Erdzerstörer (ARTE, 2019)"</a
 				>.
 			</p>
+		</article>
 
-			<h3>Müssen einfach mehr Menschen Bescheid wissen?</h3>
+		<article>
+			<header>
+				<h2>📚 Mangelt es an Klimakrise-Wissen?</h2>
+			</header>
 			<p>
-				Der Ausspruch <a
+				Müssen einfach mehr Menschen Bescheid wissen? Der Ausspruch <a
 					href="https://clubofrome.de/news/wir-haben-kein-erkenntnisproblem-sondern-ein-umsetzungsproblem/"
 					>„Wir haben kein Erkenntnisproblem, sondern ein Umsetzungsproblem“</a
 				>
@@ -513,12 +569,14 @@
 					>"Wissens-Defizit-Hypothese"</a
 				> bereits untersucht.
 			</p>
-
-			<h3>Mein Land hat doch nur einen ganz kleinen Anteil?!</h3>
-
+		</article>
+		<article>
+			<header>
+				<h2>🌍 Mein Land ist doch nur klein?!</h2>
+			</header>
 			<p>
 				In jedem Land gibt es Argumente wie "Aber wir verursachen doch derzeit nur einen kleinen
-				Anteil an den weltweiten Emissionen - warum sollen gerade wir etwas tun?". Die Klimakrise
+				Anteil an den weltweiten Emissionen - warum sollen gerade wir etwas tun?!". Die Klimakrise
 				ist eine globale Herausforderung:
 			</p>
 
@@ -539,8 +597,11 @@
 				</blockquote>
 				<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 			</TwoClickPrivacyEmbed>
-
-			<h2>Klimaangst? Du bist nicht allein!</h2>
+		</article>
+		<article>
+			<header>
+				<h2>🙆‍♂️ Klimaangst? Du bist nicht allein!</h2>
+			</header>
 
 			<p>
 				<strong>"Klimaangst"?</strong> Die Psychologists for Future haben Tipps und Ratschläge für
@@ -583,7 +644,12 @@
 					aria-label="Klimaangst - Psychologists for Future">hier</a
 				>.
 			</p>
-			<h2>Stay connected</h2>
+		</article>
+
+		<article>
+			<header>
+				<h2>✊ Stay connected</h2>
+			</header>
 
 			<p>
 				Auf Instagram finden sich zahlreiche Profile und Communities zu Klima-Themen: <a
@@ -605,13 +671,13 @@
 				<a href="https://www.youtube.com/watch?v=YxJrBR0lg6s">Green Growth vs. Degrowth</a>,
 				<a href="https://germany.ecogood.org/">Gemeinwohl-Ökonomie</a>.
 			</p>
-			<p>
+			<p style="text-align:center;">
 				Der nächste <a href="https://fridaysforfuture.de/globaler-klimastreik/"
 					>globale Klimastreik</a
 				> findet am 3. März 2023 statt.
 			</p>
 		</article>
-	</main>
+	</div>
 </div>
 
 <style lang="scss">
@@ -635,6 +701,10 @@
 		font-size: 0.75rem;
 	}
 
+	h2 {
+		font-size: 1.35rem;
+	}
+
 	h2,
 	h3 {
 		margin-bottom: 25px;
@@ -651,6 +721,11 @@
 		margin: auto;
 		justify-content: center;
 		flex-direction: row; // row-reverse;
+	}
+
+	.main-layout__sidebar {
+		margin-left: 0;
+		padding-left: 0;
 	}
 
 	article {
@@ -670,6 +745,15 @@
 		margin: 1rem 0;
 	}
 	.image-source {
+		margin-top: 5px;
 		font-size: 70%;
+		color: #666;
+		/*a {
+			color: #666;
+			text-decoration: underline;
+		}
+		a:hover {
+			color: var(--primary);
+		}*/
 	}
 </style>

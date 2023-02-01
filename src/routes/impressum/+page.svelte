@@ -3,7 +3,7 @@
 	import { base } from '$app/paths';
 </script>
 
-<div><a href="{base}/">Zurück</a></div>
+<!-- <div><a href="{base}/">Zurück</a></div>  -->
 
 <article>
 	<header>Datenschutz & Impressum</header>
@@ -15,11 +15,15 @@
 		Österreich
 	</p>
 
-	<p>Kontakt: matthias-andrasch-kontakt@mailbox.org</p>
+	<p>
+		Kontakt: matthias-andrasch-kontakt@mailbox.org<br />
+		Web: <a href="https://mandrasch.dev">mandrasch.dev</a>
+	</p>
 
 	<p>
-		Ich bin interessierter Laie, diese Webseite wurde als Privatperson verfasst und ist
-		höchstwahrscheinlich nicht mehr als ein Tropfen auf den heißen Stein.
+		Ich bin beruflich Web-Entwickler und bzgl. Klimakrise interessierter Laie. Diese Webseite wurde
+		als Privatperson verfasst und ist höchstwahrscheinlich leider nicht mehr als ein Tropfen auf den
+		heißen Stein.
 	</p>
 
 	<h2>Copyright</h2>

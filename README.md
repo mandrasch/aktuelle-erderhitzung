@@ -15,6 +15,7 @@ Deployed with adapter-static, ploi.io and Hetzner Cloud:
 - [ ] Add Theme switcher dark/light mode
 - [ ] Style simple-toc, improve mobile styles, link title to first section?
 - [ ] a11y check
+- [ ] Link to my insta profile?
 
 ## How was it created?
 
