@@ -687,6 +687,7 @@
 		position: sticky;
 		background: transparent; // var(--toc-desktop-bg);;
 		padding: 20px; // var(--toc-desktop-nav-margin);
+		padding-top: 35px;
 		// max-width: var(--toc-desktop-max-width);;
 		top: var(--toc-desktop-sticky-top, 2em);
 	}
