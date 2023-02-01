@@ -43,22 +43,25 @@
     "file": "_app/immutable/assets/_page-aba710f5.css",
     "src": "src/routes/+page.css"
   },
-  "src/routes/+layout.css": {
-    "file": "_app/immutable/assets/_layout-956b8b0e.css",
-    "src": "src/routes/+layout.css"
-  },
   "TwoClickPrivacyEmbedSettings.css": {
     "file": "_app/immutable/assets/TwoClickPrivacyEmbedSettings-0094580d.css",
     "src": "TwoClickPrivacyEmbedSettings.css"
   },
-  "_index-ed04b3cb.js": {
-    "file": "_app/immutable/chunks/index-ed04b3cb.js"
+  "src/routes/+layout.css": {
+    "file": "_app/immutable/assets/_layout-956b8b0e.css",
+    "src": "src/routes/+layout.css"
   },
   "_shared-23917130.js": {
     "file": "_app/immutable/chunks/shared-23917130.js"
   },
-  "__layout-da46b06b.js": {
-    "file": "_app/immutable/chunks/_layout-da46b06b.js"
+  ".svelte-kit/generated/nodes/2.js": {
+    "file": "_app/immutable/chunks/2-2b62cbab.js",
+    "src": ".svelte-kit/generated/nodes/2.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "__page-da46b06b.js",
+      "src/routes/+page.svelte"
+    ]
   },
   ".svelte-kit/generated/nodes/3.js": {
     "file": "_app/immutable/chunks/3-69439c4c.js",
@@ -66,6 +69,42 @@
     "isDynamicEntry": true,
     "imports": [
       "src/routes/impressum/+page.svelte"
+    ]
+  },
+  "_index-cd0cc7d3.js": {
+    "file": "_app/immutable/chunks/index-cd0cc7d3.js",
+    "imports": [
+      "_index-ed04b3cb.js"
+    ]
+  },
+  "__layout-da46b06b.js": {
+    "file": "_app/immutable/chunks/_layout-da46b06b.js"
+  },
+  "node_modules/@sveltejs/kit/src/runtime/components/error.svelte": {
+    "file": "_app/immutable/components/error.svelte-5ac9a719.js",
+    "src": "node_modules/@sveltejs/kit/src/runtime/components/error.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-ed04b3cb.js",
+      "_singletons-0a307b4d.js"
+    ]
+  },
+  "__page-da46b06b.js": {
+    "file": "_app/immutable/chunks/_page-da46b06b.js"
+  },
+  "src/routes/+layout.js": {
+    "file": "_app/immutable/modules/pages/_layout.js-9cbb603b.js",
+    "src": "src/routes/+layout.js",
+    "isEntry": true,
+    "imports": [
+      "__layout-da46b06b.js"
+    ]
+  },
+  "_singletons-0a307b4d.js": {
+    "file": "_app/immutable/chunks/singletons-0a307b4d.js",
+    "imports": [
+      "_index-cd0cc7d3.js",
+      "_shared-23917130.js"
     ]
   },
   "src/routes/impressum/+page.svelte": {
@@ -77,6 +116,71 @@
     ],
     "css": [
       "_app/immutable/assets/TwoClickPrivacyEmbedSettings-0094580d.css"
+    ]
+  },
+  "src/routes/+page.js": {
+    "file": "_app/immutable/modules/pages/_page.js-dc85b7cd.js",
+    "src": "src/routes/+page.js",
+    "isEntry": true,
+    "imports": [
+      "__page-da46b06b.js"
+    ]
+  },
+  "node_modules/@sveltejs/kit/src/runtime/client/start.js": {
+    "file": "_app/immutable/start-90c26185.js",
+    "src": "node_modules/@sveltejs/kit/src/runtime/client/start.js",
+    "isEntry": true,
+    "imports": [
+      "_index-ed04b3cb.js",
+      "_singletons-0a307b4d.js",
+      "_shared-23917130.js"
+    ],
+    "dynamicImports": [
+      ".svelte-kit/generated/nodes/0.js",
+      ".svelte-kit/generated/nodes/1.js",
+      ".svelte-kit/generated/nodes/2.js",
+      ".svelte-kit/generated/nodes/3.js"
+    ]
+  },
+  ".svelte-kit/generated/nodes/0.js": {
+    "file": "_app/immutable/chunks/0-8df0e754.js",
+    "src": ".svelte-kit/generated/nodes/0.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "__layout-da46b06b.js",
+      "src/routes/+layout.svelte"
+    ]
+  },
+  "_index-ed04b3cb.js": {
+    "file": "_app/immutable/chunks/index-ed04b3cb.js"
+  },
+  "src/routes/+page.svelte": {
+    "file": "_app/immutable/components/pages/_page.svelte-f2c3b8b8.js",
+    "src": "src/routes/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-ed04b3cb.js",
+      "_index-cd0cc7d3.js"
+    ],
+    "css": [
+      "_app/immutable/assets/_page-aba710f5.css",
+      "_app/immutable/assets/TwoClickPrivacyEmbedSettings-0094580d.css"
+    ],
+    "assets": [
+      "_app/immutable/assets/5_grad_grafik_moment_at-3c756541.png",
+      "_app/immutable/assets/5_grad_grafik_moment_at-37c5430c.webp",
+      "_app/immutable/assets/temperaturanstieg_lebenszeit_moment_at-c42f5161.png",
+      "_app/immutable/assets/temperaturanstieg_lebenszeit_moment_at-2e895351.webp",
+      "_app/immutable/assets/aktuelle_erderhitzung_klimadashboard_at-c5dd08d1.png",
+      "_app/immutable/assets/aktuelle_erderhitzung_spiegel_online-fcc75336.png"
+    ]
+  },
+  ".svelte-kit/generated/nodes/1.js": {
+    "file": "_app/immutable/chunks/1-b6ee3c89.js",
+    "src": ".svelte-kit/generated/nodes/1.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "node_modules/@sveltejs/kit/src/runtime/components/error.svelte"
     ]
   },
   "src/routes/+layout.svelte": {
@@ -95,110 +199,6 @@
       "_app/immutable/assets/playfair-display-all-400-normal-a7f40f6e.woff",
       "_app/immutable/assets/playfair-display-latin-ext-400-normal-fbd6cc2b.woff2",
       "_app/immutable/assets/playfair-display-latin-400-normal-fa3d5a04.woff2"
-    ]
-  },
-  "_index-cd0cc7d3.js": {
-    "file": "_app/immutable/chunks/index-cd0cc7d3.js",
-    "imports": [
-      "_index-ed04b3cb.js"
-    ]
-  },
-  "src/routes/+page.js": {
-    "file": "_app/immutable/modules/pages/_page.js-dc85b7cd.js",
-    "src": "src/routes/+page.js",
-    "isEntry": true,
-    "imports": [
-      "__page-da46b06b.js"
-    ]
-  },
-  "_singletons-0a307b4d.js": {
-    "file": "_app/immutable/chunks/singletons-0a307b4d.js",
-    "imports": [
-      "_index-cd0cc7d3.js",
-      "_shared-23917130.js"
-    ]
-  },
-  "__page-da46b06b.js": {
-    "file": "_app/immutable/chunks/_page-da46b06b.js"
-  },
-  "node_modules/@sveltejs/kit/src/runtime/components/error.svelte": {
-    "file": "_app/immutable/components/error.svelte-5ac9a719.js",
-    "src": "node_modules/@sveltejs/kit/src/runtime/components/error.svelte",
-    "isEntry": true,
-    "imports": [
-      "_index-ed04b3cb.js",
-      "_singletons-0a307b4d.js"
-    ]
-  },
-  ".svelte-kit/generated/nodes/1.js": {
-    "file": "_app/immutable/chunks/1-b6ee3c89.js",
-    "src": ".svelte-kit/generated/nodes/1.js",
-    "isDynamicEntry": true,
-    "imports": [
-      "node_modules/@sveltejs/kit/src/runtime/components/error.svelte"
-    ]
-  },
-  ".svelte-kit/generated/nodes/0.js": {
-    "file": "_app/immutable/chunks/0-8df0e754.js",
-    "src": ".svelte-kit/generated/nodes/0.js",
-    "isDynamicEntry": true,
-    "imports": [
-      "__layout-da46b06b.js",
-      "src/routes/+layout.svelte"
-    ]
-  },
-  "node_modules/@sveltejs/kit/src/runtime/client/start.js": {
-    "file": "_app/immutable/start-742b8d72.js",
-    "src": "node_modules/@sveltejs/kit/src/runtime/client/start.js",
-    "isEntry": true,
-    "imports": [
-      "_index-ed04b3cb.js",
-      "_singletons-0a307b4d.js",
-      "_shared-23917130.js"
-    ],
-    "dynamicImports": [
-      ".svelte-kit/generated/nodes/0.js",
-      ".svelte-kit/generated/nodes/1.js",
-      ".svelte-kit/generated/nodes/2.js",
-      ".svelte-kit/generated/nodes/3.js"
-    ]
-  },
-  ".svelte-kit/generated/nodes/2.js": {
-    "file": "_app/immutable/chunks/2-8e249fc3.js",
-    "src": ".svelte-kit/generated/nodes/2.js",
-    "isDynamicEntry": true,
-    "imports": [
-      "__page-da46b06b.js",
-      "src/routes/+page.svelte"
-    ]
-  },
-  "src/routes/+layout.js": {
-    "file": "_app/immutable/modules/pages/_layout.js-9cbb603b.js",
-    "src": "src/routes/+layout.js",
-    "isEntry": true,
-    "imports": [
-      "__layout-da46b06b.js"
-    ]
-  },
-  "src/routes/+page.svelte": {
-    "file": "_app/immutable/components/pages/_page.svelte-89366df2.js",
-    "src": "src/routes/+page.svelte",
-    "isEntry": true,
-    "imports": [
-      "_index-ed04b3cb.js",
-      "_index-cd0cc7d3.js"
-    ],
-    "css": [
-      "_app/immutable/assets/_page-aba710f5.css",
-      "_app/immutable/assets/TwoClickPrivacyEmbedSettings-0094580d.css"
-    ],
-    "assets": [
-      "_app/immutable/assets/5_grad_grafik_moment_at-3c756541.png",
-      "_app/immutable/assets/5_grad_grafik_moment_at-37c5430c.webp",
-      "_app/immutable/assets/temperaturanstieg_lebenszeit_moment_at-c42f5161.png",
-      "_app/immutable/assets/temperaturanstieg_lebenszeit_moment_at-2e895351.webp",
-      "_app/immutable/assets/aktuelle_erderhitzung_klimadashboard_at-c5dd08d1.png",
-      "_app/immutable/assets/aktuelle_erderhitzung_spiegel_online-fcc75336.png"
     ]
   }
 }
