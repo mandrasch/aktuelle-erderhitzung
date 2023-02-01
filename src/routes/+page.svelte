@@ -238,69 +238,6 @@
 
 		<article>
 			<header>
-				<h2>🔄 Wo kann ich nachschauen?</h2>
-			</header>
-			<p>
-				Angaben zur aktuellen Erderhitzung finden sich u.a. beim Klimadashboard sowie bei Spiegel
-				Online:
-			</p>
-			<div class="image-block">
-				<a href="https://klimadashboard.at">
-					<img
-						src={imgAktuelleErderhitzungPng}
-						alt="Aktuelle Erhitzung laut klimadashboard.at: 1,1 Grad Celsius"
-					/>
-				</a>
-				<div class="image-source">
-					Quelle: <a href="https://klimadashboard.at">klimadashboard.at (Stand: 21. Jänner 2023))</a
-					>
-				</div>
-			</div>
-			<div class="image-block">
-				<a href="https://www.spiegel.de/thema/klimawandel/">
-					<img
-						src={imgAktuelleErderhitzungSpiegelOnline}
-						alt="Aktuelle Erhitzung laut Spiegel Online: 1,2 Grad Celsius"
-					/>
-				</a>
-				<div class="image-source">
-					Quelle: <a href="https://www.spiegel.de/thema/klimawandel/"
-						>spiegel.de/thema/klimawandel</a
-					>
-					(Stand: 21. Jänner 2023)
-				</div>
-			</div>
-
-			<details>
-				<summary role="button" class="secondary">Datenquellen</summary>
-				<p>
-					<small>
-						Die Daten stammen aus den Forschungsberichten des <a
-							href="https://de.wikipedia.org/wiki/Intergovernmental_Panel_on_Climate_Change"
-							>Intergovernmental Panel on Climate Change (IPCC)</a
-						>, oft umgangssprachlich als "Weltklimarat" bezeichnet. Das IPCC wurde gegründet, „um
-						für politische Entscheidungsträger den Stand der wissenschaftlichen Forschung zum
-						Klimawandel zusammenzufassen“ (<a
-							href="https://de.wikipedia.org/wiki/Intergovernmental_Panel_on_Climate_Change"
-							>Wikipedia</a
-						>). Mehr zu den Datenquellen auf
-						<a href="https://klimadashboard.at/">klimadashboard.at</a>
-						sowie
-						<a href="https://www.spiegel.de/thema/klimawandel/">spiegel.de/thema/klimawandel</a
-						>.</small
-					>
-				</p>
-				<p>
-					<small>
-						Deep dive: Der sechste IPCC-Sachstandsbericht (August 2021) wird u.a. im Podcast
-						<a href="https://dasklima.podigee.io/">Das Klima</a> besprochen.
-					</small>
-				</p>
-			</details>
-		</article>
-
-		<article>
-			<header>
 				<h2>🚨 Die nächsten 7 Jahre entscheiden!</h2>
 			</header>
 
@@ -417,7 +354,68 @@
 				</li>
 			</ul>
 		</article>
+		<article>
+			<header>
+				<h2>🔄 Wo kann ich nachschauen?</h2>
+			</header>
+			<p>
+				Angaben zur aktuellen Erderhitzung finden sich u.a. beim Klimadashboard sowie bei Spiegel
+				Online:
+			</p>
+			<div class="image-block">
+				<a href="https://klimadashboard.at">
+					<img
+						src={imgAktuelleErderhitzungPng}
+						alt="Aktuelle Erhitzung laut klimadashboard.at: 1,1 Grad Celsius"
+					/>
+				</a>
+				<div class="image-source">
+					Quelle: <a href="https://klimadashboard.at">klimadashboard.at (Stand: 21. Jänner 2023))</a
+					>
+				</div>
+			</div>
+			<div class="image-block">
+				<a href="https://www.spiegel.de/thema/klimawandel/">
+					<img
+						src={imgAktuelleErderhitzungSpiegelOnline}
+						alt="Aktuelle Erhitzung laut Spiegel Online: 1,2 Grad Celsius"
+					/>
+				</a>
+				<div class="image-source">
+					Quelle: <a href="https://www.spiegel.de/thema/klimawandel/"
+						>spiegel.de/thema/klimawandel</a
+					>
+					(Stand: 21. Jänner 2023)
+				</div>
+			</div>
 
+			<details>
+				<summary role="button" class="secondary">Datenquellen</summary>
+				<p>
+					<small>
+						Die Daten stammen aus den Forschungsberichten des <a
+							href="https://de.wikipedia.org/wiki/Intergovernmental_Panel_on_Climate_Change"
+							>Intergovernmental Panel on Climate Change (IPCC)</a
+						>, oft umgangssprachlich als "Weltklimarat" bezeichnet. Das IPCC wurde gegründet, „um
+						für politische Entscheidungsträger den Stand der wissenschaftlichen Forschung zum
+						Klimawandel zusammenzufassen“ (<a
+							href="https://de.wikipedia.org/wiki/Intergovernmental_Panel_on_Climate_Change"
+							>Wikipedia</a
+						>). Mehr zu den Datenquellen auf
+						<a href="https://klimadashboard.at/">klimadashboard.at</a>
+						sowie
+						<a href="https://www.spiegel.de/thema/klimawandel/">spiegel.de/thema/klimawandel</a
+						>.</small
+					>
+				</p>
+				<p>
+					<small>
+						Deep dive: Der sechste IPCC-Sachstandsbericht (August 2021) wird u.a. im Podcast
+						<a href="https://dasklima.podigee.io/">Das Klima</a> besprochen.
+					</small>
+				</p>
+			</details>
+		</article>
 		<article>
 			<header>
 				<h2>🐞 Artensterben / Biodiversitätskrise</h2>
@@ -652,7 +650,7 @@
 		</article>
 		<article>
 			<header>
-				<h2>🙆‍♂️ Klimaangst? Du bist nicht allein!</h2>
+				<h2>🙆‍♂️ Klima-Sorgen? Du bist nicht allein!</h2>
 			</header>
 
 			<p>
