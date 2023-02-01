@@ -81,7 +81,7 @@ IsAccepted?{JSON.stringify(isAccepted)}; Provider: {JSON.stringify(provider)}; -
 			<div class="embed-display">
 				<iframe
 					width="100%"
-					height="315"
+					height="375"
 					src={'https://www.youtube-nocookie.com/embed/' + contentId}
 					title="YouTube video player"
 					frameborder="0"

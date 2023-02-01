@@ -32,10 +32,70 @@
 				Viele reden vom Klimwandel und der Erderwärmung. Aber wie sehr hat sich der Planet Erde nun
 				schon erhitzt? Und wo steuern wir hin als Gemeinschaft?
 			</p>
+			<p style="font-weight:bold;">
+				Die aktuelle Erderhitzung beträgt derzeit 1,1 Grad Celsisus (<a
+					href="https://www.de-ipcc.de/media/content/AR6-WGI-SPM_deutsch_barrierefrei.pdf"
+					>IPCC AR6</a
+				>).
+			</p>
+			<details>
+				<summary role="button" class="secondary">Datenquelle</summary>
+				<p>
+					<a href="https://www.de-ipcc.de/media/content/AR6-WGI-SPM_deutsch_barrierefrei.pdf"
+						>Im Sechsten Sachstandsbericht des IPCC (AR6) heißt es:
+					</a>
+				</p>
+				<blockquote>
+					„Es ist eindeutig, dass der Einfluss des Menschen die Atmosphäre, den Ozean und die
+					Landflächen erwärmt hat. Es haben weitverbreitete und schnelle Veränderungen in der
+					Atmosphäre, dem Ozean, der Kryosphäre und der Biosphäre stattgefunden. [...] Jedes der
+					vergangenen vier Jahrzehnte war jeweils wärmer als alle Jahrzehnte davor seit 1850. <strong
+						>Die globale Oberflächentemperatur war in den ersten beiden Jahrzehnten des 21.
+						Jahrhunderts (2001–2020) um 0,99 [0,84–1,10] °C höher als 1850–1900.
+					</strong>“ (<a
+						href="https://www.de-ipcc.de/media/content/AR6-WGI-SPM_deutsch_barrierefrei.pdf"
+						>AR6 Deutsch</a
+					>, S. 3)
+				</blockquote>
+
+				<p>
+					Der <a href="https://de.wikipedia.org/wiki/Intergovernmental_Panel_on_Climate_Change"
+						>Intergovernmental Panel on Climate Change (IPCC)</a
+					>, oft umgangssprachlich als "Weltklimarat" bezeichnet, wurde gegründet, „um für
+					politische Entscheidungsträger den Stand der wissenschaftlichen Forschung zum Klimawandel
+					zusammenzufassen. [...] Der IPCC gilt als „Goldstandard“ der Klimaforschung.“ (<a
+						href="https://de.wikipedia.org/wiki/Intergovernmental_Panel_on_Climate_Change"
+						>Wikipedia</a
+					>).
+				</p>
+
+				<p>
+					(via
+					<a href="https://www.helmholtz-klima.de/aktuelles/aktuelle-fakten-zum-klimawandel"
+						>Aktuelle Fakten zum Klimawandel - Helmholtz Klima
+					</a>
+					und <a href="https://klimadashboard.at">klimadashboard.at</a>):
+				</p>
+			</details>
+		</article>
+		<article>
+			<header>
+				<h2>📉 Was ist mit dem 1,5-Grad-Limit?</h2>
+			</header>
 			<p>
-				Die aktuelle Erderwärmung wird derzeit mit 1,1 Grad bzw. teils sogar schon mit 1,2 Grad
-				Celsius angegeben. Der seit Jahrzehnten aktive Klimaforscher Stefan Rahmstorf fasste die
-				Situation kürzlich wie folgt zusammen:
+				Die Staaten dieser Welt haben sich mit dem <a
+					href="https://www.ardalpha.de/wissen/umwelt/klima/klimawandel/klimaabkommen-paris-protokoll-klimapolitik-klimawandel-102.html"
+					>Pariser Klimaabkommen</a
+				>
+				das Ziel gesetzt, die globale Erhitzung gemeinsam auf 1,5 Grad - allerhöchstens 2 Grad - zu begrenzen.
+				Diese Zielvereinbarung wurde inzwischen von allen (!) Staaten weltweit
+				<a
+					href="https://treaties.un.org/Pages/ViewDetails.aspx?src=TREATY&mtdsg_no=XXVII-7-d&chapter=27&clang=_en"
+					aria-label="Link zur Unterzeichnungsliste der UN">unterzeichnet.</a
+				><!-- , nur 4 Staaten (Eritrea, Iran, Lybien, Yemen) haben den Vertrag noch nicht ratifiziert.-->
+				<br />Die Dramatik: Bisher reichen die Handlungen der Staaten bei Weitem nicht aus. Der seit
+				Jahrzehnten aktive Klimaforscher Stefan Rahmstorf fasste die Situation kürzlich wie folgt
+				zusammen:
 			</p>
 
 			<!-- <h3>Können wir das "1,5 Grad"-Limit noch schaffen?</h3>-->
@@ -54,6 +114,11 @@
 					(YouTube)
 				</a>
 			</div>
+
+			<p style="margin-top:20px;">
+				Für das Stoppen der Erhitzung bei 1,5 Grad bleibt nur noch ein schmaler Pfad, sehr schnelle
+				und sehr tiefgreifende Maßnahmen sind jetzt nötig.<br />
+			</p>
 		</article>
 
 		<article>
@@ -79,22 +144,8 @@
 				</blockquote>
 				<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 			</TwoClickPrivacyEmbed>-->
-			<p>
-				Die Staaten dieser Welt haben sich mit dem <a
-					href="https://www.ardalpha.de/wissen/umwelt/klima/klimawandel/klimaabkommen-paris-protokoll-klimapolitik-klimawandel-102.html"
-					>Pariser Klimaabkommen</a
-				>
-				das Ziel gesetzt, die globale Erhitzung gemeinsam auf 1,5 Grad - allerhöchstens 2 Grad - zu begrenzen.
-				Diese Zielvereinbarung wurde inzwischen von allen (!) Staaten weltweit
-				<a
-					href="https://treaties.un.org/Pages/ViewDetails.aspx?src=TREATY&mtdsg_no=XXVII-7-d&chapter=27&clang=_en"
-					aria-label="Link zur Unterzeichnungsliste der UN">unterzeichnet.</a
-				><!-- , nur 4 Staaten (Eritrea, Iran, Lybien, Yemen) haben den Vertrag noch nicht ratifiziert.-->
-				<br />Die Dramatik: Bisher reichen die Handlungen der Staaten bei Weitem nicht aus. Für das
-				Stoppen der Erhitzung bei 1,5 Grad bleibt nur noch ein schmaler Pfad, sehr schnelle und sehr
-				tiefgreifende Maßnahmen sind jetzt nötig.
-			</p>
-			<p>Derzeit befinden wir uns sogar auf dem Weg zu einer +3 Grad Erwärmung:</p>
+
+			<p>Derzeit befinden wir uns sogar auf dem Weg zu einer + 3-Grad-Erwärmung:</p>
 
 			<TwoClickPrivacyEmbed provider="youtube" contentId="atQbbMhZkbc" />
 			<div class="image-source">
@@ -668,8 +719,9 @@
 				In Bezug auf Nachhaltiges Wirtschaften gibt es ebenfalls viele Initiativen, z.B. <a
 					href="https://www.bcorporation.net/en-us/">B-Corp</a
 				>, <a href="https://doughnuteconomics.org/">Donut-Ökonomie</a>,
-				<a href="https://www.youtube.com/watch?v=YxJrBR0lg6s">Green Growth vs. Degrowth</a>,
-				<a href="https://germany.ecogood.org/">Gemeinwohl-Ökonomie</a>.
+				<a href="https://germany.ecogood.org/">Gemeinwohl-Ökonomie</a>. Außerdem steht die Frage im
+				Raum:
+				<a href="https://www.youtube.com/watch?v=YxJrBR0lg6s">"Green Growth vs. Degrowth?"</a>.
 			</p>
 			<p style="text-align:center;">
 				Der nächste <a href="https://fridaysforfuture.de/globaler-klimastreik/"
