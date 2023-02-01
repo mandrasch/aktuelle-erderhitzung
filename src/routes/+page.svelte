@@ -83,20 +83,10 @@
 			<header>
 				<h2>📉 Was ist mit dem 1,5-Grad-Limit?</h2>
 			</header>
+			<p />
 			<p>
-				Die Staaten dieser Welt haben sich mit dem <a
-					href="https://www.ardalpha.de/wissen/umwelt/klima/klimawandel/klimaabkommen-paris-protokoll-klimapolitik-klimawandel-102.html"
-					>Pariser Klimaabkommen</a
-				>
-				das Ziel gesetzt, die globale Erhitzung gemeinsam auf 1,5 Grad - allerhöchstens 2 Grad - zu begrenzen.
-				Diese Zielvereinbarung wurde inzwischen von allen (!) Staaten weltweit
-				<a
-					href="https://treaties.un.org/Pages/ViewDetails.aspx?src=TREATY&mtdsg_no=XXVII-7-d&chapter=27&clang=_en"
-					aria-label="Link zur Unterzeichnungsliste der UN">unterzeichnet.</a
-				><!-- , nur 4 Staaten (Eritrea, Iran, Lybien, Yemen) haben den Vertrag noch nicht ratifiziert.-->
-				<br />Die Dramatik: Bisher reichen die Handlungen der Staaten bei Weitem nicht aus. Der seit
-				Jahrzehnten aktive Klimaforscher Stefan Rahmstorf fasste die Situation kürzlich wie folgt
-				zusammen:
+				Der seit Jahrzehnten aktive Klimaforscher Stefan Rahmstorf fasste die Situation kürzlich wie
+				folgt zusammen:
 			</p>
 
 			<!-- <h3>Können wir das "1,5 Grad"-Limit noch schaffen?</h3>-->
@@ -115,11 +105,30 @@
 					(YouTube)
 				</a>
 			</div>
+			<details style="margin-top:20px;">
+				<summary role="button" class="secondary">Was ist das Pariser Klimaabkommen?</summary>
 
-			<p style="margin-top:20px;">
-				Für das Stoppen der Erhitzung bei 1,5 Grad bleibt nur noch ein schmaler Pfad, sehr schnelle
-				und sehr tiefgreifende Maßnahmen sind jetzt nötig.<br />
-			</p>
+				<p>
+					Die Staaten dieser Welt haben sich mit dem <a
+						href="https://www.ardalpha.de/wissen/umwelt/klima/klimawandel/klimaabkommen-paris-protokoll-klimapolitik-klimawandel-102.html"
+						>Pariser Klimaabkommen</a
+					>
+					das Ziel gesetzt, die globale Erhitzung gemeinsam auf 1,5 Grad - allerhöchstens 2 Grad - zu
+					begrenzen. Diese Zielvereinbarung wurde inzwischen von allen (!) Staaten weltweit
+					<a
+						href="https://treaties.un.org/Pages/ViewDetails.aspx?src=TREATY&mtdsg_no=XXVII-7-d&chapter=27&clang=_en"
+						aria-label="Link zur Unterzeichnungsliste der UN">unterzeichnet.</a
+					><!-- , nur 4 Staaten (Eritrea, Iran, Lybien, Yemen) haben den Vertrag noch nicht ratifiziert.-->
+				</p>
+				<p>Die Dramatik: Bisher reichen die Handlungen der Staaten bei Weitem nicht aus.</p>
+				<p>
+					Für das Stoppen der Erhitzung bei 1,5 Grad bleibt nur noch ein schmaler Pfad, sehr
+					schnelle und sehr tiefgreifende Maßnahmen sind jetzt nötig. Mehr zu den Maßnahmen
+					einzelner Staaten u.a. auf <a href="https://climateactiontracker.org/countries/"
+						>climateactiontracker.org/countries/</a
+					>.
+				</p>
+			</details>
 		</article>
 
 		<article>
@@ -163,15 +172,6 @@
 					(YouTube)
 				</a>
 			</div>
-
-			<p style="margin-top:25px;">
-				<small
-					>Mehr zu den Maßnahmen einzelner Staaten u.a. auf <a
-						href="https://climateactiontracker.org/countries/"
-						>climateactiontracker.org/countries/</a
-					>.</small
-				>
-			</p>
 
 			<!-- <TwoClickPrivacyEmbed provider="twitter">
 				<blockquote class="twitter-tweet">
@@ -624,7 +624,7 @@
 		</article>
 		<article>
 			<header>
-				<h2>🌍 Mein Land ist doch nur klein?!</h2>
+				<h2>🌍 Mein Land ist doch klein?!</h2>
 			</header>
 			<p>
 				In jedem Land gibt es Argumente wie "Aber wir verursachen doch derzeit nur einen kleinen
