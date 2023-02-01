@@ -41,28 +41,27 @@
 			<details>
 				<summary role="button" class="secondary">Datenquelle</summary>
 				<p>
+					Im
 					<a href="https://www.de-ipcc.de/media/content/AR6-WGI-SPM_deutsch_barrierefrei.pdf"
-						>Im Sechsten Sachstandsbericht des IPCC (AR6) heißt es:
-					</a>
+						>Sechsten Sachstandsbericht des IPCC (AR6, August 2021)
+					</a>heißt es:
 				</p>
 				<blockquote>
 					„Es ist eindeutig, dass der Einfluss des Menschen die Atmosphäre, den Ozean und die
 					Landflächen erwärmt hat. Es haben weitverbreitete und schnelle Veränderungen in der
 					Atmosphäre, dem Ozean, der Kryosphäre und der Biosphäre stattgefunden. [...] Jedes der
-					vergangenen vier Jahrzehnte war jeweils wärmer als alle Jahrzehnte davor seit 1850. <strong
-						>Die globale Oberflächentemperatur war in den ersten beiden Jahrzehnten des 21.
-						Jahrhunderts (2001–2020) um 0,99 [0,84–1,10] °C höher als 1850–1900.
-					</strong>“ (<a
-						href="https://www.de-ipcc.de/media/content/AR6-WGI-SPM_deutsch_barrierefrei.pdf"
+					vergangenen vier Jahrzehnte war jeweils wärmer als alle Jahrzehnte davor seit 1850. [...] <strong
+						>Die globale Oberflächentemperatur war im Zeitraum 2011–2020 um 1,09 [0,95–1,20] °C
+						höher als 1850–1900</strong
+					>[.]“ (<a href="https://www.de-ipcc.de/media/content/AR6-WGI-SPM_deutsch_barrierefrei.pdf"
 						>AR6 Deutsch</a
 					>, S. 3)
 				</blockquote>
 
 				<p>
-					Der <a href="https://de.wikipedia.org/wiki/Intergovernmental_Panel_on_Climate_Change"
-						>Intergovernmental Panel on Climate Change (IPCC)</a
-					>, oft umgangssprachlich als "Weltklimarat" bezeichnet, wurde gegründet, „um für
-					politische Entscheidungsträger den Stand der wissenschaftlichen Forschung zum Klimawandel
+					Der <a href="https://www.ipcc.ch/">Intergovernmental Panel on Climate Change (IPCC)</a>,
+					oft umgangssprachlich als "Weltklimarat" bezeichnet, wurde gegründet, „um für politische
+					Entscheidungsträger den Stand der wissenschaftlichen Forschung zum Klimawandel
 					zusammenzufassen. [...] Der IPCC gilt als „Goldstandard“ der Klimaforschung.“ (<a
 						href="https://de.wikipedia.org/wiki/Intergovernmental_Panel_on_Climate_Change"
 						>Wikipedia</a
