@@ -70,11 +70,13 @@
 				</p>
 
 				<p>
-					(via
+					Aktuelle Daten zur Erderhitzung und Klimakrise finden sich u.a. auf <a
+						href="https://klimadashboard.at">klimadashboard.at</a
+					>
+					sowie im jährlichen Faktenpapier
 					<a href="https://www.helmholtz-klima.de/aktuelles/aktuelle-fakten-zum-klimawandel"
 						>Aktuelle Fakten zum Klimawandel - Helmholtz Klima
-					</a>
-					und <a href="https://klimadashboard.at">klimadashboard.at</a>):
+					</a>.
 				</p>
 			</details>
 		</article>
@@ -145,7 +147,7 @@
 				<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 			</TwoClickPrivacyEmbed>-->
 
-			<p>Derzeit befinden wir uns sogar auf dem Weg zu einer + 3-Grad-Erwärmung:</p>
+			<p>Derzeit befinden wir uns sogar auf dem Weg zu einer +3-Grad-Erwärmung:</p>
 
 			<TwoClickPrivacyEmbed provider="youtube" contentId="atQbbMhZkbc" />
 			<div class="image-source">
