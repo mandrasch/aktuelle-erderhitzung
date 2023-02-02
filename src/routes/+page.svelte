@@ -133,7 +133,7 @@
 			</blockquote>
 
 			<p>
-				<a href="https://boku.ac.at/wiso/infer/personen/reinhard-steurer">Reinhard Steurer </a>,
+				<a href="https://boku.ac.at/wiso/infer/personen/reinhard-steurer">Reinhard Steurer</a>,
 				Professor für Klimapolitik, und Klimaforscher
 				<a href="https://de.wikipedia.org/wiki/Hans_Joachim_Schellnhuber">Joachim Schellnhuber</a> werden
 				noch deutlicher mit Bezug auf die Welt, die die jetzigen Kinder und zukünftige Generationen erleben
