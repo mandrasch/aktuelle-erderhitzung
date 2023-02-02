@@ -646,8 +646,8 @@
 			</header>
 
 			<p>
-				<a href="Reinhard Steurer">Reinhard Steurer</a> blickte auf Twitter auf die letzten 25 Jahre
-				wie folgt zurück:
+				<a href="https://boku.ac.at/wiso/infer/personen/reinhard-steurer">Reinhard Steurer</a> blickte
+				auf Twitter auf die letzten 25 Jahre wie folgt zurück:
 			</p>
 
 			<TwoClickPrivacyEmbed provider="twitter">
