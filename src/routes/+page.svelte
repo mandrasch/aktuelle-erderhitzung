@@ -29,21 +29,23 @@
 			</header>
 
 			<p>
-				Viele reden vom Klimwandel und der Erderwärmung. Aber wie sehr hat sich der Planet Erde nun
+				Viele reden vom Klimwandel und der Erderwärmung. Aber wie sehr hat sich der Planet Erde
 				schon erhitzt? Und wo steuern wir hin als Gemeinschaft?
 			</p>
-			<p style="font-weight:bold;">
-				Die aktuelle Erderhitzung beträgt derzeit 1,1 Grad Celsisus (<a
-					href="https://www.de-ipcc.de/media/content/AR6-WGI-SPM_deutsch_barrierefrei.pdf"
-					>IPCC AR6</a
-				>).
+			<p>
+				Der schwer verdauliche Fakt: Die <a href="#die-naechsten-7-jahre"
+					>nächsten 7 Jahren bis 2030</a
+				> werden massiv darüber entscheiden, wie stark die Konsequenzen der Klimakrise für uns alle ausfallen
+				werden sowie in welchen Regionen für zukünftige Generationen überhaupt ein Überleben möglich
+				ist.
 			</p>
+			<p style="font-weight:bold;">Die aktuelle Erderhitzung beträgt derzeit 1,1 Grad Celsisus.</p>
 			<details>
-				<summary role="button" class="secondary">Datenquelle</summary>
+				<summary role="button" class="secondary">Datenquelle: IPCC Bericht 2021 (AR6)</summary>
 				<p>
 					Im
 					<a href="https://www.de-ipcc.de/media/content/AR6-WGI-SPM_deutsch_barrierefrei.pdf"
-						>Sechsten Sachstandsbericht des IPCC (AR6, August 2021)
+						>Sechsten Sachstandsbericht des IPCC (AR6 = Sixth Assessment Report, August 2021)
 					</a>heißt es:
 				</p>
 				<blockquote>
@@ -79,14 +81,117 @@
 				</p>
 			</details>
 		</article>
+
 		<article>
 			<header>
-				<h2>📉 Was ist mit dem 1,5-Grad-Limit?</h2>
+				<h2 id="die-naechsten-7-jahre">🚨 Die nächsten 7 Jahre entscheiden! 🚨</h2>
+			</header>
+
+			<p>
+				<a href="https://de.wikipedia.org/wiki/Stefan_Rahmstorf">Klimaforscher Stefan Rahmstorf</a> schreibt
+				am 14. Januar 2023:
+			</p>
+
+			<blockquote>
+				„Manche Menschen verstehen einfach nicht, was die Klimaforschung sagt: in 7 (!!!) Jahren
+				müssen die CO2-Emissionen halbiert sein, um das Pariser Abkommen einzuhalten. Also nicht
+				studieren &amp; forschen, sondern Ausstieg aus fossilen &amp; EE-Ausbau sofort sind
+				notwendig!“<br />- Quelle
+				<a href="https://twitter.com/rahmstorf/status/1614217456536395776?ref_src=twsrc%5Etfw"
+					>twitter.com</a
+				>
+			</blockquote>
+
+			<TwoClickPrivacyEmbed provider="twitter">
+				<blockquote class="twitter-tweet">
+					<p lang="de" dir="ltr">
+						Manche Menschen verstehen einfach nicht, was die Klimaforschung sagt: in 7 (!!!) Jahren
+						müssen die CO2-Emissionen halbiert sein, um das Pariser Abkommen einzuhalten. Also nicht
+						studieren &amp; forschen, sondern Ausstieg aus fossilen &amp; EE-Ausbau sofort sind
+						notwendig! <a href="https://t.co/R1lctxn925">https://t.co/R1lctxn925</a>
+						<a href="https://t.co/Ka6BvXpXWz">pic.twitter.com/Ka6BvXpXWz</a>
+					</p>
+					&mdash; Stefan Rahmstorf 🌏 fediscience.org/@rahmstorf 🦣 (@rahmstorf)<a
+						href="https://twitter.com/rahmstorf/status/1614217456536395776?ref_src=twsrc%5Etfw"
+						>January 14, 2023</a
+					>
+				</blockquote>
+				<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+			</TwoClickPrivacyEmbed>
+			<p style="margin-top:25px;">
+				Die Psychologists For Future Lea Dohm und Mareike Schulze schreiben in ihrem Buch
+				<a
+					href="https://www.droemer-knaur.de/buch/lea-dohm-mareike-schulze-klimagefuehle-9783426286159"
+					>Klimagefühle</a
+				>:
+			</p>
+			<blockquote>
+				„Wir leben in einer Zeit, in der eine große Verantwortung auf uns lastet, das Ruder noch
+				herumzureißen. Egal, ob wir das doof finden - so ist es nun einmal.“
+			</blockquote>
+
+			<p>
+				<a href="https://boku.ac.at/wiso/infer/personen/reinhard-steurer">Reinhard Steurer </a>,
+				Professor für Klimapolitik, und Klimaforscher
+				<a href="https://de.wikipedia.org/wiki/Hans_Joachim_Schellnhuber">Joachim Schellnhuber</a> werden
+				noch deutlicher mit Bezug auf die Welt, die die jetzigen Kinder und zukünftige Generationen erleben
+				werden wenn sich nichts am Tempo der Klimakrise ändert:
+			</p>
+
+			<TwoClickPrivacyEmbed provider="twitter">
+				<blockquote class="twitter-tweet">
+					<p lang="de" dir="ltr">
+						Es geht dabei in erster Linie um den Schutz von Leben und von unserer Zivilisation. In
+						den nächsten Jahren entscheiden wir darüber, ob unsere Gesellschaften eine gute Zukunft
+						haben oder noch in diesem Jahrhundert im Chaos versinken werden. 2/ <a
+							href="https://t.co/dGjVoBkxJh">pic.twitter.com/dGjVoBkxJh</a
+						>
+					</p>
+					&mdash; Reinhard @Steurer@mas.to (@ReiSteurer)<a
+						href="https://twitter.com/ReiSteurer/status/1605972450172211424?ref_src=twsrc%5Etfw"
+						>December 22, 2022</a
+					>
+				</blockquote>
+				<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+			</TwoClickPrivacyEmbed>
+
+			<p>
+				Die österreichischen AktivistInnen Katharina Rogenhofer und Florian Schlederer betitelten
+				ihr Buch
+				<a
+					href="https://www.hanser-literaturverlage.de/buch/aendert-sich-nichts-aendert-sich-alles/978-3-552-07254-1/"
+					>Ändert sich nichts, ändert sich alles</a
+				>.
+			</p>
+
+			<p style="margin-top:25px;font-style:italic;">
+				Und trotz allem: Keine Kinder in die Welt bringen nur wegen des CO2-Fußabdrucks? Dies ist
+				mit wissenschaftlichen Daten nicht einwandfrei zu begründen, siehe u.a. <a
+					href="https://www.derstandard.at/story/2000142620963/darf-man-heute-noch-kinder-bekommen"
+					>„Darf man heute noch Kinder bekommen?“
+				</a>
+				(Der Standard),
+				<a href="https://www.washingtonpost.com/climate-environment/2022/12/02/climate-kids/"
+					>„Should you not have kids because of climate change? It’s complicated“
+				</a> (Washington Post).
+			</p>
+		</article>
+
+		<article>
+			<header>
+				<h2>📉 Wie steht es um das 1,5-Grad-Limit?</h2>
 			</header>
 			<p />
 			<p>
-				Der seit Jahrzehnten aktive Klimaforscher Stefan Rahmstorf fasste die Situation kürzlich wie
-				folgt zusammen:
+				Alle Staaten dieser Welt haben sich mit dem <a
+					href="https://www.ardalpha.de/wissen/umwelt/klima/klimawandel/klimaabkommen-paris-protokoll-klimapolitik-klimawandel-102.html"
+					>Pariser Klimaabkommen</a
+				>
+				das Ziel gesetzt, die globale Erhitzung gemeinsam auf 1,5 Grad zu begrenzen. Der seit Jahrzehnten
+				aktive
+				<a href="https://de.wikipedia.org/wiki/Stefan_Rahmstorf">Klimaforscher Stefan Rahmstorf</a> beantwortete
+				die Frage "Können wir 1,5 Grad Erderwärmung überhaupt noch einhalten?" im November 2022 wie folgt
+				(2 Minuten):
 			</p>
 
 			<!-- <h3>Können wir das "1,5 Grad"-Limit noch schaffen?</h3>-->
@@ -98,15 +203,18 @@
 				>
 				(Original-Quelle:
 				<a href="https://twitter.com/rahmstorf/status/1593495465261256707"
-					>Stefan Rahmstorf - Twitter 18. November 2022
+					>Stefan Rahmstorf - Twitter
 				</a>, gesamte Diskussion:
 				<a href="https://www.youtube.com/watch?v=xrdKdlZRb5M"
 					>Europe Calling Live von der Klimakonferenz #cop27 - Disaster oder Hoffnungsschimmer?
 					(YouTube)
 				</a>
 			</div>
+
 			<details style="margin-top:20px;">
-				<summary role="button" class="secondary">Was ist das Pariser Klimaabkommen?</summary>
+				<summary role="button" class="secondary"
+					>Warum ist das 1,5-Grad-Ziel so extrem wichtig?</summary
+				>
 
 				<p>
 					Die Staaten dieser Welt haben sich mit dem <a
@@ -123,10 +231,20 @@
 				<p>Die Dramatik: Bisher reichen die Handlungen der Staaten bei Weitem nicht aus.</p>
 				<p>
 					Für das Stoppen der Erhitzung bei 1,5 Grad bleibt nur noch ein schmaler Pfad, sehr
-					schnelle und sehr tiefgreifende Maßnahmen sind jetzt nötig. Mehr zu den Maßnahmen
-					einzelner Staaten u.a. auf <a href="https://climateactiontracker.org/countries/"
+					schnelle und sehr tiefgreifende Maßnahmen sind jetzt nötig laut Stefan Rahmstorf und den
+					IPCC-Berichten (<a href="https://twitter.com/rahmstorf/status/1614217456536395776"
+						>Quelle</a
+					>). Mehr zu den Maßnahmen einzelner Staaten u.a. auf
+					<a href="https://climateactiontracker.org/countries/"
 						>climateactiontracker.org/countries/</a
 					>.
+				</p>
+				<p>
+					Warum zwischen 1,5 Grad mehr und 3 bis 5 Grad ganze Welten liegen, siehe <a
+						href="#welchen-unterschied-macht-das">Was macht das für einen Unterschied"</a
+					>. Daher weisen viele KlimaforscherInnen auch stets in Interviews darauf hin, dass selbst
+					beim Nicht-Erreichen von 1,5 Grad jedes weitere Zehntelgrad einen großen Unterschied
+					machen kann. Die Erderhitzung sollte so gering wie nur irgendwie möglich gehalten werden.
 				</p>
 			</details>
 		</article>
@@ -155,7 +273,11 @@
 				<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 			</TwoClickPrivacyEmbed>-->
 
-			<p>Derzeit befinden wir uns sogar auf dem Weg zu einer +3-Grad-Erwärmung:</p>
+			<p>
+				Die gute Nachricht laut Stefan Rahmstorf: Wir befinden uns nicht mehr auf einem +5 Grad
+				Pfad. Die schlechte Nachricht: Derzeit befinden wir uns dennoch auf dem Weg zu einer
+				+3-Grad-Erwärmung:
+			</p>
 
 			<TwoClickPrivacyEmbed provider="youtube" contentId="atQbbMhZkbc" />
 			<div class="image-source">
@@ -193,117 +315,64 @@
 
 		<article>
 			<header>
-				<h2>⚠️ Welchen Unterschied macht das?</h2>
+				<h2 id="welchen-unterschied-macht-das">⚠️ Welchen Unterschied macht das?</h2>
 			</header>
-			<picture>
-				<source type="image/webp" srcset={img5GradWebP} />
-				<source type="image/png" srcset={img5GradPng} />
-				<img
-					src={img5GradPng}
-					alt="Infografik von moment.at: Was die Klimakrise für uns Menschen bedeutet, Szenarien aufgeteilt nach der jeweiligen Grad-Erhöhung"
-				/>
-			</picture>
+			<a href={img5GradPng}>
+				<picture>
+					<source type="image/webp" srcset={img5GradWebP} />
+					<source type="image/png" srcset={img5GradPng} />
+					<img
+						src={img5GradPng}
+						alt="Infografik von moment.at: Was die Klimakrise für uns Menschen bedeutet, Szenarien aufgeteilt nach der jeweiligen Grad-Erhöhung"
+					/>
+				</picture></a
+			>
 			<div class="image-source">
 				Quelle / Urheberrechte: <a
 					href="https://www.moment.at/story/klimakrise-so-heiss-koennte-es-deinem-leben-noch-werden"
-					>moment.at</a
+					>moment.at - So heiß könnte es in deinem Leben noch werden (Juli 2021)</a
 				>
 			</div>
 		</article>
 
 		<article>
 			<header>
-				<h2>👪 Welche Erhitzung erleben wir?</h2>
+				<h2>🔥 Welche Erhitzung erleben wir?</h2>
 			</header>
 			<p>
 				Wenn es bei den derzeitigen, unzureichenden Maßnahmen bleibt und sich die Erde weiter stark
 				erhitzt - welche Erhitzung erlebt man sebst noch, welche Erhitzung erleben die jungen und
 				zukünftigen Generationen?
 			</p>
-			<picture>
-				<source type="image/webp" srcset={imgTemperaturLebenszeitWebP} />
-				<source type="image/png" srcset={imgTemperaturLebenszeitPng} />
-				<img
-					src={imgTemperaturLebenszeitPng}
-					alt="Infografik moment.at: Diese Erwärmung könntest du noch erleben."
-				/>
-			</picture>
+			<a href={imgTemperaturLebenszeitPng}>
+				<picture>
+					<source type="image/webp" srcset={imgTemperaturLebenszeitWebP} />
+					<source type="image/png" srcset={imgTemperaturLebenszeitPng} />
+					<img
+						src={imgTemperaturLebenszeitPng}
+						alt="Infografik moment.at: Diese Erwärmung könntest du noch erleben."
+					/>
+				</picture>
+			</a>
 			<div class="image-source">
 				Quelle / Urheberrechte: <a
 					href="https://www.moment.at/story/klimakrise-so-heiss-koennte-es-deinem-leben-noch-werden"
-					>moment.at</a
+					>moment.at - So heiß könnte es in deinem Leben noch werden (Juli 2021)</a
 				>
 			</div>
-		</article>
-
-		<article>
-			<header>
-				<h2>🚨 Die nächsten 7 Jahre entscheiden!</h2>
-			</header>
-
-			<p>Klimaforscher Stefan Rahmstorf schreibt am 14.Januar 2023:</p>
-
-			<TwoClickPrivacyEmbed provider="twitter">
-				<blockquote class="twitter-tweet">
-					<p lang="de" dir="ltr">
-						Manche Menschen verstehen einfach nicht, was die Klimaforschung sagt: in 7 (!!!) Jahren
-						müssen die CO2-Emissionen halbiert sein, um das Pariser Abkommen einzuhalten. Also nicht
-						studieren &amp; forschen, sondern Ausstieg aus fossilen &amp; EE-Ausbau sofort sind
-						notwendig! <a href="https://t.co/R1lctxn925">https://t.co/R1lctxn925</a>
-						<a href="https://t.co/Ka6BvXpXWz">pic.twitter.com/Ka6BvXpXWz</a>
-					</p>
-					&mdash; Stefan Rahmstorf 🌏 fediscience.org/@rahmstorf 🦣 (@rahmstorf)<a
-						href="https://twitter.com/rahmstorf/status/1614217456536395776?ref_src=twsrc%5Etfw"
-						>January 14, 2023</a
+			<details style="margin-top:25px;">
+				<summary role="button" class="secondary">Datenquellen</summary>
+				<p>
+					Der Artikel <a
+						href="https://www.moment.at/story/klimakrise-so-heiss-koennte-es-deinem-leben-noch-werden"
+						>So heiß könnte es in deinem Leben noch werden</a
 					>
-				</blockquote>
-				<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-			</TwoClickPrivacyEmbed>
-
-			Die Psychologists For Future Lea Dohm und Mareike Schulze schreiben in ihrem Buch
-			<a
-				href="https://www.droemer-knaur.de/buch/lea-dohm-mareike-schulze-klimagefuehle-9783426286159"
-				>Klimagefühle</a
-			>:
-
-			<blockquote>
-				„Wir leben in einer Zeit, in der eine große Verantwortung auf uns lastet, das Ruder noch
-				herumzureißen. Egal, ob wir das doof finden - so ist es nun einmal.“
-			</blockquote>
-
-			<p>
-				Die langjährigen Klimaforscher Reinhard Steurer und Joachim Schellnhuber werden noch
-				deutlicher mit Bezug auf die Welt, die die jetzigen Kinder erleben werden wenn sich nichts
-				am Tempo der Klimakrise ändert:
-			</p>
-
-			<TwoClickPrivacyEmbed provider="twitter">
-				<blockquote class="twitter-tweet">
-					<p lang="de" dir="ltr">
-						Es geht dabei in erster Linie um den Schutz von Leben und von unserer Zivilisation. In
-						den nächsten Jahren entscheiden wir darüber, ob unsere Gesellschaften eine gute Zukunft
-						haben oder noch in diesem Jahrhundert im Chaos versinken werden. 2/ <a
-							href="https://t.co/dGjVoBkxJh">pic.twitter.com/dGjVoBkxJh</a
-						>
-					</p>
-					&mdash; Reinhard @Steurer@mas.to (@ReiSteurer)<a
-						href="https://twitter.com/ReiSteurer/status/1605972450172211424?ref_src=twsrc%5Etfw"
-						>December 22, 2022</a
-					>
-				</blockquote>
-				<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-			</TwoClickPrivacyEmbed>
-
-			<p style="margin-top:25px;font-style:italic;">
-				Und trotz allem: Keine Kinder in die Welt bringen nur wegen des CO2-Fußabdrucks? Dies ist
-				rein mit wissenschaftlichen Daten nicht einwandfrei zu begründen, siehe u.a. <a
-					href="https://www.derstandard.at/story/2000142620963/darf-man-heute-noch-kinder-bekommen"
-					>„Darf man heute noch Kinder bekommen?“ (Der Standard)
-				</a>,
-				<a href="https://www.washingtonpost.com/climate-environment/2022/12/02/climate-kids/"
-					>„Should you not have kids because of climate change? It’s complicated“ (Washington Post)
-				</a>.
-			</p>
+					von moment.at bezieht sich auf die Studie
+					<a href="https://www.nature.com/articles/nclimate3352"
+						>Less than 2 °C warming by 2100 unlikely (Raftery et. al, 2017)</a
+					>.
+				</p>
+			</details>
 		</article>
 
 		<article>
@@ -337,17 +406,22 @@
 
 			<ul style="margin-top:25px;">
 				<li>
+					<a href="https://www.zdf.de/gesellschaft/plan-b/plan-b-clever-in-die-zukunft-100.html"
+						>Clever in die Zukunft: Alternativen für die Energiewende | planB (Dezember 2022)</a
+					>
+				</li>
+				<li>
 					<a href="https://www.youtube.com/watch?v=bCvUwnIdqBI"
-						>Klimawandel - Was wir tatsächlich tun können (feat. maiLab) | WDR Doku
+						>Klimawandel - Was wir tatsächlich tun können (feat. maiLab) | WDR Doku (März 2021)
 					</a>
 				</li>
 				<li>
 					<a href="https://www.youtube.com/watch?v=s2txunrkr8M"
-						>Klimakrise – Zeit zu kapitulieren? | Harald Lesch
+						>Klimakrise – Zeit zu kapitulieren? | Harald Lesch (November 2021)
 					</a>
 				</li>
 				<li>
-					<a
+					Zur Gerechtigkeitsfrage: <a
 						href="https://daserste.ndr.de/panorama/archiv/2023/Das-Klima-und-die-Reichen,klimareiche100.html"
 						>Das Klima und die Reichen | ARD</a
 					>
@@ -570,8 +644,8 @@
 			</header>
 
 			<p>
-				Klimaforscher Reinhard Steurer blickte auf Twitter auf die letzten 25 Jahre wie folgt
-				zurück:
+				<a href="Reinhard Steurer">Reinhard Steurer</a> blickte auf Twitter auf die letzten 25 Jahre
+				wie folgt zurück:
 			</p>
 
 			<TwoClickPrivacyEmbed provider="twitter">
@@ -594,7 +668,7 @@
 
 			<p style="margin-top:25px;">
 				Mehr dazu auch im Video <a href="https://www.youtube.com/watch?v=G86wu0BOOJI"
-					>"Was man in den 70ern wusste – und verschwiegen hat (Harald Lesch)</a
+					>"Was man in den 70ern wusste – und verschwiegen hat (Harald Lesch, Oktober 2021)</a
 				>
 				" sowie in der Dokumentation
 				<a href="https://filmsfortheearth.org/filme/die-erdzerstoerer/"
@@ -650,18 +724,17 @@
 		</article>
 		<article>
 			<header>
-				<h2>🙆‍♂️ Klima-Sorgen? Du bist nicht allein!</h2>
+				<h2>🤯🙆 Klima-Sorgen? Du bist nicht allein!</h2>
 			</header>
 
 			<p>
-				<strong>"Klimaangst"?</strong> Die Psychologists for Future haben Tipps und Ratschläge für
-				den Umgang mit der erschlagenden Realität der Klimakrise gesammelt:
-				<a href="https://utopia.de/ratgeber/klimaangst-richtiger-umgang-psychologe/"
-					>„Wie geht man mit „Klimaangst“ um?“</a
-				>.
+				Die Fakten zur Klimakrise wahrzunehmen und zu verarbeiten kann ganz viele unterschiedliche
+				Gefühle bei Menschen hervorrufen. Die wichtigste Botschaft: Auch wenn es im Alltag oder im
+				Berufsleben oft so nicht so aussieht: Viele Menschen beschäftigt die Klimakrise enorm,
+				niemand ist allein damit.
 			</p>
 			<p>
-				Kürzlich erschien das Buch
+				<strong>"Klimagefühle"?</strong>Kürzlich erschien das Buch
 				<a
 					rel="noreferrer noopener"
 					href="https://www.droemer-knaur.de/buch/lea-dohm-mareike-schulze-klimagefuehle-9783426286159"
@@ -675,23 +748,32 @@
 					target="_blank">auf Spotify verfügbar.</a
 				>
 			</p>
+			<p>
+				<strong>"Klimaangst"?</strong> Die Psychologists for Future haben Tipps und Ratschläge für
+				den Umgang mit der erschlagenden Realität der Klimakrise gesammelt:
+				<a href="https://utopia.de/ratgeber/klimaangst-richtiger-umgang-psychologe/"
+					>„Wie geht man mit „Klimaangst“ um?“</a
+				>. Eine detaillierte wissenschaftliche Auseinandersetzung mit dem umgangssprachlichen
+				Begriff „Klimaangst" findet sich
+				<a
+					href="https://www.psychologistsforfuture.org/klimaangst/"
+					aria-label="Klimaangst - Psychologists for Future">hier</a
+				>.
+			</p>
 
 			<p>
 				<strong>Ohnmacht?</strong>
-				Im Podcast Hotel Matze erschien kürzlich die Folge
+				Im Podcast Hotel Matze sprach Luisa Neubauer (Fridays for Future Deutschland) über die Frage
 				<a
 					rel="noreferrer noopener"
 					href="https://mitvergnuegen.com/hotelmatze/luisa-neubauer-2022/"
 					target="_blank">„Wie bekämpft man die Ohnmacht?“</a
-				> mit Luisa Neubauer (Fridays for Future Deutschland).
+				>.
 			</p>
 
-			<p style="font-style:italic;">
-				Eine detaillierte wissenschaftliche Auseinandersetzung mit dem umgangssprachlichen Begriff
-				„Klimaangst" findet sich
-				<a
-					href="https://www.psychologistsforfuture.org/klimaangst/"
-					aria-label="Klimaangst - Psychologists for Future">hier</a
+			<p>
+				Auf Instagram existieren Communities wie <a href="https://www.instagram.com/klimagefuehle/"
+					>@Klimagefühle</a
 				>.
 			</p>
 		</article>
