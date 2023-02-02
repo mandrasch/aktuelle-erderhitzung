@@ -11,6 +11,8 @@ Deployed with adapter-static, ploi.io and Hetzner Cloud:
 
 ## TODOs / ideas
 
+- [ ] Direct visit to /impressum does not work with nginx?
+- [ ] Add carton in the end https://www.slanecartoon.com/-/galleries/climate-quest-cartoons/-/medias/c368ca68-0ef0-44bf-8275-3d2475b09e70-choosing-our-degrees
 - [ ] Implement accessible modal to accept all social media embed providers at one (cookie banner), e.g. https://github.com/AgnosticUI/svelte-a11y-dialog?
 - [ ] Add Theme switcher dark/light mode
 - [ ] Style simple-toc, improve mobile styles, link title to first section?
