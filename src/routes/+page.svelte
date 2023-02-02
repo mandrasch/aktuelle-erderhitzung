@@ -343,7 +343,7 @@
 			</header>
 			<p>
 				Wenn es bei den derzeitigen, unzureichenden Maßnahmen bleibt und sich die Erde weiter stark
-				erhitzt - welche Erhitzung erlebt man sebst noch, welche Erhitzung erleben die jungen und
+				erhitzt - welche Erhitzung erlebt man selbst noch, welche Erhitzung erleben die jungen und
 				zukünftigen Generationen?
 			</p>
 			<a href={imgTemperaturLebenszeitPng}>
@@ -736,7 +736,7 @@
 				niemand ist allein damit.
 			</p>
 			<p>
-				<strong>"Klimagefühle"?</strong>Kürzlich erschien das Buch
+				<strong>"Klimagefühle"?</strong> Kürzlich erschien das Buch
 				<a
 					rel="noreferrer noopener"
 					href="https://www.droemer-knaur.de/buch/lea-dohm-mareike-schulze-klimagefuehle-9783426286159"
