@@ -32,13 +32,7 @@
 				Viele reden vom Klimwandel und der Erderwärmung. Aber wie sehr hat sich der Planet Erde
 				schon erhitzt? Und wo steuern wir hin als Gemeinschaft?
 			</p>
-			<p>
-				Der schwer verdauliche Fakt: Die <a href="#die-naechsten-7-jahre"
-					>nächsten 7 Jahren bis 2030</a
-				> werden massiv darüber entscheiden, wie stark die Konsequenzen der Klimakrise für uns alle ausfallen
-				werden sowie in welchen Regionen für zukünftige Generationen überhaupt ein Überleben möglich
-				ist.
-			</p>
+
 			<p style="font-weight:bold;">Die aktuelle Erderhitzung beträgt derzeit 1,1 Grad Celsisus.</p>
 			<details>
 				<summary role="button" class="secondary">Datenquelle: IPCC Bericht 2021 (AR6)</summary>
@@ -80,6 +74,14 @@
 					</a>.
 				</p>
 			</details>
+
+			<p>
+				Der schwer verdauliche Fakt: Die <a href="#die-naechsten-7-jahre"
+					>nächsten 7 Jahren bis 2030</a
+				> werden massiv darüber entscheiden, wie stark die Konsequenzen der Klimakrise für uns alle ausfallen
+				werden. Außerdem entscheidet sich, in welchen Regionen für zukünftige Generationen überhaupt
+				ein Überleben möglich ist. 🤯
+			</p>
 		</article>
 
 		<article>
