@@ -621,10 +621,7 @@
 				>.
 			</p>
 
-			<TwoClickPrivacyEmbed
-				provider="youtube"
-				contentId="https://www.youtube.com/watch?v=UAkZz3DMppg"
-			/>
+			<TwoClickPrivacyEmbed provider="youtube" contentId="UAkZz3DMppg" />
 
 			<p class="mt-25">
 				Den Blick auf das gesamte System richten Transformationsforscher:innen wie Maja Göpel: <a
@@ -632,6 +629,8 @@
 					>„re:publica 2022: Maja Göpel: Her mit der besseren Zukunft“
 				</a>.
 			</p>
+
+			<TwoClickPrivacyEmbed provider="youtube" contentId="Ylql_4epV-Y" />
 		</article>
 
 		<!-- <TwoClickPrivacyEmbed provider="instagram">
