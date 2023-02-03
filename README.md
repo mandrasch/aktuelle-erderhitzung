@@ -15,13 +15,15 @@ Deployed via adapter-static on GitHub pages (just for demo purposes):
 
 ## TODOs / ideas
 
-- [ ] Direct visit to /impressum does not work with nginx?
+- [ ] BUG: Direct visit to /impressum does not work with nginx?
+- [ ] FIX: og:image must be added with full path - how can we get this via Github Action node env?
+- [ ] FIX: process.env.BUILD_DATETIME can't be used in components? How to import?
+- [ ] FEAT: add favicon
+
 - [ ] Add carton in the end https://www.slanecartoon.com/-/galleries/climate-quest-cartoons/-/medias/c368ca68-0ef0-44bf-8275-3d2475b09e70-choosing-our-degrees
 - [ ] Implement accessible modal to accept all social media embed providers at one (cookie banner), e.g. https://github.com/AgnosticUI/svelte-a11y-dialog?
 - [ ] Add Theme switcher dark/light mode
-- [ ] Style simple-toc, improve mobile styles, link title to first section?
 - [ ] a11y check
-- [ ] Link to my insta profile?
 
 ## How was it created?
 
