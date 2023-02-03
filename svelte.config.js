@@ -5,6 +5,7 @@ import sveltePreprocess from 'svelte-preprocess';
 // import { PATHS_BASE } from '$env/static/public';
 
 console.log('[svelte.config.js] process.env.PATHS_BASE set to', process.env.PATHS_BASE);
+console.log('[svelte.config.js] process.env.BUILD_DATETIME set to', process.env.BUILD_DATETIME); // TODO: how to use it in comp?
 
 // TODO: use env from github actions -> 
 let pathsBase = '';
