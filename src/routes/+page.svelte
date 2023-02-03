@@ -957,7 +957,7 @@
 			</p>
 			<p>
 				Einige Videos wurden von Twitter heruntergeladen und zu YouTube kopiert, weil die
-				Twitter-Video-Einbettung technisch leider nicht so zuverlässig funktionieren auf
+				Twitter-Einbettungen mit Video technisch nicht so zuverlässig funktionieren auf
 				Mobilgeräten.
 			</p>
 			<p>
