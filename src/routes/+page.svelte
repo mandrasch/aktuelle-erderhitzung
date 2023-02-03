@@ -21,8 +21,8 @@
 <svelte:head>
 	<meta
 		name="description"
-		content="Wir alle reden vom Klimwandel, dem Klimaschutz und der Erderwärmung. Aber wie sehr hat sich der
-	Planet schon erhitzt? Und wo steuern wir hin als Gemeinschaft?"
+		content="Wir alle reden über Klimwandel, Klimaschutz und Erderwärmung. Aber wie sehr hat sich der
+		Planet schon erhitzt? Und wo steuern wir hin als Gemeinschaft? Wie hoch ist die aktuelle Erderwärmung?"
 	/>
 	<!-- TODO: add social media image -->
 </svelte:head>
@@ -38,7 +38,7 @@
 		<div class="main-layout__main-region__hero" style="margin-top:50px;margin-bottom:0;">
 			<h1>Aktuelle Erderhitzung 🔥</h1>
 			<p style="text-align:center;">
-				Wir alle vom Klimwandel, dem Klimaschutz und der Erderwärmung. Aber wie sehr hat sich der
+				Wir alle reden über Klimwandel, Klimaschutz und Erderwärmung. Aber wie sehr hat sich der
 				Planet schon erhitzt? Und wo steuern wir hin als Gemeinschaft?
 			</p>
 		</div>
