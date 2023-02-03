@@ -3,7 +3,7 @@
 	import { base } from '$app/paths';
 </script>
 
-<!-- <div><a href="{base}/">Zurück</a></div>  -->
+<div style="margin-top:25px;"><a href="{base}/">&laquo; Zurück</a></div>
 
 <article>
 	<header>Datenschutz & Impressum</header>
@@ -17,41 +17,29 @@
 
 	<p>
 		Kontakt: matthias-andrasch-kontakt@mailbox.org<br />
-		Web: <a href="https://mandrasch.dev">mandrasch.dev</a>
-	</p>
-
-	<p>
-		Ich bin beruflich Web-Entwickler und bzgl. Klimakrise interessierter Laie. Diese Webseite wurde
-		als Privatperson verfasst und ist höchstwahrscheinlich leider nicht mehr als ein Tropfen auf den
-		heißen Stein.
-	</p>
-
-	<h2>Copyright</h2>
-	<p>
-		Die selbst verfassten Inhalte (Text) stehen frei als <a
-			href="https://creativecommons.org/publicdomain/zero/1.0/deed.de">CC0/Public Domain</a
-		> zur Weiternutzung zur Verfügung. Ausgenommen davon sind zitierte Grafiken, Fotos sowie die Social-Media-Einbettungen.
-	</p>
-	<p>
-		Der <a href="https://github.com/mandrasch/aktuelle-erderhitzung">Source Code</a> steht auf GitHub
-		zur Nachnutzung bereit. Die Seite wurde mit SvelteKit und PicoCSS erstellt. Das Deployment wird über
-		ploi.io realisiert.
+		Insta: <a href="https://www.instagram.com/matzimo404/">@matzimo404</a><br />
+		Web: <a href="https://mandrasch.dev">mandrasch.dev</a><br />
 	</p>
 
 	<h2>Datenschutz</h2>
 
-	<p>Diese Webseite erhebt keine personenbezogenen Daten.</p>
+	<p>Die Webseite aktuelle-erderhitzung.de erhebt keine personenbezogenen Daten.</p>
 	<p>
 		Diese Webseite wird beim Hostinganbieter Hetzner Cloud (Server-Standort: Nürnberg) betrieben, es
 		werden keine personenbezogenen Daten von Besucher:innen in Server-Logs o.ä. erhoben.
 	</p>
 
 	<p>
-		Für die Einbindung der externen Social Media Dienste wird die Einwilligung explizit abgefragt
-		und nach einem Browser-Reload wieder gelöscht. Die Datenschutzerklärungen der Drittanbieter
-		findet sich verlinkt im jeweiligen Einwilligungsdialog, die Einbettung erfolgt explizit erst
-		nachdem der/die Besucher:in eingewilligt hat.
+		Für die Einbindung der externen Social Media Dienste (Drittanbieter) wird die Einwilligung
+		explizit abgefragt und nach einem Browser-Reload wieder gelöscht. Die Datenschutzerklärungen der
+		Drittanbieter finden sich verlinkt im jeweiligen Einwilligungsdialog, die Einbettung erfolgt
+		explizit erst nachdem der/die BesucherIn eingewilligt hat.
 	</p>
+	<p>
+		Vor der Einwillung werden keine Datenverbindungen zu Drittanbietern aufgebaut, die
+		Vorschaubilder werden vom Server aktuelle-erderhitzung.de geladen.
+	</p>
+
 	<!-- <p>Die Einstellungen können hier zurückgesetzt werden:</p>
 
 <TwoClickPrivacyEmbedSettings />

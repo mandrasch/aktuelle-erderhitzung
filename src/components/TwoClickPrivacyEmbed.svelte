@@ -11,6 +11,11 @@
 	export let provider;
 	/** @type {string} */
 	export let contentId;
+	// TODO: how to mark as optional param in JSdoc?
+	/** @type {string} */
+	export let placeholderImg;
+
+	let placeholderImgUrl = placeholderImg ? `url('${placeholderImg}')` : 'none';
 
 	// old - via persistent storage:
 	//$: isAccepted = $preferences.gdprAcceptedEmbedProviders.includes(provider);
@@ -19,18 +24,25 @@
 	/** @type {String[]} */
 	let gdprAcceptedEmbedProvidersValue = [];
 
+	// Currently deactivated, more sustainable to load one video after another manually
+	/*
 	gdprAcceptedEmbedProvidersStore.subscribe(
-		/**
-		 * @param {String[]} newValue
-		 */
+		// @param {String[]} newValue
 		(newValue) => {
-			console.log('New value received for gdprAcceptedEmbedProviders store', newValue);
+			// console.log('New value received for gdprAcceptedEmbedProviders store', newValue);
 			isAccepted = newValue.includes(provider); // update acceptance state
 			gdprAcceptedEmbedProvidersValue = newValue; // update value within component
 		}
 	);
+	*/
 
 	function acceptProvider() {
+		// current manual approach, each video/embed has its own activation
+		isAccepted = true;
+		return;
+
+		// provider approach - accept provider, everything will load:s
+
 		// old via persisting storage, can be removed later
 		// let newPrefs = get(preferences);
 		// console.log({ newPrefs });
@@ -62,7 +74,7 @@
 <!-- {JSON.stringify($preferences)}
 IsAccepted?{JSON.stringify(isAccepted)}; Provider: {JSON.stringify(provider)}; -->
 
-<div class="two-click-privacy-box">
+<div class="two-click-privacy-box" style="--placeholderImgUrl: {placeholderImgUrl}">
 	<!-- {JSON.stringify(gdprAcceptedEmbedProvidersValue)} -->
 
 	{#if provider === 'youtube'}
@@ -70,11 +82,11 @@ IsAccepted?{JSON.stringify(isAccepted)}; Provider: {JSON.stringify(provider)}; -
 			<div class="dialog">
 				<div class="dialog-content">
 					<p>
-						Mit dem Anzeigen der Videos stimmst Du <br /> der
+						Mit dem Anzeigen des Videos stimmst Du <br /> der
 						<a href="https://policies.google.com/privacy">Datenschutzerklärung</a>
 						von YouTube/Google zu.
 					</p>
-					<button on:click={acceptProvider} class={provider}> Videos anzeigen </button>
+					<button on:click={acceptProvider} class={provider}> Video laden </button>
 				</div>
 			</div>
 		{:else}
@@ -137,7 +149,12 @@ IsAccepted?{JSON.stringify(isAccepted)}; Provider: {JSON.stringify(provider)}; -
 	.two-click-privacy-box {
 		margin: 0 auto;
 
+		background-image: var(--placeholderImgUrl);
+		background-size: cover;
+
 		.dialog {
+			background-color: rgba(0, 0, 0, 0.65);
+
 			border: 1px dashed var(--secondary);
 			padding: 10px;
 			margin: 10px 0;
@@ -149,6 +166,9 @@ IsAccepted?{JSON.stringify(isAccepted)}; Provider: {JSON.stringify(provider)}; -
 			align-items: center;
 
 			.dialog-content {
+				background-color: white;
+				border-radius: 5px;
+				padding: 20px;
 				button {
 					width: 200px;
 					margin: 0 auto;

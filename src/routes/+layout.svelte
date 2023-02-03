@@ -6,10 +6,10 @@
 	import '../scss/main.scss';
 </script>
 
-<Header />
+<!-- <Header /> -->
 
 <div class="container">
 	<slot />
 </div>
 
-<Footer />
+<!-- <Footer />-->

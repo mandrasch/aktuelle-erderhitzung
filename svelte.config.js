@@ -4,7 +4,7 @@ import sveltePreprocess from 'svelte-preprocess';
 // https://kit.svelte.dev/docs/modules#$env-static-public
 // import { PATHS_BASE } from '$env/static/public';
 
-console.log(process.env.PATHS_BASE);
+console.log('[svelte.config.js] process.env.PATHS_BASE set to', process.env.PATHS_BASE);
 
 // TODO: use env from github actions -> 
 let pathsBase = '';

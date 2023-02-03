@@ -20,6 +20,10 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: '18' # lts
+      # https://stackoverflow.com/a/74796757
+      - name: 'Set current date as env variable'
+        run: |
+          echo "builddate=$(date +'%Y-%m-%d')" >> $GITHUB_ACTION_DATE
 
       # This build runs with path prefix for github pages (hosted on subdirectory),
       # for example https://<USER>.github.io/<REPO-NAME>/
@@ -28,12 +32,12 @@ jobs:
         run: |
           npm ci
           npm run build
-          # https://discord.com/channels/457912077277855764/1069175150433546240
-          # PATHS_BASE=$PATHS_BASE npm run build
         env:
-          #BASE_URL: 'https://${{ github.event.repository.owner.name }}.github.io/'
+          # BASE_URL: 'https://${{ github.event.repository.owner.name }}.github.io/'
           # https://kit.svelte.dev/docs/adapter-static#github-pages
+          # These envs can be processed via 'process.env.PATHS_BASE'
           PATHS_BASE: '/${{ github.event.repository.name }}'
+          BUILD_DATETIME: ${{ steps.version.outputs.builddate }}
       - name: Archive production artifacts
         uses: actions/upload-artifact@v3
         with:

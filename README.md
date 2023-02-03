@@ -5,9 +5,13 @@ Built with
 - https://fontsource.org/
 - https://github.com/janosh/svelte-toc
 
-Deployed with adapter-static, ploi.io and Hetzner Cloud:
+Deployed via adapter-static, ploi.io and Hetzner Cloud:
 
 - https://aktuelle-erderhitzung.de
+
+Deployed via adapter-static on GitHub pages (just for demo purposes):
+
+- https://mandrasch.github.io/aktuelle-erderhitzung
 
 ## TODOs / ideas
 

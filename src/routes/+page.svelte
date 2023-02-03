@@ -2,6 +2,8 @@
 	import TwoClickPrivacyEmbed from '../components/TwoClickPrivacyEmbed.svelte';
 	import Toc from 'svelte-toc';
 
+	// needed for builds with https://<my-domain.org>/<path-to-sveltekit-app>/,
+	// e.g. Github Pages build (https://mandrasch.github.io/aktuelle-erderhitzung)
 	import { base } from '$app/paths';
 
 	// We could use /static/images as well and use these images via regular path,
@@ -13,7 +15,17 @@
 	import imgAktuelleErderhitzungPng from '../images/aktuelle_erderhitzung_klimadashboard_at.png';
 	import imgAktuelleErderhitzungSpiegelOnline from '../images/aktuelle_erderhitzung_spiegel_online.png';
 	import TwoClickPrivacyEmbedSettings from '../components/TwoClickPrivacyEmbedSettings.svelte';
+	import BuildDateTime from '../components/BuildDateTime.svelte';
 </script>
+
+<svelte:head>
+	<meta
+		name="description"
+		content="Wir alle reden vom Klimwandel, dem Klimaschutz und der Erderwärmung. Aber wie sehr hat sich der
+	Planet schon erhitzt? Und wo steuern wir hin als Gemeinschaft?"
+	/>
+	<!-- TODO: add social media image -->
+</svelte:head>
 
 <!-- Base URL: {JSON.stringify(base)} -->
 
@@ -23,18 +35,36 @@
 	</div>
 
 	<div class="main-layout__main-region">
-		<article>
+		<div class="main-layout__main-region__hero" style="margin-top:50px;margin-bottom:0;">
+			<h1>Aktuelle Erderhitzung 🔥</h1>
+			<p style="text-align:center;">
+				Wir alle vom Klimwandel, dem Klimaschutz und der Erderwärmung. Aber wie sehr hat sich der
+				Planet schon erhitzt? Und wo steuern wir hin als Gemeinschaft?
+			</p>
+		</div>
+		<article style="margin-top:20px;">
 			<header>
 				<h2>🌡 Wie hoch ist die Erderhitzung?</h2>
 			</header>
 
-			<p>
-				Viele reden vom Klimwandel und der Erderwärmung. Aber wie sehr hat sich der Planet Erde
-				schon erhitzt? Und wo steuern wir hin als Gemeinschaft?
+			<p style="font-weight:bold;margin-top:25px;">
+				Die aktuelle Erderhitzung beträgt derzeit <span style="color:red;">1,1 Grad Celsisus</span>.
 			</p>
 
-			<p style="font-weight:bold;">Die aktuelle Erderhitzung beträgt derzeit 1,1 Grad Celsisus.</p>
-			<details>
+			<a href="https://www.spektrum.de/news/klimawandel-warum-es-wirksamen-klimaschutz-braucht/">
+				<img
+					src="{base}/images/screenshot_spektrum_anstieg_der_globalen_durchschnittstemperatur.png"
+					alt="Anstieg der globalen Durchschnittstemperatur. Im Vergleich zum Beginn der Industrialisierung ist die weltweite Temperatur im Durchschitt um mehr als ein Grad Celsius gestiegen. Quelle: spektrum.de"
+				/></a
+			>
+			<div class="image-source">
+				Quelle / Urheberrecht: Screenshot <a
+					href="https://www.spektrum.de/news/klimawandel-warum-es-wirksamen-klimaschutz-braucht/"
+					>Warum es wirksamen Klimaschutz braucht - spektrum.de (2021)</a
+				>
+			</div>
+
+			<details style="margin-top:20px;">
 				<summary role="button" class="secondary">Datenquelle: IPCC Bericht 2021 (AR6)</summary>
 				<p>
 					Im
@@ -73,28 +103,43 @@
 						>Aktuelle Fakten zum Klimawandel - Helmholtz Klima
 					</a>.
 				</p>
+				<p>
+					Deep dive: Der sechste IPCC-Sachstandsbericht (August 2021) wird u.a. im Podcast
+					<a href="https://dasklima.podigee.io/">Das Klima</a> besprochen.
+				</p>
 			</details>
-
-			<p>
-				Der schwer verdauliche Fakt: Die <a href="#die-naechsten-7-jahre"
-					>nächsten 7 Jahren bis 2030</a
-				> werden massiv darüber entscheiden, wie stark die Konsequenzen der Klimakrise für uns alle ausfallen
-				werden. Außerdem entscheidet sich, in welchen Regionen für zukünftige Generationen überhaupt
-				ein Überleben möglich ist. 🤯
-			</p>
 		</article>
 
 		<article>
 			<header>
-				<h2 id="die-naechsten-7-jahre">🚨 Die nächsten 7 Jahre entscheiden! 🚨</h2>
+				<h2 id="die-naechsten-7-jahre">🚨 Die nächsten 7 Jahre entscheiden!</h2>
 			</header>
-
+			<p>
+				Der schwer verdauliche Fakt: Die nächsten 7 Jahren bis 2030 werden massiv darüber
+				entscheiden, wie stark die Konsequenzen der Klimakrise für uns alle ausfallen werden.
+				Außerdem entscheidet sich, in welchen Regionen für zukünftige Generationen überhaupt ein
+				normales Überleben möglich ist. 🤯
+			</p>
 			<p>
 				<a href="https://de.wikipedia.org/wiki/Stefan_Rahmstorf">Klimaforscher Stefan Rahmstorf</a> schreibt
-				am 14. Januar 2023:
+				am 14. Januar 2023 auf Twitter:
 			</p>
+			<div class="image-block">
+				<img
+					src="{base}/images/screenshot_twitter_stefan_rahmstorf_14012023.png"
+					alt="Manche Menschen verstehen einfach nicht, was die Klimaforschung sagt: in 7 (!!!) Jahren
+			müssen die CO2-Emissionen halbiert sein, um das Pariser Abkommen einzuhalten. Also nicht
+			studieren &amp; forschen, sondern Ausstieg aus fossilen &amp; EE-Ausbau sofort sind
+			notwendig!"
+				/>
+				<div class="image-source">
+					Quelle: Screenshot <a href="https://twitter.com/rahmstorf/status/1614217456536395776"
+						>Tweet von Stefan Rahmstorf (twitter.com)</a
+					>
+				</div>
+			</div>
 
-			<blockquote>
+			<!-- <blockquote>
 				„Manche Menschen verstehen einfach nicht, was die Klimaforschung sagt: in 7 (!!!) Jahren
 				müssen die CO2-Emissionen halbiert sein, um das Pariser Abkommen einzuhalten. Also nicht
 				studieren &amp; forschen, sondern Ausstieg aus fossilen &amp; EE-Ausbau sofort sind
@@ -102,8 +147,7 @@
 				<a href="https://twitter.com/rahmstorf/status/1614217456536395776?ref_src=twsrc%5Etfw"
 					>twitter.com</a
 				>
-			</blockquote>
-
+			</blockquote> 
 			<TwoClickPrivacyEmbed provider="twitter">
 				<blockquote class="twitter-tweet">
 					<p lang="de" dir="ltr">
@@ -120,44 +164,9 @@
 				</blockquote>
 				<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 			</TwoClickPrivacyEmbed>
-			<p style="margin-top:25px;">
-				Die Psychologists For Future Lea Dohm und Mareike Schulze schreiben in ihrem Buch
-				<a
-					href="https://www.droemer-knaur.de/buch/lea-dohm-mareike-schulze-klimagefuehle-9783426286159"
-					>Klimagefühle</a
-				>:
-			</p>
-			<blockquote>
-				„Wir leben in einer Zeit, in der eine große Verantwortung auf uns lastet, das Ruder noch
-				herumzureißen. Egal, ob wir das doof finden - so ist es nun einmal.“
-			</blockquote>
+			-->
 
-			<p>
-				<a href="https://boku.ac.at/wiso/infer/personen/reinhard-steurer">Reinhard Steurer</a>,
-				Professor für Klimapolitik, und Klimaforscher
-				<a href="https://de.wikipedia.org/wiki/Hans_Joachim_Schellnhuber">Joachim Schellnhuber</a> werden
-				noch deutlicher mit Bezug auf die Welt, die die jetzigen Kinder und zukünftige Generationen erleben
-				werden wenn sich nichts am Tempo der Klimakrise ändert:
-			</p>
-
-			<TwoClickPrivacyEmbed provider="twitter">
-				<blockquote class="twitter-tweet">
-					<p lang="de" dir="ltr">
-						Es geht dabei in erster Linie um den Schutz von Leben und von unserer Zivilisation. In
-						den nächsten Jahren entscheiden wir darüber, ob unsere Gesellschaften eine gute Zukunft
-						haben oder noch in diesem Jahrhundert im Chaos versinken werden. 2/ <a
-							href="https://t.co/dGjVoBkxJh">pic.twitter.com/dGjVoBkxJh</a
-						>
-					</p>
-					&mdash; Reinhard @Steurer@mas.to (@ReiSteurer)<a
-						href="https://twitter.com/ReiSteurer/status/1605972450172211424?ref_src=twsrc%5Etfw"
-						>December 22, 2022</a
-					>
-				</blockquote>
-				<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-			</TwoClickPrivacyEmbed>
-
-			<p>
+			<p class="mt-25">
 				Die österreichischen AktivistInnen Katharina Rogenhofer und Florian Schlederer betitelten
 				ihr Buch
 				<a
@@ -165,18 +174,17 @@
 					>Ändert sich nichts, ändert sich alles</a
 				>.
 			</p>
-
-			<p style="margin-top:25px;font-style:italic;">
-				Und trotz allem: Keine Kinder in die Welt bringen nur wegen des CO2-Fußabdrucks? Dies ist
-				mit wissenschaftlichen Daten nicht einwandfrei zu begründen, siehe u.a. <a
-					href="https://www.derstandard.at/story/2000142620963/darf-man-heute-noch-kinder-bekommen"
-					>„Darf man heute noch Kinder bekommen?“
-				</a>
-				(Der Standard),
-				<a href="https://www.washingtonpost.com/climate-environment/2022/12/02/climate-kids/"
-					>„Should you not have kids because of climate change? It’s complicated“
-				</a> (Washington Post).
+			<p>
+				Die Psychologists For Future Lea Dohm und Mareike Schulze beschreiben in
+				<a
+					href="https://www.droemer-knaur.de/buch/lea-dohm-mareike-schulze-klimagefuehle-9783426286159"
+					>"Klimagefühle - Wie wir an der Umweltkrise wachsen, statt zu verzweifeln"</a
+				> die jetzige Situation wie folgt:
 			</p>
+			<blockquote>
+				„Wir leben in einer Zeit, in der eine große Verantwortung auf uns lastet,<br /> das Ruder noch
+				herumzureißen. Egal, ob wir das doof finden - so ist es nun einmal.“
+			</blockquote>
 		</article>
 
 		<article>
@@ -198,7 +206,11 @@
 
 			<!-- <h3>Können wir das "1,5 Grad"-Limit noch schaffen?</h3>-->
 
-			<TwoClickPrivacyEmbed provider="youtube" contentId="V0TPithzs-A" />
+			<TwoClickPrivacyEmbed
+				provider="youtube"
+				contentId="V0TPithzs-A"
+				placeholderImg="{base}/images/screenshot_youtube_rahmstorf_1_5_grad.png"
+			/>
 			<div class="image-source">
 				Video: <a href="https://youtu.be/V0TPithzs-A"
 					>Re-Upload: Können wir 1,5 Grad Erderwärmung überhaupt noch einhalten?</a
@@ -213,10 +225,57 @@
 				</a>
 			</div>
 
-			<details style="margin-top:20px;">
-				<summary role="button" class="secondary"
-					>Warum ist das 1,5-Grad-Ziel so extrem wichtig?</summary
+			<p class="mt-25">
+				Physikalisch also noch definitiv machbar - praktisch (sozial und wirtschaftlich) aber kaum
+				noch erreichbar? Das sagt laut Medienberichten die Studie <a
+					href="https://www.cliccs.uni-hamburg.de/de/results/hamburg-climate-futures-outlook/download.html"
+					>"Hamburg Climate Futures Outlook 2023"</a
+				>. Die SprecherInnen hierzu:
+			</p>
+
+			<blockquote>
+				„Ein neuer Bericht des Hamburger Climate, Climatic Change and Society Clusters Cliccs, an
+				dem über 60 Fachleute beteiligt waren, kommt nun zum Schluss, dass ein Erreichen dieses
+				Ziels, trotz positiver Entwicklungen, inzwischen unplausibel ist. "Tatsächlich ist in Sachen
+				Klimaschutz inzwischen einiges in Bewegung geraten. Aber wenn man sich die Entwicklung der
+				gesellschaftlichen Prozesse im Detail ansieht, ist eine Begrenzung der Erderwärmung auf
+				unter 1,5 Grad immer noch nicht plausibel", sagt Cliccs-Sprecherin Anita Engels.<br /><br />
+				Zwar gebe es positive Entwicklungen, etwa die Klimapolitik der Vereinten Nationen und den voranschreitenden
+				Ausstieg aus fossilen Brennstoffen. Doch das genüge nicht, weil der gesellschaftliche Wandel
+				nicht schnell genug voranschreite. Vor allem das Konsumverhalten und die Reaktionen von Unternehmen
+				würden dringend benötigte Maßnahmen verlangsamen. Die Rolle der Medien sei ambivalent: Manche
+				hätten im betrachteten Rahmen einen positiven Effekt, manche einen negativen. "Die erforderliche
+				tiefgreifende Dekarbonisierung geht einfach zu langsam voran", sagt Engels.“<br />
+				<span class="image-source">
+					Quelle: <a href="https://www.instagram.com/p/CoHsCG3NJw9/?hl=de"
+						>@derstandard - Instagram</a
+					>
+				</span>
+			</blockquote>
+
+			<p>
+				Doch selbst beim Überschreiten von 1,5 Grad zählt weiterhin jedes weitere Zehntelgrad. Diese
+				wurde auch noch einmal in Bezug auf die Studie von den AutorInnen <a
+					href="https://www.deutschlandfunk.de/erreichen-des-1-5-grad-ziels-unplausibel-100.html"
+					>im Deutschlandfunk</a
+				> betont:
+			</p>
+
+			<blockquote>
+				Für jedes halbe Grad zusätzlicher Globalerwärmung bekommen wir eine deutlich wahrnehmbarere
+				Risikozunahme durch Hitzewellen, Überschwemmungen und Dürren. Und das bedeutet: Egal,
+				welches Maß an globaler Erwärmung bereits geschehen ist – man mindert immer das weitere
+				Risiko, indem man weitere Erwärmung verhindert.“<br />
+				<span class="image-source">
+					Jochem Marotzke, Direktor am Max-Planck-Institut für Meteorologie - Quelle: <a
+						href="https://www.deutschlandfunk.de/erreichen-des-1-5-grad-ziels-unplausibel-100.html"
+						>Deutschlandfunk (2023)</a
+					></span
 				>
+			</blockquote>
+
+			<details style="margin-top:20px;">
+				<summary role="button" class="secondary">Wie kam das 1,5-Grad-Ziel zustande?</summary>
 
 				<p>
 					Die Staaten dieser Welt haben sich mit dem <a
@@ -231,7 +290,7 @@
 					><!-- , nur 4 Staaten (Eritrea, Iran, Lybien, Yemen) haben den Vertrag noch nicht ratifiziert.-->
 				</p>
 				<p>Die Dramatik: Bisher reichen die Handlungen der Staaten bei Weitem nicht aus.</p>
-				<p>
+				<!-- <p>
 					Für das Stoppen der Erhitzung bei 1,5 Grad bleibt nur noch ein schmaler Pfad, sehr
 					schnelle und sehr tiefgreifende Maßnahmen sind jetzt nötig laut Stefan Rahmstorf und den
 					IPCC-Berichten (<a href="https://twitter.com/rahmstorf/status/1614217456536395776"
@@ -240,7 +299,7 @@
 					<a href="https://climateactiontracker.org/countries/"
 						>climateactiontracker.org/countries/</a
 					>.
-				</p>
+				</p> -->
 				<p>
 					Warum zwischen 1,5 Grad mehr und 3 bis 5 Grad ganze Welten liegen, siehe <a
 						href="#welchen-unterschied-macht-das">Was macht das für einen Unterschied"</a
@@ -276,12 +335,16 @@
 			</TwoClickPrivacyEmbed>-->
 
 			<p>
-				Die gute Nachricht laut Stefan Rahmstorf: Wir befinden uns nicht mehr auf einem +5 Grad
-				Pfad. Die schlechte Nachricht: Derzeit befinden wir uns dennoch auf dem Weg zu einer
-				+3-Grad-Erwärmung:
+				Die gute Nachricht: Wir befinden uns nicht mehr auf einem +5 Grad Pfad. Die schlechte
+				Nachricht, wie bereits im Abschnitt zuvor erwähnt: Derzeit befinden wir uns dennoch auf dem
+				Weg zu einer +3-Grad-Erwärmung:
 			</p>
 
-			<TwoClickPrivacyEmbed provider="youtube" contentId="atQbbMhZkbc" />
+			<TwoClickPrivacyEmbed
+				provider="youtube"
+				contentId="atQbbMhZkbc"
+				placeholderImg="{base}/images/screenshot_youtube_rahmstorf_welcher_pfad.png"
+			/>
 			<div class="image-source">
 				Video: <a href="https://youtu.be/atQbbMhZkbc"
 					>Re-Upload: Auf welchem Emissionspfad sind wir, und wo sollten wir zur Einhaltung von 1,5
@@ -319,6 +382,7 @@
 			<header>
 				<h2 id="welchen-unterschied-macht-das">⚠️ Welchen Unterschied macht das?</h2>
 			</header>
+			<p>Ein Grad Unterschied klingt wenig, hat aber massive Auswirkungen:</p>
 			<a href={img5GradPng}>
 				<picture>
 					<source type="image/webp" srcset={img5GradWebP} />
@@ -362,7 +426,7 @@
 					>moment.at - So heiß könnte es in deinem Leben noch werden (Juli 2021)</a
 				>
 			</div>
-			<details style="margin-top:25px;">
+			<details class="mt-25">
 				<summary role="button" class="secondary">Datenquellen</summary>
 				<p>
 					Der Artikel <a
@@ -388,9 +452,8 @@
 			</p>
 
 			<blockquote>
-				Weltklimarat IPCC: Jetzt oder nie handeln. <br />“Die Zeit zum Handeln ist jetzt. Wir können
-				die Emissionen bis 2030 halbieren.“ Das ist die Kernbotschaft des heute veröffentlichten
-				Weltklimaberichts. (<a
+				“Die Zeit zum Handeln ist jetzt. Wir können die Emissionen bis 2030 halbieren.“ Das ist die
+				Kernbotschaft des heute veröffentlichten Weltklimaberichts. (<a
 					href="https://www.riffreporter.de/de/umwelt/weltklimabericht-ipcc-april-2022-klimawandel-politik-klimaschutz-loesungen-wgiii"
 					>riffreporter.de, 04.April 2022</a
 				>)
@@ -402,11 +465,11 @@
 			<div class="image-source">
 				Video:
 				<a href="https://www.youtube.com/watch?v=itllxeBM8ro">
-					Klimawandel: Was wir jetzt tun müssen | Quarks TabulaRasa</a
+					Klimawandel: Was wir jetzt tun müssen | Quarks TabulaRasa (Juni 2021)</a
 				>
 			</div>
 
-			<ul style="margin-top:25px;">
+			<ul class="mt-25" style="font-size:0.9rem;">
 				<li>
 					<a href="https://www.zdf.de/gesellschaft/plan-b/plan-b-clever-in-die-zukunft-100.html"
 						>Clever in die Zukunft: Alternativen für die Energiewende | planB (Dezember 2022)</a
@@ -430,7 +493,54 @@
 				</li>
 			</ul>
 		</article>
+
 		<article>
+			<header><h2>🧒 Die Kinder-Frage</h2></header>
+			<p>
+				<a href="https://boku.ac.at/wiso/infer/personen/reinhard-steurer">Reinhard Steurer</a>,
+				Professor für Klimapolitik, und Klimaforscher
+				<a href="https://de.wikipedia.org/wiki/Hans_Joachim_Schellnhuber">Joachim Schellnhuber</a> werden
+				deutlich mit Bezug auf die Welt, die die jetzigen Kinder und zukünftige Generationen erleben
+				werden - wenn sich nichts am Tempo der Erderhitzung ändert:
+			</p>
+
+			<TwoClickPrivacyEmbed provider="twitter">
+				<blockquote class="twitter-tweet">
+					<p lang="de" dir="ltr">
+						Es geht dabei in erster Linie um den Schutz von Leben und von unserer Zivilisation. In
+						den nächsten Jahren entscheiden wir darüber, ob unsere Gesellschaften eine gute Zukunft
+						haben oder noch in diesem Jahrhundert im Chaos versinken werden. 2/ <a
+							href="https://t.co/dGjVoBkxJh">pic.twitter.com/dGjVoBkxJh</a
+						>
+					</p>
+					&mdash; Reinhard @Steurer@mas.to (@ReiSteurer)<a
+						href="https://twitter.com/ReiSteurer/status/1605972450172211424?ref_src=twsrc%5Etfw"
+						>December 22, 2022</a
+					>
+				</blockquote>
+				<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+			</TwoClickPrivacyEmbed>
+
+			<p class="mt-25">
+				Und trotz allem: Keine Kinder in die Welt bringen nur wegen des CO2-Fußabdrucks? Dies ist
+				mit wissenschaftlichen Daten nicht einwandfrei zu begründen, siehe u.a.
+			</p>
+			<ul>
+				<li>
+					<a
+						href="https://www.derstandard.at/story/2000142620963/darf-man-heute-noch-kinder-bekommen"
+						>„Darf man heute noch Kinder bekommen?“
+					</a>
+					(Der Standard, 2023)
+				</li>
+				<li>
+					<a href="https://www.washingtonpost.com/climate-environment/2022/12/02/climate-kids/"
+						>„Should you not have kids because of climate change? It’s complicated“
+					</a> (Washington Post, 2022)
+				</li>
+			</ul>
+		</article>
+		<!-- <article style="display:none;">
 			<header>
 				<h2>🔄 Wo kann ich nachschauen?</h2>
 			</header>
@@ -484,14 +594,9 @@
 						>.</small
 					>
 				</p>
-				<p>
-					<small>
-						Deep dive: Der sechste IPCC-Sachstandsbericht (August 2021) wird u.a. im Podcast
-						<a href="https://dasklima.podigee.io/">Das Klima</a> besprochen.
-					</small>
-				</p>
+			
 			</details>
-		</article>
+		</article>-->
 		<article>
 			<header>
 				<h2>🐞 Artensterben / Biodiversitätskrise</h2>
@@ -516,7 +621,12 @@
 				>.
 			</p>
 
-			<p>
+			<TwoClickPrivacyEmbed
+				provider="youtube"
+				contentId="https://www.youtube.com/watch?v=UAkZz3DMppg"
+			/>
+
+			<p class="mt-25">
 				Den Blick auf das gesamte System richten Transformationsforscher:innen wie Maja Göpel: <a
 					href="https://www.youtube.com/watch?v=Ylql_4epV-Y"
 					>„re:publica 2022: Maja Göpel: Her mit der besseren Zukunft“
@@ -646,8 +756,37 @@
 			</header>
 
 			<p>
-				<a href="https://boku.ac.at/wiso/infer/personen/reinhard-steurer">Reinhard Steurer</a> blickte
-				auf Twitter auf die letzten 25 Jahre wie folgt zurück:
+				Antworten hierzu gibt es viele. Beispielweise in Reportagen wie <a
+					href="https://www.youtube.com/watch?v=G86wu0BOOJI"
+					>"Was man in den 70ern wusste – und verschwiegen hat (Harald Lesch, Oktober 2021)</a
+				>
+				" sowie in der Dokumentation
+				<a href="https://filmsfortheearth.org/filme/die-erdzerstoerer/"
+					>Die Erdzerstörer (ARTE, 2019)"</a
+				>.
+			</p>
+
+			<TwoClickPrivacyEmbed provider="youtube" contentId="G_fJtGxP4m4" />
+
+			<p class="mt-25">
+				Nicht zuletzt geht es bei Klimafragen um Geld, Gerechtigkeit, Macht und das globale
+				Finanzsystem:
+			</p>
+
+			<TwoClickPrivacyEmbed provider="youtube" contentId="hsAvWez8qBQ" />
+			<div class="image-source">
+				Die Dokumentatuon Oeconomia (2020) ist in der <a
+					href="https://www.3sat.de/film/dokumentarfilm/oeconomia-100.html">3sat Mediathek</a
+				>
+				abrufbar. Ein Bericht zum Film von Carmen Losmann findet sich in der SZ:<a
+					href="https://www.sueddeutsche.de/kultur/kino-doku-oeconomica-1.5068338"
+					>Zum Wachstum verdammt
+				</a>.
+			</div>
+
+			<p class="mt-25">
+				<a href="https://boku.ac.at/wiso/infer/personen/reinhard-steurer">Reinhard Steurer</a> blickt
+				wie folgt auf die letzten 25 Jahre wie folgt zurück:
 			</p>
 
 			<TwoClickPrivacyEmbed provider="twitter">
@@ -667,16 +806,6 @@
 				</blockquote>
 				<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 			</TwoClickPrivacyEmbed>
-
-			<p style="margin-top:25px;">
-				Mehr dazu auch im Video <a href="https://www.youtube.com/watch?v=G86wu0BOOJI"
-					>"Was man in den 70ern wusste – und verschwiegen hat (Harald Lesch, Oktober 2021)</a
-				>
-				" sowie in der Dokumentation
-				<a href="https://filmsfortheearth.org/filme/die-erdzerstoerer/"
-					>Die Erdzerstörer (ARTE, 2019)"</a
-				>.
-			</p>
 		</article>
 
 		<article>
@@ -812,17 +941,51 @@
 				> findet am 3. März 2023 statt.
 			</p>
 		</article>
+
+		<article style="margin-bottom:35vh;">
+			<header>
+				<h2>📝 Über diese Webseite</h2>
+			</header>
+			<p>Autor: Matthias Andrasch, Web-Entwickler</p>
+			<p>Diese nichtkommerzielle Webseite wurde als Privatperson verfasst.</p>
+			<p>
+				Die selbst verfassten Texte stehen frei als <a
+					href="https://creativecommons.org/publicdomain/zero/1.0/deed.de">CC0/Public Domain</a
+				> zur Weiternutzung zur Verfügung. Ausgenommen davon sind zitierte Grafiken, Fotos, Videos sowie
+				die Social-Media-Einbettungen. Die Urheberrechtsangaben zu diesen Inhalten befinden sich direkt
+				bei den jeweiligen Inhalten.
+			</p>
+			<p>
+				Einige Videos wurden von Twitter heruntergeladen und zu YouTube kopiert, weil die
+				Twitter-Video-Einbettung technisch leider nicht so zuverlässig funktionieren auf
+				Mobilgeräten.
+			</p>
+			<p>
+				Der <a href="https://github.com/mandrasch/aktuelle-erderhitzung">Source Code</a> steht auf GitHub
+				zur Nachnutzung bereit. Die Seite wurde mit SvelteKit und PicoCSS erstellt. Das Deployment wird
+				über ploi.io realisiert.
+			</p>
+			<p><BuildDateTime /></p>
+			<p style="text-align:center;"><a href="{base}/impressum">Datenschutz & Impressum</a></p>
+		</article>
 	</div>
 </div>
 
 <style lang="scss">
+	// little custom helper
+	.mt-25 {
+		margin-top: 25px;
+	}
+
+	// TODO: move them to separate css if needed on multiple pages?
+
 	// override via css var did not work because of picocss ,
 	// needed to use global svelte overrides 🤔
 	:global(aside.toc.desktop) {
 		position: sticky;
 		background: transparent; // var(--toc-desktop-bg);;
-		padding: 20px; // var(--toc-desktop-nav-margin);
-		padding-top: 35px;
+		padding: 0px 20px; // var(--toc-desktop-nav-margin);
+		// padding-top: 35px;
 		// max-width: var(--toc-desktop-max-width);;
 		top: var(--toc-desktop-sticky-top, 2em);
 	}
@@ -835,6 +998,35 @@
 	}
 	:global(aside.toc.mobile ul) {
 		font-size: 0.75rem;
+	}
+	:global {
+		aside.toc.mobile button {
+			position: static;
+			background-color: var(--primary);
+			color: white;
+		}
+	}
+
+	:global {
+		@media only screen and (prefers-color-scheme: dark) {
+			/* fix dark mode for svelte-toc */
+			aside.toc.mobile button {
+				color: white;
+			}
+		}
+	}
+
+	.main-layout__main-region__hero {
+		max-width: 735px;
+		margin: 0 auto;
+		display: flex;
+		justify-content: center;
+		flex-direction: column;
+		align-items: center;
+
+		h1 {
+			margin-bottom: 10px;
+		}
 	}
 
 	h2 {
@@ -856,7 +1048,7 @@
 		display: flex;
 		margin: auto;
 		justify-content: center;
-		flex-direction: row; // row-reverse;
+		flex-direction: row-reverse;
 	}
 
 	.main-layout__sidebar {
@@ -876,12 +1068,16 @@
 			margin-bottom: unset;
 		}
 	}
-
 	.image-block {
-		margin: 1rem 0;
+		margin: 1rem 0 1.5rem 0; /* TODO: use css var for spacing */
+		display: flex;
+		justify-content: center;
+		flex-direction: column;
+		align-items: center;
 	}
 	.image-source {
 		margin-top: 5px;
+		// margin-bottom: 25px;
 		font-size: 70%;
 		color: #666;
 		/*a {
