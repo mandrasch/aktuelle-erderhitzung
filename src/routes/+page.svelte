@@ -115,10 +115,10 @@
 				<h2 id="die-naechsten-7-jahre">🚨 Die nächsten 7 Jahre entscheiden!</h2>
 			</header>
 			<p>
-				Der schwer verdauliche Fakt: Die nächsten 7 Jahren bis 2030 werden massiv darüber
-				entscheiden, wie stark die Konsequenzen der Klimakrise für uns alle ausfallen werden.
-				Außerdem entscheidet sich, in welchen Regionen für zukünftige Generationen überhaupt ein
-				normales Überleben möglich ist. 🤯
+				Der schwer verdauliche Fakt: Die nächsten 7 Jahren werden massiv darüber entscheiden, wie
+				stark die Konsequenzen der Klimakrise für uns alle ausfallen werden. Außerdem entscheidet
+				sich bis 2030, in welchen Regionen für zukünftige Generationen überhaupt ein normales
+				Überleben möglich ist. 🤯
 			</p>
 			<p>
 				<a href="https://de.wikipedia.org/wiki/Stefan_Rahmstorf">Klimaforscher Stefan Rahmstorf</a> schreibt
@@ -312,7 +312,7 @@
 
 		<article>
 			<header>
-				<h2>📈 Auf welchem Pfad sind wir?</h2>
+				<h2>📊 Auf welchem Pfad sind wir?</h2>
 			</header>
 
 			<!-- Auf welche Erhitzung bewegen wir uns zu?-->
@@ -380,7 +380,7 @@
 
 		<article>
 			<header>
-				<h2 id="welchen-unterschied-macht-das">⚠️ Welchen Unterschied macht das?</h2>
+				<h2 id="welchen-unterschied-macht-das">📈 Welchen Unterschied macht das?</h2>
 			</header>
 			<p>Ein Grad Unterschied klingt wenig, hat aber massive Auswirkungen:</p>
 			<a href={img5GradPng}>
@@ -523,7 +523,7 @@
 
 			<p class="mt-25">
 				Und trotz allem: Keine Kinder in die Welt bringen nur wegen des CO2-Fußabdrucks? Dies ist
-				mit wissenschaftlichen Daten nicht einwandfrei zu begründen, siehe u.a.
+				mit wissenschaftlichen Daten nicht einwandfrei zu begründen:
 			</p>
 			<ul>
 				<li>
