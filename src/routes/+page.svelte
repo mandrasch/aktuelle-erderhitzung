@@ -27,8 +27,8 @@
 <svelte:head>
 	<meta
 		name="description"
-		content="Wir alle reden über Klimwandel, Klimaschutz und Erderwärmung. Aber wie sehr hat sich der
-		Planet schon erhitzt? Und wo steuern wir hin als Gemeinschaft? Wie hoch ist die aktuelle Erderwärmung?"
+		content="Wir alle reden über Klimawandel und Klimaschutz und Erderwärmung. Aber wie sehr hat sich der
+		Planet schon erhitzt? Wie hoch ist die aktuelle Erderwärmung / Erderhitzung? Und wo steuern wir hin als Gemeinschaft? "
 	/>
 	<meta property="og:image" content="{baseUrl}/images/og-sharepic.jpg" />
 </svelte:head>
@@ -130,12 +130,17 @@
 				<p>
 					Aktuelle Daten zur Erderhitzung und Klimakrise finden sich u.a. auf <a
 						href="https://klimadashboard.at">klimadashboard.at</a
-					>
-					sowie im jährlichen Faktenpapier
+					>.<!--					sowie im jährlichen Faktenpapier
 					<a href="https://www.helmholtz-klima.de/aktuelles/aktuelle-fakten-zum-klimawandel"
 						>Aktuelle Fakten zum Klimawandel - Helmholtz Klima
-					</a>.
+					</a>.-->
+					Von klimadashboard.at habe ich auch die Formulierung "Erderhitzung" übernommen:
 				</p>
+				<blockquote>
+					Wir verwenden das Wort 'Erhitzung' anstatt 'Erwärmung' da es sprachlich gesehen deutlicher
+					macht, wie viel Unterschied zwischen jedem Zehntel-Grad zusätzlicher Erhitzung für das
+					Weltklima, die Artenvielfalt und das gesellschaftliche Zusammenleben besteht.
+				</blockquote>
 				<p>
 					Deep dive: Der Sechste IPCC-Sachstandsbericht (August 2021) wird u.a. im Podcast
 					<a href="https://dasklima.podigee.io/">Das Klima</a> Kapitel für Kapitel besprochen.
