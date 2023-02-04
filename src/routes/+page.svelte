@@ -27,8 +27,8 @@
 <svelte:head>
 	<meta
 		name="description"
-		content="Wir alle reden über Klimawandel und Klimaschutz und Erderwärmung. Aber wie sehr hat sich der
-		Planet schon erhitzt? Wie hoch ist die aktuelle Erderwärmung / Erderhitzung? Und wo steuern wir hin als Gemeinschaft? "
+		content="Wie sehr hat sich der
+		Planet schon erhitzt? Wo steuern wir hin als Gemeinschaft?"
 	/>
 	<meta property="og:image" content="{baseUrl}/images/og-sharepic.jpg" />
 </svelte:head>
