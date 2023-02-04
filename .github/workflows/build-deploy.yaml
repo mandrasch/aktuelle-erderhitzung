@@ -1,3 +1,8 @@
+#
+# This is just for demo purposes, the live site is deployed via
+# ploi.io.
+#
+
 name: Build and Deploy
 on:
   push:
@@ -6,8 +11,7 @@ on:
     # Sustainability: Don't trigger build for updated README
     paths-ignore:
       - '**/README.md'
-    # Allows you to run this workflow manually from the Actions tab.
-    # workflow_dispatch:
+# needed for gh pages deploy
 permissions:
   contents: write
 jobs:
@@ -20,30 +24,33 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: '18' # lts
-      # https://stackoverflow.com/a/74796757
-      - name: 'Set current date as env variable'
-        run: |
-          echo "builddate=$(date +'%Y-%m-%d')" >> $GITHUB_ACTION_DATE
 
-      # This build runs with path prefix for github pages (hosted on subdirectory),
-      # for example https://<USER>.github.io/<REPO-NAME>/
-      # See: https://www.11ty.dev/docs/config/#deploy-to-a-subdirectory-with-a-path-prefix
+      # Create an .env file, https://stackoverflow.com/a/63350136
+      # used for full url for og:image in meta head tag
+      - name: 'Create env file'
+        run: |
+          touch .env
+          echo PUBLIC_BASE_URL=https://${{ github.event.repository.owner.name }}.github.io/ >> .env
+
+      # This build runs with path prefix for github pages
+      # because it is hosted in a subdirectory path
+      # Example: https://<USER>.github.io/<REPO-NAME>/
+      # See: https://kit.svelte.dev/docs/adapter-static#github-pages
       - name: Install and Build for Github Pages 🔧
         run: |
           npm ci
           npm run build
         env:
-          # BASE_URL: 'https://${{ github.event.repository.owner.name }}.github.io/'
-          # https://kit.svelte.dev/docs/adapter-static#github-pages
-          # These envs can be processed via 'process.env.PATHS_BASE'
           PATHS_BASE: '/${{ github.event.repository.name }}'
-          BUILD_DATETIME: ${{ steps.version.outputs.builddate }}
+
       - name: Archive production artifacts
         uses: actions/upload-artifact@v3
         with:
           name: build-folder
           path: |
             build
+
+      # https://github.com/JamesIves/github-pages-deploy-action
       - name: Deploy to Github Pages 🚀
         uses: JamesIves/github-pages-deploy-action@v4
         with:

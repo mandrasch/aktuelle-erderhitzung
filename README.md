@@ -1,3 +1,7 @@
+Static generated site about the current state of climate emergency.
+
+https://aktuelle-erderhitzung.de
+
 Built with
 
 - [SvelteKit](https://sveltekit.org)
@@ -5,11 +9,10 @@ Built with
 - [fontsource](https://fontsource.org/)
 - [svelte-toc](https://github.com/janosh/svelte-toc)
 
-Deployed via adapter-static, ploi.io and Hetzner Cloud:
-
-- https://aktuelle-erderhitzung.de
+Deployed via [adapter-static](https://kit.svelte.dev/docs/adapter-static), ploi.io and Hetzner Cloud:
 
 ```
+# You must create an `.env` file before using this
 cd /home/ploi/aktuelle-erderhitzung.de
 git pull origin main
 npm install
@@ -17,9 +20,7 @@ npm run build
 echo "🚀 Application deployed!"
 ```
 
-Deployed via adapter-static on GitHub pages (just for demo purposes):
-
-- https://mandrasch.github.io/aktuelle-erderhitzung
+For demo purposes - also deployed via [adapter-static](https://kit.svelte.dev/docs/adapter-static) on GitHub pages: https://mandrasch.github.io/aktuelle-erderhitzung
 
 ## TODOs / ideas
 

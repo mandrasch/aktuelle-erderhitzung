@@ -6,6 +6,9 @@
 	// e.g. Github Pages build (https://mandrasch.github.io/aktuelle-erderhitzung)
 	import { base } from '$app/paths';
 
+	import { PUBLIC_BASE_URL } from '$env/static/public';
+	let baseUrl = PUBLIC_BASE_URL ? PUBLIC_BASE_URL : '';
+
 	// Data from +page.server.js
 	/** @type {import('./$types').PageData} */
 	export let data; // from server side
@@ -28,7 +31,7 @@
 		content="Wir alle reden über Klimwandel, Klimaschutz und Erderwärmung. Aber wie sehr hat sich der
 		Planet schon erhitzt? Und wo steuern wir hin als Gemeinschaft? Wie hoch ist die aktuelle Erderwärmung?"
 	/>
-	<!-- TODO: add social media image -->
+	<meta property="og:image" content="{baseUrl}/images/og-sharepic.jpg" />
 </svelte:head>
 
 <!-- Base URL: {JSON.stringify(base)} -->
@@ -179,11 +182,11 @@
 				>.
 			</p>
 			<p>
-				Die Psychologists For Future Lea Dohm und Mareike Schulze beschreiben in
+				Die Psychotherapeutinnen Lea Dohm und Mareike Schulze schreiben im Buch
 				<a
 					href="https://www.droemer-knaur.de/buch/lea-dohm-mareike-schulze-klimagefuehle-9783426286159"
 					>"Klimagefühle - Wie wir an der Umweltkrise wachsen, statt zu verzweifeln"</a
-				> die jetzige Situation wie folgt:
+				>:
 			</p>
 			<blockquote>
 				„Wir leben in einer Zeit, in der eine große Verantwortung auf uns lastet,<br /> das Ruder noch
@@ -234,13 +237,13 @@
 				noch erreichbar? Das sagt laut Medienberichten die Studie <a
 					href="https://www.cliccs.uni-hamburg.de/de/results/hamburg-climate-futures-outlook/download.html"
 					>"Hamburg Climate Futures Outlook 2023"</a
-				>. Die SprecherInnen hierzu:
+				>. Der Standard zitiert die SprecherInnen hierzu:
 			</p>
 
 			<blockquote>
-				„Ein neuer Bericht des Hamburger Climate, Climatic Change and Society Clusters Cliccs, an
-				dem über 60 Fachleute beteiligt waren, kommt nun zum Schluss, dass ein Erreichen dieses
-				Ziels, trotz positiver Entwicklungen, inzwischen unplausibel ist. "Tatsächlich ist in Sachen
+				Ein neuer Bericht des Hamburger Climate, Climatic Change and Society Clusters Cliccs, an dem
+				über 60 Fachleute beteiligt waren, kommt nun zum Schluss, dass ein Erreichen dieses Ziels,
+				trotz positiver Entwicklungen, inzwischen unplausibel ist. "Tatsächlich ist in Sachen
 				Klimaschutz inzwischen einiges in Bewegung geraten. Aber wenn man sich die Entwicklung der
 				gesellschaftlichen Prozesse im Detail ansieht, ist eine Begrenzung der Erderwärmung auf
 				unter 1,5 Grad immer noch nicht plausibel", sagt Cliccs-Sprecherin Anita Engels.<br /><br />
@@ -249,7 +252,7 @@
 				nicht schnell genug voranschreite. Vor allem das Konsumverhalten und die Reaktionen von Unternehmen
 				würden dringend benötigte Maßnahmen verlangsamen. Die Rolle der Medien sei ambivalent: Manche
 				hätten im betrachteten Rahmen einen positiven Effekt, manche einen negativen. "Die erforderliche
-				tiefgreifende Dekarbonisierung geht einfach zu langsam voran", sagt Engels.“<br />
+				tiefgreifende Dekarbonisierung geht einfach zu langsam voran", sagt Engels.<br />
 				<span class="image-source">
 					Quelle: <a href="https://www.instagram.com/p/CoHsCG3NJw9/?hl=de"
 						>@derstandard - Instagram</a
@@ -339,9 +342,8 @@
 			</TwoClickPrivacyEmbed>-->
 
 			<p>
-				Die gute Nachricht: Wir befinden uns nicht mehr auf einem +5 Grad Pfad. Die schlechte
-				Nachricht, wie bereits im Abschnitt zuvor erwähnt: Derzeit befinden wir uns dennoch auf dem
-				Weg zu einer +3-Grad-Erwärmung:
+				Die gute Nachricht: Wir befinden uns nicht mehr auf einem +5 Grad Pfad. Derzeit befinden wir
+				uns dennoch auf dem Weg zu einer +3-Grad-Erwärmung:
 			</p>
 
 			<TwoClickPrivacyEmbed
@@ -502,7 +504,7 @@
 			<header><h2>🧒 Die Kinder-Frage</h2></header>
 			<p>
 				<a href="https://boku.ac.at/wiso/infer/personen/reinhard-steurer">Reinhard Steurer</a>,
-				Professor für Klimapolitik, und Klimaforscher
+				Professor für Klimapolitik und Klimaforscher
 				<a href="https://de.wikipedia.org/wiki/Hans_Joachim_Schellnhuber">Joachim Schellnhuber</a> werden
 				deutlich mit Bezug auf die Welt, die die jetzigen Kinder und zukünftige Generationen erleben
 				werden - wenn sich nichts am Tempo der Erderhitzung ändert:
@@ -527,7 +529,7 @@
 
 			<p class="mt-25">
 				Und trotz allem: Keine Kinder in die Welt bringen nur wegen des CO2-Fußabdrucks? Dies ist
-				mit wissenschaftlichen Daten nicht einwandfrei zu begründen:
+				mit wissenschaftlichen Daten allein nicht einwandfrei zu begründen:
 			</p>
 			<ul>
 				<li>
@@ -820,21 +822,32 @@
 					href="https://clubofrome.de/news/wir-haben-kein-erkenntnisproblem-sondern-ein-umsetzungsproblem/"
 					>„Wir haben kein Erkenntnisproblem, sondern ein Umsetzungsproblem“</a
 				>
-				klingt abgedroschen, trifft bei der Klimakrise aber zu. Das Wissen über die Klimakrise allein
-				reicht nicht aus. Menschen ändern nicht allein wegen Wissen ihr Verhalten. Dies wurde in der
-				Forschung rund um die
-				<a href="https://www.youtube.com/watch?v=8fyI3JJL2dA&list=WL&index=172&t=10376s"
-					>"Wissens-Defizit-Hypothese"</a
-				> bereits untersucht.
+				klingt abgedroschen, ist aber zutreffend.
 			</p>
+			<p>
+				Das Wissen über die Klimakrise allein reicht nicht aus. Menschen (und Unternehmen,
+				Organisationen) ändern nicht allein wegen einer neuen Erkenntnis ihr Verhalten. Dies wurde
+				in der Forschung rund um die
+				<strong>"Wissens-Defizit-Hypothese"</strong>
+				bereits untersucht. Hier kurz erklärt ab
+				<a href="https://www.youtube.com/watch?v=8fyI3JJL2dA&t=700s">Minute 11:40</a>:
+			</p>
+
+			<TwoClickPrivacyEmbed provider="youtube" contentId="8fyI3JJL2dA" />
+			<div class="image-source">
+				<a href="https://www.youtube.com/watch?v=8fyI3JJL2dA"
+					>2045 by Design or Disaster? #04 Psychologie der Klimakrise mit Kathrin Macha
+					(Psychologists4Future)</a
+				>
+			</div>
 		</article>
 		<article>
 			<header>
-				<h2>🌍 Mein Land ist doch klein?!</h2>
+				<h2>🌍 Mein Land hat doch nur kleinen Anteil?!</h2>
 			</header>
 			<p>
 				In jedem Land gibt es Argumente wie "Aber wir verursachen doch derzeit nur einen kleinen
-				Anteil an den weltweiten Emissionen - warum sollen gerade wir etwas tun?!". Die Klimakrise
+				Anteil X an den weltweiten Emissionen - warum sollen gerade wir etwas tun?!". Die Klimakrise
 				ist eine globale Herausforderung:
 			</p>
 
@@ -887,8 +900,8 @@
 				den Umgang mit der erschlagenden Realität der Klimakrise gesammelt:
 				<a href="https://utopia.de/ratgeber/klimaangst-richtiger-umgang-psychologe/"
 					>„Wie geht man mit „Klimaangst“ um?“</a
-				>. Eine detaillierte wissenschaftliche Auseinandersetzung mit dem umgangssprachlichen
-				Begriff „Klimaangst" findet sich
+				>. Eine detaillierte (fachliche) Auseinandersetzung mit dem umgangssprachlichen Begriff
+				„Klimaangst" findet sich
 				<a
 					href="https://www.psychologistsforfuture.org/klimaangst/"
 					aria-label="Klimaangst - Psychologists for Future">hier</a
@@ -906,9 +919,17 @@
 			</p>
 
 			<p>
-				Auf Instagram existieren Communities wie <a href="https://www.instagram.com/klimagefuehle/"
-					>@Klimagefühle</a
+				Auf Instagram existieren zudem Communities wie <a
+					href="https://www.instagram.com/klimagefuehle/">@Klimagefühle</a
 				>.
+			</p>
+			<p>
+				Die Psychologists for Future haben ebenfalls Instagram-Accounts:
+				<a href="https://www.instagram.com/psychologists4future/?hl=de">psychologists4future (DE)</a
+				>,
+				<a href="https://www.instagram.com/psychologists4future_austria/"
+					>psychologists4future_austria</a
+				>
 			</p>
 		</article>
 
@@ -917,28 +938,74 @@
 				<h2>✊ Stay connected</h2>
 			</header>
 
+			<p>Instagram-Profile, um auf dem aktuellen Stand zu bleiben:</p>
+
+			<ul>
+				<li><a href="https://www.instagram.com/nachhaltig.kritisch/">nachhaltig.kritisch</a></li>
+				<li><a href="https://www.instagram.com/klima.neutral/">klima.neutral</a></li>
+				<li><a href="https://www.instagram.com/treibhauspost/">treibhauspost</a></li>
+				<li><a href="https://www.instagram.com/klima.taz/?hl=de">klima.taz</a></li>
+			</ul>
+
 			<p>
-				Auf Instagram finden sich zahlreiche Profile und Communities zu Klima-Themen: <a
-					href="https://www.instagram.com/nachhaltig.kritisch/">nachhaltig.kritisch</a
-				>,
-				<a href="https://www.instagram.com/klima.neutral/">klima.neutral</a>,
-				<a href="https://www.instagram.com/treibhauspost/">treibhauspost</a>,
-				<a href="https://www.instagram.com/gesunde.erde.gesunde.menschen/"
-					>gesunde.erde.gesunde.menschen</a
-				>, <a href="https://www.instagram.com/klimagefuehle/">Klimagefühle</a> & viele mehr. Auch
-				Politiker:innen, die sich aktiv gegen die Klimakrise engagieren, finden sich auf Instagram -
-				bspw.
-				<a href="https://www.instagram.com/michabloss/?hl=de">Michael Bloss</a>.
+				Zahlreiche Initiativen und Gruppen finden sich ebenfalls. Hier Beispiele aus Deutschland:
 			</p>
+
+			<ul>
+				<li>
+					<a href="https://www.instagram.com/fridaysforfuture.de/?hl=de">Fridays for Future</a>
+				</li>
+				<li>
+					<a href="https://www.instagram.com/scientists4future/?hl=de">Scientists for Future</a>
+				</li>
+				<li>
+					<a href="https://www.instagram.com/architects4future/?hl=de">Architects for Future</a>
+				</li>
+				<li>
+					<a href="https://www.instagram.com/workersforfuture.de/?hl=de">Workers for Future</a>
+				</li>
+				<li><a href="https://www.instagram.com/parents4future/?hl=de">Parents for Future</a></li>
+				<li>
+					<a href="https://www.instagram.com/teachersforfuture.germany/?hl=de"
+						>Teachers for Future</a
+					>
+				</li>
+			</ul>
+
+			<p>Beispiel für Österreich:</p>
+			<ul>
+				<li>
+					<a href="https://www.instagram.com/fridaysforfuture.at/?hl=de">fridaysforfuture.at </a>
+				</li>
+				<li>
+					<a href="https://www.instagram.com/klimavolksbegehren/?hl=de">klimavolksbegehren</a>
+				</li>
+				<li><a href="https://www.instagram.com/krogenhofer/?hl=de">Katharina Rogenhofer</a></li>
+				<li><a href="https://www.instagram.com/moment_magazin/?hl=de">moment_magazin</a></li>
+				<li><a href="https://www.instagram.com/buildforfuture.at/?hl=de">buildforfuture.at</a></li>
+			</ul>
+
 			<p>
-				In Bezug auf Nachhaltiges Wirtschaften gibt es ebenfalls viele Initiativen, z.B. <a
-					href="https://www.bcorporation.net/en-us/">B-Corp</a
-				>, <a href="https://doughnuteconomics.org/">Donut-Ökonomie</a>,
-				<a href="https://germany.ecogood.org/">Gemeinwohl-Ökonomie</a>. Außerdem steht die Frage im
-				Raum:
-				<a href="https://www.youtube.com/watch?v=YxJrBR0lg6s">"Green Growth vs. Degrowth?"</a>.
+				Politiker:innen, die sich gegen die Klimakrise engagieren, finden sich ebenfalls auf
+				Instagram, bspw. <a href="https://www.instagram.com/michabloss/?hl=de"
+					>Michael Bloss (EU-Politiker)
+				</a>.
 			</p>
-			<p style="text-align:center;">
+
+			<p>In Bezug auf Nachhaltiges Wirtschaften gibt es ebenfalls viele Initiativen, z.B.</p>
+
+			<ul>
+				<li>
+					<a href="https://www.bcorporation.net/en-us/">B-Corp - Make Business a Force For Good</a>
+				</li>
+				<li><a href="https://doughnuteconomics.org/">Donut-Ökonomie</a></li>
+				<li><a href="https://germany.ecogood.org/">Gemeinwohl-Ökonomie</a></li>
+			</ul>
+			<p>
+				Außerdem steht die Frage im Raum:
+				<a href="https://www.youtube.com/watch?v=YxJrBR0lg6s">"Green Growth vs. Degrowth?".</a>
+			</p>
+			<p style="text-align:center;font-weight:bold;">
 				Der nächste <a href="https://fridaysforfuture.de/globaler-klimastreik/"
 					>globale Klimastreik</a
 				> findet am 3. März 2023 statt.
@@ -1053,10 +1120,6 @@
 
 	h2 {
 		font-size: 1.35rem;
-	}
-
-	h2,
-	h3 {
 		margin-bottom: 25px;
 	}
 

@@ -23,9 +23,6 @@
 		margin-top: 0;
 		margin-bottom: 0;
 	}
-	header {
-		margin-top: 18px;
-	}
 	nav a {
 		--color: var(--secondary-hover);
 	}

@@ -22,7 +22,4 @@
 </div>
 
 <style lang="scss">
-	button {
-		border: none;
-	}
 </style>

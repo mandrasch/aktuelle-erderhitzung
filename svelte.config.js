@@ -1,11 +1,14 @@
 import adapter from '@sveltejs/adapter-static';
 import sveltePreprocess from 'svelte-preprocess';
 
+// TODO: This does not work in svelte.config.js?
 // https://kit.svelte.dev/docs/modules#$env-static-public
-// import { PATHS_BASE } from '$env/static/public';
+/*import { PUBLIC_PATHS_BASE } from '$env/static/public';
+let pathsBase = PUBLIC_PATHS_BASE ? PUBLIC_PATHS_BASE : ''
+console.log('pathsBase set to ', { pathsBase });*/
 
+// We need to use process.env.PATHS_BASE: 
 console.log('[svelte.config.js] process.env.PATHS_BASE set to', process.env.PATHS_BASE);
-console.log('[svelte.config.js] process.env.BUILD_DATETIME set to', process.env.BUILD_DATETIME); // TODO: how to use it in comp?
 
 // TODO: use env from github actions -> 
 let pathsBase = '';
@@ -16,6 +19,7 @@ if (process.env.PATHS_BASE != undefined) {
 } else {
 	console.log('No paths.base set, defaults to \'\'');
 }
+
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
