@@ -47,6 +47,7 @@
 				Wir alle reden über Klimwandel, Klimaschutz und Erderwärmung. Aber wie sehr hat sich der
 				Planet schon erhitzt? Und wo steuern wir hin als Gemeinschaft?
 			</p>
+			<p style="text-align:center;">Diese Seite ist noch "work in progress". 👨‍🔧</p>
 		</div>
 		<article style="margin-top:20px;">
 			<header>
