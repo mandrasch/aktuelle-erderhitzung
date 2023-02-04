@@ -54,7 +54,7 @@
 			</header>
 
 			<p style="font-weight:bold;margin-top:25px;">
-				Die aktuelle Erderhitzung beträgt derzeit etwa bereits <span style="color:red;"
+				Die aktuelle Erderhitzung beträgt derzeit bereits <span style="color:red;"
 					>1,1 Grad Celsius</span
 				>.
 			</p>
