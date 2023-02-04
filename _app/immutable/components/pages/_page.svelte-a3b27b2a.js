@@ -91,7 +91,7 @@ var G_=Object.defineProperty;var Y_=(s,t,e)=>t in s?G_(s,t,{enumerable:!0,config
 				nicht schnell genug voranschreite. Vor allem das Konsumverhalten und die Reaktionen von Unternehmen
 				würden dringend benötigte Maßnahmen verlangsamen. Die Rolle der Medien sei ambivalent: Manche
 				hätten im betrachteten Rahmen einen positiven Effekt, manche einen negativen. "Die erforderliche
-				tiefgreifende Dekarbonisierung geht einfach zu langsam voran", sagt Engels.`),Ho=m("br"),Vc=S(),Qs=m("span"),Nc=y("Quelle: "),$s=m("a"),Kc=y("@derstandard - Instagram"),Uc=S(),ts=m("p"),Gc=y(`Doch selbst beim Überschreiten von 1,5 Grad zählt weiterhin jedes weitere Zehntelgrad. Diese
+				tiefgreifende Dekarbonisierung geht einfach zu langsam voran", sagt Engels.`),Ho=m("br"),Vc=S(),Qs=m("span"),Nc=y("Quelle: "),$s=m("a"),Kc=y("@derstandard (02. Februar 2023)"),Uc=S(),ts=m("p"),Gc=y(`Doch selbst beim Überschreiten von 1,5 Grad zählt weiterhin jedes weitere Zehntelgrad. Diese
 				wurde auch noch einmal in Bezug auf die Studie von den AutorInnen `),ti=m("a"),Yc=y("im Deutschlandfunk"),qc=y(" betont:"),Zc=S(),Re=m("blockquote"),Jc=y(`Für jedes halbe Grad zusätzlicher Globalerwärmung bekommen wir eine deutlich wahrnehmbarere
 				Risikozunahme durch Hitzewellen, Überschwemmungen und Dürren. Und das bedeutet: Egal,
 				welches Maß an globaler Erwärmung bereits geschehen ist – man mindert immer das weitere
@@ -213,7 +213,7 @@ var G_=Object.defineProperty;var Y_=(s,t,e)=>t in s?G_(s,t,{enumerable:!0,config
 				nicht schnell genug voranschreite. Vor allem das Konsumverhalten und die Reaktionen von Unternehmen
 				würden dringend benötigte Maßnahmen verlangsamen. Die Rolle der Medien sei ambivalent: Manche
 				hätten im betrachteten Rahmen einen positiven Effekt, manche einen negativen. "Die erforderliche
-				tiefgreifende Dekarbonisierung geht einfach zu langsam voran", sagt Engels.`),Ho=b(ws,"BR",{class:!0}),Vc=M(ws),Qs=b(ws,"SPAN",{class:!0});var mp=v(Qs);Nc=w(mp,"Quelle: "),$s=b(mp,"A",{href:!0,class:!0});var Wm=v($s);Kc=w(Wm,"@derstandard - Instagram"),Wm.forEach(p),mp.forEach(p),ws.forEach(p),Uc=M(ht),ts=b(ht,"P",{class:!0});var Jo=v(ts);Gc=w(Jo,`Doch selbst beim Überschreiten von 1,5 Grad zählt weiterhin jedes weitere Zehntelgrad. Diese
+				tiefgreifende Dekarbonisierung geht einfach zu langsam voran", sagt Engels.`),Ho=b(ws,"BR",{class:!0}),Vc=M(ws),Qs=b(ws,"SPAN",{class:!0});var mp=v(Qs);Nc=w(mp,"Quelle: "),$s=b(mp,"A",{href:!0,class:!0});var Wm=v($s);Kc=w(Wm,"@derstandard (02. Februar 2023)"),Wm.forEach(p),mp.forEach(p),ws.forEach(p),Uc=M(ht),ts=b(ht,"P",{class:!0});var Jo=v(ts);Gc=w(Jo,`Doch selbst beim Überschreiten von 1,5 Grad zählt weiterhin jedes weitere Zehntelgrad. Diese
 				wurde auch noch einmal in Bezug auf die Studie von den AutorInnen `),ti=b(Jo,"A",{href:!0,class:!0});var Vm=v(ti);Yc=w(Vm,"im Deutschlandfunk"),Vm.forEach(p),qc=w(Jo," betont:"),Jo.forEach(p),Zc=M(ht),Re=b(ht,"BLOCKQUOTE",{class:!0});var io=v(Re);Jc=w(io,`Für jedes halbe Grad zusätzlicher Globalerwärmung bekommen wir eine deutlich wahrnehmbarere
 				Risikozunahme durch Hitzewellen, Überschwemmungen und Dürren. Und das bedeutet: Egal,
 				welches Maß an globaler Erwärmung bereits geschehen ist – man mindert immer das weitere
