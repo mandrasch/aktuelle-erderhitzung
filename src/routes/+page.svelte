@@ -21,8 +21,7 @@
 	import imgTemperaturLebenszeitWebP from '../images/temperaturanstieg_lebenszeit_moment_at.webp';
 	import imgAktuelleErderhitzungPng from '../images/aktuelle_erderhitzung_klimadashboard_at.png';
 	import imgAktuelleErderhitzungSpiegelOnline from '../images/aktuelle_erderhitzung_spiegel_online.png';
-	import TwoClickPrivacyEmbedSettings from '../components/TwoClickPrivacyEmbedSettings.svelte';
-	import BuildDateTime from '../components/BuildDateTime.svelte';
+	import ChartGlobalTempChange from '../components/ChartGlobalTempChange.svelte';
 </script>
 
 <svelte:head>
@@ -55,9 +54,14 @@
 			</header>
 
 			<p style="font-weight:bold;margin-top:25px;">
-				Die aktuelle Erderhitzung beträgt derzeit <span style="color:red;">1,1 Grad Celsius</span>.
+				Die aktuelle Erderhitzung beträgt derzeit etwa <span style="color:red;"
+					>1,1 Grad Celsius</span
+				>.
 			</p>
 
+			<ChartGlobalTempChange />
+
+			<!-- 
 			<a href="https://www.spektrum.de/news/klimawandel-warum-es-wirksamen-klimaschutz-braucht/">
 				<img
 					src="{base}/images/screenshot_spektrum_anstieg_der_globalen_durchschnittstemperatur.png"
@@ -71,8 +75,21 @@
 				>
 			</div>
 
+			-->
+
 			<details style="margin-top:20px;">
 				<summary role="button" class="secondary">Datenquelle: IPCC Bericht 2021 (AR6)</summary>
+
+				<p>
+					Daten-Quelle: https://data.ceda.ac.uk/badc/ar6_wg1/data/spm/spm_01/v20221116/panel_b -
+					Spalte 8 "Global Surface Temperature Anomalies (GSTA) relative to 1850-1900 from
+					observations assessed in IPCC AR6 WG1 Chapter 2"
+
+					<br /> <br />
+
+					gmst_changes_model_and_obs.csv
+				</p>
+
 				<p>
 					Im
 					<a href="https://www.de-ipcc.de/media/content/AR6-WGI-SPM_deutsch_barrierefrei.pdf"
