@@ -44,8 +44,8 @@
 		<div class="main-layout__main-region__hero" style="margin-top:50px;margin-bottom:0;">
 			<h1>Aktuelle Erderhitzung 🔥</h1>
 			<p style="text-align:center;">
-				Wir alle reden über Klimwandel, Klimaschutz und Erderwärmung. Aber wie sehr hat sich der
-				Planet schon erhitzt? Und wo steuern wir hin als Gemeinschaft?
+				Wir alle reden über Klimawandel und Erderwärmung. Aber wie sehr hat sich unser Planet Erde
+				schon erhitzt? Und wo steuern wir hin als Gemeinschaft?
 			</p>
 			<p style="text-align:center;">Diese Seite ist noch "work in progress". 👨‍🔧</p>
 		</div>
