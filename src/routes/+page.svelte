@@ -54,7 +54,7 @@
 			</header>
 
 			<p style="font-weight:bold;margin-top:25px;">
-				Die aktuelle Erderhitzung beträgt derzeit etwa <span style="color:red;"
+				Die aktuelle Erderhitzung beträgt derzeit etwa bereits <span style="color:red;"
 					>1,1 Grad Celsius</span
 				>.
 			</p>
@@ -132,83 +132,6 @@
 					<a href="https://dasklima.podigee.io/">Das Klima</a> besprochen.
 				</p>
 			</details>
-		</article>
-
-		<article>
-			<header>
-				<h2 id="die-naechsten-7-jahre">🚨 Die nächsten 7 Jahre entscheiden!</h2>
-			</header>
-			<p>
-				Der schwer verdauliche Fakt: Die nächsten 7 Jahren werden massiv darüber entscheiden, wie
-				stark die Konsequenzen der Klimakrise für uns alle ausfallen werden. Außerdem entscheidet
-				sich bis 2030, in welchen Regionen für zukünftige Generationen überhaupt ein normales
-				Überleben möglich ist. 🤯
-			</p>
-			<p>
-				<a href="https://de.wikipedia.org/wiki/Stefan_Rahmstorf">Klimaforscher Stefan Rahmstorf</a> schreibt
-				am 14. Januar 2023 auf Twitter:
-			</p>
-			<div class="image-block">
-				<img
-					src="{base}/images/screenshot_twitter_stefan_rahmstorf_14012023.png"
-					alt="Manche Menschen verstehen einfach nicht, was die Klimaforschung sagt: in 7 (!!!) Jahren
-			müssen die CO2-Emissionen halbiert sein, um das Pariser Abkommen einzuhalten. Also nicht
-			studieren &amp; forschen, sondern Ausstieg aus fossilen &amp; EE-Ausbau sofort sind
-			notwendig!"
-				/>
-				<div class="image-source">
-					Quelle: Screenshot <a href="https://twitter.com/rahmstorf/status/1614217456536395776"
-						>Tweet von Stefan Rahmstorf (twitter.com)</a
-					>
-				</div>
-			</div>
-
-			<!-- <blockquote>
-				„Manche Menschen verstehen einfach nicht, was die Klimaforschung sagt: in 7 (!!!) Jahren
-				müssen die CO2-Emissionen halbiert sein, um das Pariser Abkommen einzuhalten. Also nicht
-				studieren &amp; forschen, sondern Ausstieg aus fossilen &amp; EE-Ausbau sofort sind
-				notwendig!“<br />- Quelle
-				<a href="https://twitter.com/rahmstorf/status/1614217456536395776?ref_src=twsrc%5Etfw"
-					>twitter.com</a
-				>
-			</blockquote> 
-			<TwoClickPrivacyEmbed provider="twitter">
-				<blockquote class="twitter-tweet">
-					<p lang="de" dir="ltr">
-						Manche Menschen verstehen einfach nicht, was die Klimaforschung sagt: in 7 (!!!) Jahren
-						müssen die CO2-Emissionen halbiert sein, um das Pariser Abkommen einzuhalten. Also nicht
-						studieren &amp; forschen, sondern Ausstieg aus fossilen &amp; EE-Ausbau sofort sind
-						notwendig! <a href="https://t.co/R1lctxn925">https://t.co/R1lctxn925</a>
-						<a href="https://t.co/Ka6BvXpXWz">pic.twitter.com/Ka6BvXpXWz</a>
-					</p>
-					&mdash; Stefan Rahmstorf 🌏 fediscience.org/@rahmstorf 🦣 (@rahmstorf)<a
-						href="https://twitter.com/rahmstorf/status/1614217456536395776?ref_src=twsrc%5Etfw"
-						>January 14, 2023</a
-					>
-				</blockquote>
-				<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-			</TwoClickPrivacyEmbed>
-			-->
-
-			<p class="mt-25">
-				Die österreichischen AktivistInnen Katharina Rogenhofer und Florian Schlederer betitelten
-				ihr Buch
-				<a
-					href="https://www.hanser-literaturverlage.de/buch/aendert-sich-nichts-aendert-sich-alles/978-3-552-07254-1/"
-					>Ändert sich nichts, ändert sich alles</a
-				>.
-			</p>
-			<p>
-				Die Psychotherapeutinnen Lea Dohm und Mareike Schulze schreiben im Buch
-				<a
-					href="https://www.droemer-knaur.de/buch/lea-dohm-mareike-schulze-klimagefuehle-9783426286159"
-					>"Klimagefühle - Wie wir an der Umweltkrise wachsen, statt zu verzweifeln"</a
-				>:
-			</p>
-			<blockquote>
-				„Wir leben in einer Zeit, in der eine große Verantwortung auf uns lastet,<br /> das Ruder noch
-				herumzureißen. Egal, ob wir das doof finden - so ist es nun einmal.“
-			</blockquote>
 		</article>
 
 		<article>
@@ -422,6 +345,83 @@
 					>moment.at - So heiß könnte es in deinem Leben noch werden (Juli 2021)</a
 				>
 			</div>
+		</article>
+
+		<article>
+			<header>
+				<h2 id="die-naechsten-7-jahre">🚨 Die nächsten 7 Jahre entscheiden!</h2>
+			</header>
+			<p>
+				Der schwer verdauliche Fakt: Die nächsten 7 Jahren werden massiv darüber entscheiden, wie
+				stark die Konsequenzen der Klimakrise für uns alle ausfallen werden. Außerdem entscheidet
+				sich bis 2030, in welchen Regionen für zukünftige Generationen überhaupt ein normales
+				Überleben möglich ist. 🤯
+			</p>
+			<p>
+				<a href="https://de.wikipedia.org/wiki/Stefan_Rahmstorf">Klimaforscher Stefan Rahmstorf</a> schreibt
+				am 14. Januar 2023 auf Twitter:
+			</p>
+			<div class="image-block">
+				<img
+					src="{base}/images/screenshot_twitter_stefan_rahmstorf_14012023.png"
+					alt="Manche Menschen verstehen einfach nicht, was die Klimaforschung sagt: in 7 (!!!) Jahren
+			müssen die CO2-Emissionen halbiert sein, um das Pariser Abkommen einzuhalten. Also nicht
+			studieren &amp; forschen, sondern Ausstieg aus fossilen &amp; EE-Ausbau sofort sind
+			notwendig!"
+				/>
+				<div class="image-source">
+					Quelle: Screenshot <a href="https://twitter.com/rahmstorf/status/1614217456536395776"
+						>Tweet von Stefan Rahmstorf (twitter.com)</a
+					>
+				</div>
+			</div>
+
+			<!-- <blockquote>
+				„Manche Menschen verstehen einfach nicht, was die Klimaforschung sagt: in 7 (!!!) Jahren
+				müssen die CO2-Emissionen halbiert sein, um das Pariser Abkommen einzuhalten. Also nicht
+				studieren &amp; forschen, sondern Ausstieg aus fossilen &amp; EE-Ausbau sofort sind
+				notwendig!“<br />- Quelle
+				<a href="https://twitter.com/rahmstorf/status/1614217456536395776?ref_src=twsrc%5Etfw"
+					>twitter.com</a
+				>
+			</blockquote> 
+			<TwoClickPrivacyEmbed provider="twitter">
+				<blockquote class="twitter-tweet">
+					<p lang="de" dir="ltr">
+						Manche Menschen verstehen einfach nicht, was die Klimaforschung sagt: in 7 (!!!) Jahren
+						müssen die CO2-Emissionen halbiert sein, um das Pariser Abkommen einzuhalten. Also nicht
+						studieren &amp; forschen, sondern Ausstieg aus fossilen &amp; EE-Ausbau sofort sind
+						notwendig! <a href="https://t.co/R1lctxn925">https://t.co/R1lctxn925</a>
+						<a href="https://t.co/Ka6BvXpXWz">pic.twitter.com/Ka6BvXpXWz</a>
+					</p>
+					&mdash; Stefan Rahmstorf 🌏 fediscience.org/@rahmstorf 🦣 (@rahmstorf)<a
+						href="https://twitter.com/rahmstorf/status/1614217456536395776?ref_src=twsrc%5Etfw"
+						>January 14, 2023</a
+					>
+				</blockquote>
+				<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+			</TwoClickPrivacyEmbed>
+			-->
+
+			<!-- <p class="mt-25">
+				Die österreichischen AktivistInnen Katharina Rogenhofer und Florian Schlederer betitelten
+				ihr Buch
+				<a
+					href="https://www.hanser-literaturverlage.de/buch/aendert-sich-nichts-aendert-sich-alles/978-3-552-07254-1/"
+					>Ändert sich nichts, ändert sich alles</a
+				>.
+			</p> -->
+			<p>
+				Die Psychotherapeutinnen Lea Dohm und Mareike Schulze schreiben im Buch
+				<a
+					href="https://www.droemer-knaur.de/buch/lea-dohm-mareike-schulze-klimagefuehle-9783426286159"
+					>"Klimagefühle - Wie wir an der Umweltkrise wachsen, statt zu verzweifeln"</a
+				>:
+			</p>
+			<blockquote>
+				„Wir leben in einer Zeit, in der eine große Verantwortung auf uns lastet,<br /> das Ruder noch
+				herumzureißen. Egal, ob wir das doof finden - so ist es nun einmal.“
+			</blockquote>
 		</article>
 
 		<article>
