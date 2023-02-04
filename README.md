@@ -24,6 +24,8 @@ For demo purposes - also deployed via [adapter-static](https://kit.svelte.dev/do
 
 ## TODOs / ideas
 
+- [ ] FEAT: Add linkable headings, see e.g. GitHub readmes
+- [ ] CHORE: Add imprint + privacy link on bottom left, see e.g. elk
 - [ ] BUG: Direct visit to /impressum does not work with nginx?
 - [ ] FIX: og:image must be added with full path - how can we get this via Github Action node env?
 - [ ] FIX: process.env.BUILD_DATETIME can't be used in components? How to import?

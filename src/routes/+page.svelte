@@ -811,7 +811,7 @@
 
 			<TwoClickPrivacyEmbed provider="youtube" contentId="hsAvWez8qBQ" />
 			<div class="image-source">
-				Die Dokumentatuon Oeconomia (2020) ist in der <a
+				Die Dokumentation Oeconomia (2020) ist in der <a
 					href="https://www.3sat.de/film/dokumentarfilm/oeconomia-100.html">3sat Mediathek</a
 				>
 				abrufbar. Ein Bericht zum Film von Carmen Losmann findet sich in der SZ:<a
@@ -1084,19 +1084,23 @@
 				Das Social-Media-Bild (og:image) ist eine Collage aus einem eigenen Foto und einem Bild von <a
 					href="https://pixabay.com/de/users/alanajordan-25247407/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=7635411"
 					>Alana Jordan</a
-				>
-				auf
-				<a
+				>(<a
 					href="https://pixabay.com/de//?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=7635411"
 					>Pixabay</a
-				>.
+				>).
+			</p>
+
+			<p>
+				Fehler und Verbesserungsvorschläge können gerne bei <a
+					href="https://github.com/mandrasch/aktuelle-erderhitzung/issues">GitHub</a
+				> eingereicht werden oder per E-Mail an matthias-andrasch-kontakt@mailbox.org.
 			</p>
 
 			<p>
 				Autor: Matthias Andrasch, Web-Entwickler<br />Zuletzt aktualisiert: {data.buildDateTime}
 			</p>
 
-			<p style="text-align:center;"><a href="{base}/impressum">Datenschutz & Impressum</a></p>
+			<!-- <p style="text-align:center;"><a href="{base}/impressum">Datenschutz & Impressum</a></p>-->
 		</article>
 	</div>
 </div>

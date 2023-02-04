@@ -12,4 +12,4 @@
 	<slot />
 </div>
 
-<!-- <Footer />-->
+<Footer />
