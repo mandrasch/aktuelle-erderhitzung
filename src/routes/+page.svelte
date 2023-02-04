@@ -195,7 +195,7 @@
 				tiefgreifende Dekarbonisierung geht einfach zu langsam voran", sagt Engels.<br />
 				<span class="image-source">
 					Quelle: <a href="https://www.instagram.com/p/CoHsCG3NJw9/?hl=de"
-						>@derstandard - Instagram</a
+						>@derstandard (02. Februar 2023)</a
 					>
 				</span>
 			</blockquote>
