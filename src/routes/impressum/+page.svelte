@@ -23,7 +23,10 @@
 
 	<h2>Datenschutz</h2>
 
-	<p>Die Webseite aktuelle-erderhitzung.de erhebt keine personenbezogenen Daten.</p>
+	<p>
+		Die Webseite <a href="https://aktuelle-erderhitzung.de">aktuelle-erderhitzung.de</a> erhebt keine
+		personenbezogenen Daten.
+	</p>
 	<p>
 		Diese Webseite wird beim Hostinganbieter Hetzner Cloud (Server-Standort: Nürnberg) betrieben, es
 		werden keine personenbezogenen Daten von Besucher:innen in Server-Logs o.ä. erhoben.

@@ -6,6 +6,10 @@
 	// e.g. Github Pages build (https://mandrasch.github.io/aktuelle-erderhitzung)
 	import { base } from '$app/paths';
 
+	// Data from +page.server.js
+	/** @type {import('./$types').PageData} */
+	export let data; // from server side
+
 	// We could use /static/images as well and use these images via regular path,
 	// see https://kit.svelte.dev/docs/assets for more information
 	import img5GradPng from '../images/5_grad_grafik_moment_at.png';
@@ -48,7 +52,7 @@
 			</header>
 
 			<p style="font-weight:bold;margin-top:25px;">
-				Die aktuelle Erderhitzung beträgt derzeit <span style="color:red;">1,1 Grad Celsisus</span>.
+				Die aktuelle Erderhitzung beträgt derzeit <span style="color:red;">1,1 Grad Celsius</span>.
 			</p>
 
 			<a href="https://www.spektrum.de/news/klimawandel-warum-es-wirksamen-klimaschutz-braucht/">
@@ -945,8 +949,22 @@
 			<header>
 				<h2>📝 Über diese Webseite</h2>
 			</header>
-			<p>Autor: Matthias Andrasch, Web-Entwickler</p>
-			<p>Diese nichtkommerzielle Webseite wurde als Privatperson verfasst.</p>
+
+			<a href="https://open-educational-resources.de/">
+				<img
+					src="{base}/images/oer_logo_public_domain.png"
+					style="max-height:100px;margin-bottom:25px;"
+					alt="OER Logo"
+				/></a
+			>
+
+			<p>
+				Diese (nichtkommerzielle) Webseite wurde als Privatperson erstellt. Sie ist eine offene
+				Bildungsressource im Sinne der <a href="https://open-educational-resources.de/"
+					>Open Educational Resources.</a
+				>
+			</p>
+
 			<p>
 				Die selbst verfassten Texte stehen frei als <a
 					href="https://creativecommons.org/publicdomain/zero/1.0/deed.de">CC0/Public Domain</a
@@ -954,6 +972,7 @@
 				die Social-Media-Einbettungen. Die Urheberrechtsangaben zu diesen Inhalten befinden sich direkt
 				bei den jeweiligen Inhalten.
 			</p>
+
 			<p>
 				Einige Videos wurden von Twitter heruntergeladen und zu YouTube kopiert, weil die
 				Twitter-Einbettungen mit Video technisch nicht so zuverlässig funktionieren auf
@@ -964,7 +983,11 @@
 				zur Nachnutzung bereit. Die Seite wurde mit SvelteKit und PicoCSS erstellt. Das Deployment wird
 				über ploi.io realisiert.
 			</p>
-			<p><BuildDateTime /></p>
+
+			<p>
+				Autor: Matthias Andrasch, Web-Entwickler<br />Zuletzt aktualisiert: {data.buildDateTime}
+			</p>
+
 			<p style="text-align:center;"><a href="{base}/impressum">Datenschutz & Impressum</a></p>
 		</article>
 	</div>

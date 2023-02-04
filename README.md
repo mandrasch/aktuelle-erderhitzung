@@ -1,13 +1,21 @@
 Built with
 
-- https://sveltekit.org
-- https://picocss.com/
-- https://fontsource.org/
-- https://github.com/janosh/svelte-toc
+- [SvelteKit](https://sveltekit.org)
+- [Pico.css](https://picocss.com/)
+- [fontsource](https://fontsource.org/)
+- [svelte-toc](https://github.com/janosh/svelte-toc)
 
 Deployed via adapter-static, ploi.io and Hetzner Cloud:
 
 - https://aktuelle-erderhitzung.de
+
+```
+cd /home/ploi/aktuelle-erderhitzung.de
+git pull origin main
+npm install
+npm run build
+echo "🚀 Application deployed!"
+```
 
 Deployed via adapter-static on GitHub pages (just for demo purposes):
 
