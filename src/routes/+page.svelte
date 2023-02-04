@@ -1042,8 +1042,8 @@
 				> findet am 3. März 2023 statt.
 			</p>
 		</article>
-
-		<article style="margin-bottom:35vh;">
+		<!-- style="margin-bottom:35vh;" -->
+		<article>
 			<header>
 				<h2>📝 Über diese Webseite</h2>
 			</header>
