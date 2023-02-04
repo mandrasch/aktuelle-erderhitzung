@@ -1042,13 +1042,23 @@
 
 			<p>
 				Einige Videos wurden von Twitter heruntergeladen und zu YouTube kopiert, weil die
-				Twitter-Einbettungen mit Video technisch nicht so zuverlässig funktionieren auf
-				Mobilgeräten.
+				Video-Einbettungen von Twitter nicht so zuverlässig funktionieren auf Mobilgeräten.
 			</p>
 			<p>
 				Der <a href="https://github.com/mandrasch/aktuelle-erderhitzung">Source Code</a> steht auf GitHub
 				zur Nachnutzung bereit. Die Seite wurde mit SvelteKit und PicoCSS erstellt. Das Deployment wird
 				über ploi.io realisiert.
+			</p>
+			<p>
+				Das Social-Media-Bild (og:image) ist eine Collage aus einem eigenen Foto und einem Bild von <a
+					href="https://pixabay.com/de/users/alanajordan-25247407/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=7635411"
+					>Alana Jordan</a
+				>
+				auf
+				<a
+					href="https://pixabay.com/de//?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=7635411"
+					>Pixabay</a
+				>.
 			</p>
 
 			<p>
