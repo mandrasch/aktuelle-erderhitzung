@@ -40,7 +40,7 @@ jobs:
       - name: 'Create env file'
         run: |
           touch .env
-          echo PUBLIC_BASE_URL=https://${{ github.event.repository.owner.name }}.github.io/ >> .env
+          echo PUBLIC_BASE_URL=https://${{ github.event.repository.owner.name }}.github.io/${{ github.event.repository.name }} >> .env
 
       # This build runs with path prefix for github pages
       # because it is hosted in a subdirectory path
