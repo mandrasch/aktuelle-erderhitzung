@@ -81,20 +81,10 @@
 				<summary role="button" class="secondary">Datenquelle: IPCC Bericht 2021 (AR6)</summary>
 
 				<p>
-					Daten-Quelle: https://data.ceda.ac.uk/badc/ar6_wg1/data/spm/spm_01/v20221116/panel_b -
-					Spalte 8 "Global Surface Temperature Anomalies (GSTA) relative to 1850-1900 from
-					observations assessed in IPCC AR6 WG1 Chapter 2"
-
-					<br /> <br />
-
-					gmst_changes_model_and_obs.csv
-				</p>
-
-				<p>
 					Im
 					<a href="https://www.de-ipcc.de/media/content/AR6-WGI-SPM_deutsch_barrierefrei.pdf"
-						>Sechsten Sachstandsbericht des IPCC (AR6 = Sixth Assessment Report, August 2021)
-					</a>heißt es:
+						>Sechsten Sachstandsbericht (AR6 = Sixth Assessment Report, 2021)
+					</a> des zwischenstaatlichen Ausschusses IPCC heißt es:
 				</p>
 				<blockquote>
 					„Es ist eindeutig, dass der Einfluss des Menschen die Atmosphäre, den Ozean und die
@@ -103,10 +93,27 @@
 					vergangenen vier Jahrzehnte war jeweils wärmer als alle Jahrzehnte davor seit 1850. [...] <strong
 						>Die globale Oberflächentemperatur war im Zeitraum 2011–2020 um 1,09 [0,95–1,20] °C
 						höher als 1850–1900</strong
-					>[.]“ (<a href="https://www.de-ipcc.de/media/content/AR6-WGI-SPM_deutsch_barrierefrei.pdf"
-						>AR6 Deutsch</a
-					>, S. 3)
+					>[.]“ <br /><span class="image-source"
+						>(<a href="https://www.de-ipcc.de/media/content/AR6-WGI-SPM_deutsch_barrierefrei.pdf"
+							>IPCC AR6 - Klimawandel 2021 Naturwissenschaftliche Grundlagen Zusammenfassung für die
+							politische Entscheidungsfindung
+						</a>, S.3)</span
+					>
 				</blockquote>
+
+				<p>
+					Daten-Quelle für das Diagramm:
+
+					<a href="https://data.ceda.ac.uk/badc/ar6_wg1/data/spm/spm_01/v20221116/panel_b"
+						>gmst_changes_model_and_obs.csv</a
+					>
+					(Spalte 8 "Global Surface Temperature Anomalies [GSTA] relative to 1850-1900 from observations
+					assessed in IPCC AR6 WG1 Chapter 2") via
+					<a
+						href="https://www.ipcc.ch/report/ar6/wg1/figures/summary-for-policymakers/figure-spm-1/"
+						>Figure SPM.1 - IPCC AR6</a
+					>.
+				</p>
 
 				<p>
 					Der <a href="https://www.ipcc.ch/">Intergovernmental Panel on Climate Change (IPCC)</a>,
@@ -115,7 +122,8 @@
 					zusammenzufassen. [...] Der IPCC gilt als „Goldstandard“ der Klimaforschung.“ (<a
 						href="https://de.wikipedia.org/wiki/Intergovernmental_Panel_on_Climate_Change"
 						>Wikipedia</a
-					>).
+					>). Mehr dazu im Podcast Das Klima:
+					<a href="https://dasklima.podigee.io/2-dk002-was-ist-ein-ipcc">Was ist ein IPCC?</a>
 				</p>
 
 				<p>
@@ -128,8 +136,8 @@
 					</a>.
 				</p>
 				<p>
-					Deep dive: Der sechste IPCC-Sachstandsbericht (August 2021) wird u.a. im Podcast
-					<a href="https://dasklima.podigee.io/">Das Klima</a> besprochen.
+					Deep dive: Der Sechste IPCC-Sachstandsbericht (August 2021) wird u.a. im Podcast
+					<a href="https://dasklima.podigee.io/">Das Klima</a> Kapitel für Kapitel besprochen.
 				</p>
 			</details>
 		</article>
