@@ -9,7 +9,7 @@ Built with
 - [fontsource](https://fontsource.org/)
 - [svelte-toc](https://github.com/janosh/svelte-toc)
 
-Deployed via [adapter-static](https://kit.svelte.dev/docs/adapter-static), ploi.io and Hetzner Cloud:
+Deployed via [adapter-static](https://kit.svelte.dev/docs/adapter-static) to Mittwald SpaceServer lite.
 
 ```
 # You must create an `.env` file before using this
