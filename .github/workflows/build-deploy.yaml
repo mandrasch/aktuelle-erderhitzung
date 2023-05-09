@@ -43,7 +43,7 @@ jobs:
           switches: -avzr 
           # TODO: add --delete flag once path is correct
           # build path:
-          path: /.svelte-kit/
+          path: /build/
           remote_path: ${{ secrets.SSH_PATH }}
           remote_host: ${{ secrets.SSH_HOST }}
           remote_user: ${{ secrets.SSH_USER }}
