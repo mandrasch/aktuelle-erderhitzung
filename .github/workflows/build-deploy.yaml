@@ -22,6 +22,14 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: '18' # lts
+          
+      # Create an .env file, https://stackoverflow.com/a/63350136
+      # used for full url for og:image in meta head tag
+      - name: 'Create env file'
+        run: |
+          touch .env
+          echo PUBLIC_BASE_URL=/ >> .env
+
         
       - name: Install and Build for rsync 🔧
         run: |
