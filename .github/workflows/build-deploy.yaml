@@ -52,6 +52,7 @@ jobs:
       # used for full url for og:image in meta head tag
       - name: 'Create env file'
         run: |
+          rm .env
           touch .env
           echo PUBLIC_BASE_URL=https://${{ github.event.repository.owner.name }}.github.io/${{ github.event.repository.name }} >> .env
 
