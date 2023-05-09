@@ -40,7 +40,7 @@ jobs:
         uses: burnett01/rsync-deployments@5.2.1
         with:
           # be careful with --delete option!
-          switches: -avzr 
+          switches: -avzr --delete
           # TODO: add --delete flag once path is correct
           # build path:
           path: /build/
