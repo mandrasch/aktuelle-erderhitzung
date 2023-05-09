@@ -11,18 +11,6 @@ permissions:
   contents: write
 # jobs run in parallel by default
 jobs:
-  # The live site is build on ploi.io,
-  # see https://ploi.io/documentation/deployment/how-to-trigger-deployments-via-github-actions
-  trigger-ploi-webhook:
-    runs-on: ubuntu-latest
-    steps:
-      # Trigger Ploi deploy webhook
-      # https://github.com/Glennmen/ploi-deploy-action
-      - name: Deploy
-        uses: Glennmen/ploi-deploy-action@v1.2.0
-        with:
-          webhook_url: ${{ secrets.PLOI_WEBHOOK_URL }}
-
   # For demo purposes I also deploy to GitHub pages,
   # since it's a bit more complicated (subdirectory path in URL)
   build-and-deploy-gh-pages:
@@ -34,6 +22,23 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: '18' # lts
+        
+      - name: Install and Build for rsync 🔧
+        run: |
+          npm ci
+          npm run build
+      
+      - name: rsync deployments
+        uses: burnett01/rsync-deployments@5.2.1
+        with:
+          # be careful with --delete option!
+          switches: -avzr 
+          # TODO: add --delete flag once path is correct
+          path: /
+          remote_path: ${{ secrets.SSH_PATH }}
+          remote_host: ${{ secrets.SSH_HOST }}
+          remote_user: ${{ secrets.SSH_USER }}
+          remote_key: ${{ secrets.SSH_KEY }}
 
       # Create an .env file, https://stackoverflow.com/a/63350136
       # used for full url for og:image in meta head tag
