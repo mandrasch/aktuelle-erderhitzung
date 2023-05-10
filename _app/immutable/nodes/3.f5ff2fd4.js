@@ -1,0 +1,21 @@
+import{S as we,i as ze,s as ke,k as n,q as i,a as g,l as r,m as d,r as l,h as s,c as m,n as P,p as xe,b as oe,C as e,D as he}from"../chunks/index.49b11441.js";import"../chunks/stores.11a3c641.js";import{b as Se}from"../chunks/paths.179009ed.js";function Be(_e){let c,f,W,R,t,z,y,H,k,C,V,u,M,L,j,q,F,K,o,N,T,Z,v,G,J,O,D,Q,U,X,x,Y,$,p,ee,E,te,ne,re,S,ae,ie,B,le,se,I,de;return{c(){c=n("div"),f=n("a"),W=i("« Zurück"),R=g(),t=n("article"),z=n("header"),y=i("Datenschutz & Impressum"),H=g(),k=n("h2"),C=i("Impressum"),V=g(),u=n("p"),M=i("Matthias Andrasch"),L=n("br"),j=i(`
+		1160 Wien`),q=n("br"),F=i(`
+		Österreich`),K=g(),o=n("p"),N=i("Kontakt: matthias-andrasch-kontakt@mailbox.org"),T=n("br"),Z=i(`
+		Insta: `),v=n("a"),G=i("@matzimo404"),J=n("br"),O=i(`
+		Web: `),D=n("a"),Q=i("mandrasch.dev"),U=n("br"),X=g(),x=n("h2"),Y=i("Datenschutz"),$=g(),p=n("p"),ee=i("Die Webseite "),E=n("a"),te=i("aktuelle-erderhitzung.de"),ne=i(` erhebt keine
+		personenbezogenen Daten.`),re=g(),S=n("p"),ae=i(`Diese Webseite wird beim Hostinganbieter Hetzner Cloud (Server-Standort: Nürnberg) betrieben, es
+		werden keine personenbezogenen Daten von Besucher:innen in Server-Logs o.ä. erhoben.`),ie=g(),B=n("p"),le=i(`Für die Einbindung der externen Social Media Dienste (Drittanbieter) wird die Einwilligung
+		explizit abgefragt und nach einem Browser-Reload wieder gelöscht. Die Datenschutzerklärungen der
+		Drittanbieter finden sich verlinkt im jeweiligen Einwilligungsdialog, die Einbettung erfolgt
+		explizit erst nachdem der/die BesucherIn eingewilligt hat.`),se=g(),I=n("p"),de=i(`Vor der Einwillung werden keine Datenverbindungen zu Drittanbietern aufgebaut, die
+		Vorschaubilder werden vom Server aktuelle-erderhitzung.de geladen.`),this.h()},l(h){c=r(h,"DIV",{style:!0});var _=d(c);f=r(_,"A",{href:!0});var ce=d(f);W=l(ce,"« Zurück"),ce.forEach(s),_.forEach(s),R=m(h),t=r(h,"ARTICLE",{});var a=d(t);z=r(a,"HEADER",{});var ue=d(z);y=l(ue,"Datenschutz & Impressum"),ue.forEach(s),H=m(a),k=r(a,"H2",{});var be=d(k);C=l(be,"Impressum"),be.forEach(s),V=m(a),u=r(a,"P",{});var w=d(u);M=l(w,"Matthias Andrasch"),L=r(w,"BR",{}),j=l(w,`
+		1160 Wien`),q=r(w,"BR",{}),F=l(w,`
+		Österreich`),w.forEach(s),K=m(a),o=r(a,"P",{});var b=d(o);N=l(b,"Kontakt: matthias-andrasch-kontakt@mailbox.org"),T=r(b,"BR",{}),Z=l(b,`
+		Insta: `),v=r(b,"A",{href:!0});var ge=d(v);G=l(ge,"@matzimo404"),ge.forEach(s),J=r(b,"BR",{}),O=l(b,`
+		Web: `),D=r(b,"A",{href:!0});var me=d(D);Q=l(me,"mandrasch.dev"),me.forEach(s),U=r(b,"BR",{}),b.forEach(s),X=m(a),x=r(a,"H2",{});var pe=d(x);Y=l(pe,"Datenschutz"),pe.forEach(s),$=m(a),p=r(a,"P",{});var A=d(p);ee=l(A,"Die Webseite "),E=r(A,"A",{href:!0});var fe=d(E);te=l(fe,"aktuelle-erderhitzung.de"),fe.forEach(s),ne=l(A,` erhebt keine
+		personenbezogenen Daten.`),A.forEach(s),re=m(a),S=r(a,"P",{});var ve=d(S);ae=l(ve,`Diese Webseite wird beim Hostinganbieter Hetzner Cloud (Server-Standort: Nürnberg) betrieben, es
+		werden keine personenbezogenen Daten von Besucher:innen in Server-Logs o.ä. erhoben.`),ve.forEach(s),ie=m(a),B=r(a,"P",{});var De=d(B);le=l(De,`Für die Einbindung der externen Social Media Dienste (Drittanbieter) wird die Einwilligung
+		explizit abgefragt und nach einem Browser-Reload wieder gelöscht. Die Datenschutzerklärungen der
+		Drittanbieter finden sich verlinkt im jeweiligen Einwilligungsdialog, die Einbettung erfolgt
+		explizit erst nachdem der/die BesucherIn eingewilligt hat.`),De.forEach(s),se=m(a),I=r(a,"P",{});var Ee=d(I);de=l(Ee,`Vor der Einwillung werden keine Datenverbindungen zu Drittanbietern aufgebaut, die
+		Vorschaubilder werden vom Server aktuelle-erderhitzung.de geladen.`),Ee.forEach(s),a.forEach(s),this.h()},h(){P(f,"href",Se+"/"),xe(c,"margin-top","25px"),P(v,"href","https://www.instagram.com/matzimo404/"),P(D,"href","https://mandrasch.dev"),P(E,"href","https://aktuelle-erderhitzung.de")},m(h,_){oe(h,c,_),e(c,f),e(f,W),oe(h,R,_),oe(h,t,_),e(t,z),e(z,y),e(t,H),e(t,k),e(k,C),e(t,V),e(t,u),e(u,M),e(u,L),e(u,j),e(u,q),e(u,F),e(t,K),e(t,o),e(o,N),e(o,T),e(o,Z),e(o,v),e(v,G),e(o,J),e(o,O),e(o,D),e(D,Q),e(o,U),e(t,X),e(t,x),e(x,Y),e(t,$),e(t,p),e(p,ee),e(p,E),e(E,te),e(p,ne),e(t,re),e(t,S),e(S,ae),e(t,ie),e(t,B),e(B,le),e(t,se),e(t,I),e(I,de)},p:he,i:he,o:he,d(h){h&&s(c),h&&s(R),h&&s(t)}}}class Pe extends we{constructor(c){super(),ze(this,c,null,Be,ke,{})}}export{Pe as component};
