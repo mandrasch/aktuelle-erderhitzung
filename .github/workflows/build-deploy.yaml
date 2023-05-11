@@ -36,21 +36,21 @@ jobs:
           npm install
           npm run build
 
-      # SFTP synchronization
+      # SFTP synchronization - caused time outs
       # https://github.com/marketplace/actions/ftp-deploy
-      - name: 📂 Sync files via SFTP
-        uses: SamKirkland/FTP-Deploy-Action@v4.3.4
-        with:
-          server: ngcobalt384.manitu.net
-          username: ${{ secrets.SFTP_USER }}
-          password: ${{ secrets.SFTP_PASSWORD }}
-          protocol: ftps
-          port: 21
-          # SvelteKit output folder
-          local-dir: ./build/
-          # sftp user is restricted to domain folder
-          # /web/aktuelle-erderhitzung.de/ on Manitu
-          server-dir: ./
+      # - name: 📂 Sync files via SFTP
+      #   uses: SamKirkland/FTP-Deploy-Action@v4.3.4
+      #   with:
+      #     server: ngcobalt384.manitu.net
+      #     username: ${{ secrets.SFTP_USER }}
+      #     password: ${{ secrets.SFTP_PASSWORD }}
+      #     protocol: ftps
+      #     port: 21
+      #     # SvelteKit output folder
+      #     local-dir: ./build/
+      #     # sftp user is restricted to domain folder
+      #     # /web/aktuelle-erderhitzung.de/ on Manitu
+      #     server-dir: ./
 
       # # Create an .env file, https://stackoverflow.com/a/63350136
       # # used for full url for og:image in meta head tag
@@ -64,18 +64,18 @@ jobs:
       #     npm ci
       #     npm run build
 
-      # - name: rsync deployments
-      #   uses: burnett01/rsync-deployments@5.2.1
-      #   with:
-      #     # be careful with --delete option!
-      #     switches: -avzr --delete
-      #     # TODO: add --delete flag once path is correct
-      #     # build path:
-      #     path: /build/
-      #     remote_path: ${{ secrets.SSH_PATH }}
-      #     remote_host: ${{ secrets.SSH_HOST }}
-      #     remote_user: ${{ secrets.SSH_USER }}
-      #     remote_key: ${{ secrets.SSH_KEY }}
+      - name: rsync deployments
+        uses: burnett01/rsync-deployments@5.2.1
+        with:
+          # be careful with --delete option!
+          switches: -avzr --delete
+          # TODO: add --delete flag once path is correct
+          # build path:
+          path: /build/
+          remote_path: '/web/aktuelle-erderhitzung.de/'
+          remote_host: ngcobalt384.manitu.net
+          remote_user: ${{ secrets.SSH_USER }}
+          remote_key: ${{ secrets.SSH_PRIVATE_KEY }}
 
       # # Create an .env file, https://stackoverflow.com/a/63350136
       # # used for full url for og:image in meta head tag
