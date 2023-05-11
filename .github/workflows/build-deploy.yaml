@@ -7,8 +7,8 @@ on:
     paths-ignore:
       - '**/README.md'
 # needed for gh pages deploy
-permissions:
-  contents: write
+# permissions:
+#   contents: write
 # jobs run in parallel by default
 jobs:
   # For demo purposes I also deploy to GitHub pages,
