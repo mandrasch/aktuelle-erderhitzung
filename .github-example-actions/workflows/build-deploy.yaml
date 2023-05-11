@@ -18,11 +18,30 @@ jobs:
     steps:
       - name: Checkout 🛎️
         uses: actions/checkout@v3
-      - name: Use Node LTS
+      - name: Setup Node LTS
         uses: actions/setup-node@v3
         with:
           node-version: '18' # lts
 
+      # SFTP example
+      # https://github.com/marketplace/actions/ftp-deploy
+
+      - name: Install and Build 🔧
+        run: |
+          npm install
+          npm run build
+
+      - name: 📂 Sync files via SFTP
+        uses: SamKirkland/FTP-Deploy-Action@4.3.4
+        with:
+          server: ngcobalt384.manitu.net
+          username: ${{ secrets.SFTP_USER }}
+          password: ${{ secrets.SFTP_PASSWORD }}
+          protocol: ftps
+          local-dir: ./
+          # sftp user is restricted to domain folder
+          # /web/aktuelle-erderhitzung.de/ on Manitu
+          server-dir: ./
 
       # # Create an .env file, https://stackoverflow.com/a/63350136
       # # used for full url for og:image in meta head tag
