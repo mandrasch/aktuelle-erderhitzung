@@ -23,16 +23,16 @@ jobs:
         with:
           node-version: '18' # lts
 
-      # SFTP example
-      # https://github.com/marketplace/actions/ftp-deploy
-
+      # NodeJS
       - name: Install and Build 🔧
         run: |
           npm install
           npm run build
 
+      # SFTP synchronization
+      # https://github.com/marketplace/actions/ftp-deploy
       - name: 📂 Sync files via SFTP
-        uses: SamKirkland/FTP-Deploy-Action@4.3.4
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.4
         with:
           server: ngcobalt384.manitu.net
           username: ${{ secrets.SFTP_USER }}
