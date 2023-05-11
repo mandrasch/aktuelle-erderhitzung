@@ -45,6 +45,7 @@ jobs:
           username: ${{ secrets.SFTP_USER }}
           password: ${{ secrets.SFTP_PASSWORD }}
           protocol: ftps
+          port: 21
           # SvelteKit output folder
           local-dir: ./build/
           # sftp user is restricted to domain folder
