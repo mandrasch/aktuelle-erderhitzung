@@ -23,6 +23,13 @@ jobs:
         with:
           node-version: '18' # lts
 
+      # Create an .env file, this will be used in svelte.config.js
+      # https://stackoverflow.com/a/63350136,
+      - name: 'Create env file'
+        run: |
+          touch .env
+          echo PUBLIC_BASE_URL=/ >> .env
+
       # NodeJS
       - name: Install and Build 🔧
         run: |
