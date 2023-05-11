@@ -72,7 +72,8 @@ jobs:
           # TODO: add --delete flag once path is correct
           # build path:
           path: /build/
-          remote_path: '/web/aktuelle-erderhitzung.de/'
+          # Something like '/home/sites/site100XXXX5/web/aktuelle-erderhitzung.de/'
+          remote_path: ${{ secrets.SSH_PATH }}
           remote_host: ngcobalt384.manitu.net
           remote_user: ${{ secrets.SSH_USER }}
           remote_key: ${{ secrets.SSH_PRIVATE_KEY }}
