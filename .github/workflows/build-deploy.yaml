@@ -13,7 +13,7 @@ on:
 jobs:
   # For demo purposes I also deploy to GitHub pages,
   # since it's a bit more complicated (subdirectory path in URL)
-  build-and-deploy-gh-pages:
+  build-and-deploy:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout 🛎️
