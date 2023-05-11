@@ -45,7 +45,8 @@ jobs:
           username: ${{ secrets.SFTP_USER }}
           password: ${{ secrets.SFTP_PASSWORD }}
           protocol: ftps
-          local-dir: ./
+          # SvelteKit output folder
+          local-dir: ./build/
           # sftp user is restricted to domain folder
           # /web/aktuelle-erderhitzung.de/ on Manitu
           server-dir: ./
