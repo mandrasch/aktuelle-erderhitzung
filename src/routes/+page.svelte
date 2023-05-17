@@ -1036,11 +1036,11 @@
 				Außerdem steht die Frage im Raum:
 				<a href="https://www.youtube.com/watch?v=YxJrBR0lg6s">"Green Growth vs. Degrowth?".</a>
 			</p>
-			<p style="text-align:center;font-weight:bold;">
+			<!-- <p style="text-align:center;font-weight:bold;">
 				Der nächste <a href="https://fridaysforfuture.de/globaler-klimastreik/"
 					>globale Klimastreik</a
 				> findet am 3. März 2023 statt.
-			</p>
+			</p> -->
 		</article>
 		<!-- style="margin-bottom:35vh;" -->
 		<article>
@@ -1077,8 +1077,7 @@
 			</p>
 			<p>
 				Der <a href="https://github.com/mandrasch/aktuelle-erderhitzung">Source Code</a> steht auf GitHub
-				zur Nachnutzung bereit. Die Seite wurde mit SvelteKit und PicoCSS erstellt. Das Deployment wird
-				über ploi.io realisiert.
+				zur Nachnutzung bereit. Die Seite wurde mit SvelteKit und PicoCSS erstellt.
 			</p>
 			<p>
 				Das Social-Media-Bild (og:image) ist eine Collage aus einem eigenen Foto und einem Bild von <a
@@ -1097,7 +1096,8 @@
 			</p>
 
 			<p>
-				Autor: Matthias Andrasch, Web-Entwickler<br />Zuletzt aktualisiert: {data.buildDateTime}
+				Autor: Matthias Andrasch, Web-Entwickler und Master of Arts im Bereich Medienpädagogik /
+				Sozialwissenschaften, Jahrgang 1988, lebt in Wien.<br />Zuletzt aktualisiert: {data.buildDateTime}
 			</p>
 
 			<!-- <p style="text-align:center;"><a href="{base}/impressum">Datenschutz & Impressum</a></p>-->
