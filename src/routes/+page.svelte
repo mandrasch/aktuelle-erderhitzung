@@ -6,6 +6,7 @@
 	// e.g. Github Pages build (https://mandrasch.github.io/aktuelle-erderhitzung)
 	import { base } from '$app/paths';
 
+	// set it in local dev in .env to PUBLIC_BASE_URL=https://localhost:5173
 	import { PUBLIC_BASE_URL } from '$env/static/public';
 	let baseUrl = PUBLIC_BASE_URL ? PUBLIC_BASE_URL : '';
 
@@ -47,11 +48,11 @@
 				Wir alle reden über Klimawandel und Erderwärmung. Aber wie sehr hat sich unser Planet Erde
 				schon erhitzt? Und wo steuern wir hin als Gemeinschaft?
 			</p>
-			<p style="text-align:center;">Diese Seite ist noch "work in progress". 👨‍🔧</p>
+			<p style="text-align:center; font-size:0.8rem;">Zuletzt aktualisiert: 03.09.2023</p>
 		</div>
 		<article style="margin-top:20px;">
 			<header>
-				<h2>🌡 Wie hoch ist die Erderhitzung?</h2>
+				<h2 id="aktuelle-erhitzung">🌡 Wie hoch ist die Erhitzung, worauf steuern wir zu?</h2>
 			</header>
 
 			<p style="font-weight:bold;margin-top:25px;">
@@ -61,25 +62,10 @@
 			</p>
 
 			<ChartGlobalTempChange />
-
-			<!-- 
-			<a href="https://www.spektrum.de/news/klimawandel-warum-es-wirksamen-klimaschutz-braucht/">
-				<img
-					src="{base}/images/screenshot_spektrum_anstieg_der_globalen_durchschnittstemperatur.png"
-					alt="Anstieg der globalen Durchschnittstemperatur. Im Vergleich zum Beginn der Industrialisierung ist die weltweite Temperatur im Durchschitt um mehr als ein Grad Celsius gestiegen. Quelle: spektrum.de"
-				/></a
-			>
-			<div class="image-source">
-				Quelle / Urheberrecht: Screenshot <a
-					href="https://www.spektrum.de/news/klimawandel-warum-es-wirksamen-klimaschutz-braucht/"
-					>Warum es wirksamen Klimaschutz braucht - spektrum.de (2021)</a
-				>
-			</div>
-
-			-->
-
 			<details style="margin-top:20px;">
-				<summary role="button" class="secondary">Datenquelle: IPCC Bericht 2021 (AR6)</summary>
+				<summary role="button" class="secondary"
+					>Datenquelle Diagramm: IPCC Bericht 2021 (AR6)</summary
+				>
 
 				<p>
 					Im
@@ -146,11 +132,99 @@
 					<a href="https://dasklima.podigee.io/">Das Klima</a> Kapitel für Kapitel besprochen.
 				</p>
 			</details>
+
+			<p style="margin-top:25px;">
+				Aktuell befinden wir uns auf einem Weg zu +3 °C Grad Erderhitzung. Alle Staaten dieser Welt
+				hatten sich gemeinsam im Jahr 2015 verpflichtet, die Erhitzung auf 1,5 °C, höchstens 2 °C zu
+				begrenzen (<a
+					href="https://treaties.un.org/Pages/ViewDetails.aspx?src=IND&mtdsg_no=XXVII-7-d&chapter=27&clang=_en"
+					>Pariser Klima-Abkommen</a
+				>). Dies Ziel wird mit hoher Wahrscheinlichkeit nicht erreicht, weil die Staaten ihre
+				Treibhausgas-Ausstöße nicht wie vereinbart massiv reduziert haben.
+			</p>
+
+			<p style="margin-top:25px;">
+				Der seit Jahrzehnten aktive
+				<a href="https://de.wikipedia.org/wiki/Stefan_Rahmstorf">Klimaforscher Stefan Rahmstorf</a> erklärte
+				den aktuellen Pfad im November 2022 so (2 Minuten):
+			</p>
+
+			<p style="margin-top:25px;line-height:1rem;">
+				<img
+					src="{base}/images/rahmstorf_pfad_november_2022.png"
+					alt="Grafik mit drei Pfaden: Hier sind wir - 3 Grad, hier sollten wir sein - 1,5 Grad, dazwischen 2 Grad."
+				/>
+				<span class="image-source"
+					>Screenshot aus Video
+					<a href="https://twitter.com/rahmstorf/status/1593536876312420352"
+						>Stefan Rahmstorf - Twitter 18. November 2022</a
+					>, gesamte Diskussion:
+					<a href="https://www.youtube.com/watch?v=xrdKdlZRb5M"
+						>Europe Calling Live von der Klimakonferenz #cop27 - Disaster oder Hoffnungsschimmer?
+						(YouTube)
+					</a></span
+				>
+			</p>
+
+			<TwoClickPrivacyEmbed
+				provider="youtube"
+				contentId="atQbbMhZkbc"
+				placeholderImg="{base}/images/screenshot_youtube_rahmstorf_welcher_pfad.png"
+			/>
+			<div class="image-source">
+				Video: <a href="https://youtu.be/atQbbMhZkbc"
+					>Re-Upload: Auf welchem Emissionspfad sind wir, und wo sollten wir zur Einhaltung von 1,5
+					Grad sein?</a
+				>
+				(Original-Quelle:
+				<a href="https://twitter.com/rahmstorf/status/1593536876312420352"
+					>Stefan Rahmstorf - Twitter 18. November 2022</a
+				>, gesamte Diskussion:
+				<a href="https://www.youtube.com/watch?v=xrdKdlZRb5M"
+					>Europe Calling Live von der Klimakonferenz #cop27 - Disaster oder Hoffnungsschimmer?
+					(YouTube)
+				</a>
+			</div>
+
+			<p style="margin-top:20px;">Das aktuelle Szenarien-Bild aus dem IPCC Synthesebericht 2023:</p>
+
+			<div style="margin-top:25px;">
+				<img src="{base}/images/ipcc_synthesebericht_2023.jpg" alt="" />
+			</div>
+			<div class="image-source">
+				Quelle: <a href="https://www.ipcc.ch/report/sixth-assessment-report-cycle/" target="_blank"
+					>Figure SPM.5, IPCC AR6 Synthesebericht 2023</a
+				>
+			</div>
+
+			<p style="margin-top:25px;">
+				Mehr aktuelle Informationen: <a
+					href="https://www.riffreporter.de/de/wissen/ipcc-klimawandel-klima-global-deutschland-generationen-gesundheit"
+					target="_blank"
+					>„Klimakrise: Das sind die zentralen Aussagen des Weltklimarats – in 7 Grafiken“</a
+				> (riffreporter.de, März 2023)
+			</p>
+
+			<!-- 
+			<a href="https://www.spektrum.de/news/klimawandel-warum-es-wirksamen-klimaschutz-braucht/">
+				<img
+					src="{base}/images/screenshot_spektrum_anstieg_der_globalen_durchschnittstemperatur.png"
+					alt="Anstieg der globalen Durchschnittstemperatur. Im Vergleich zum Beginn der Industrialisierung ist die weltweite Temperatur im Durchschitt um mehr als ein Grad Celsius gestiegen. Quelle: spektrum.de"
+				/></a
+			>
+			<div class="image-source">
+				Quelle / Urheberrecht: Screenshot <a
+					href="https://www.spektrum.de/news/klimawandel-warum-es-wirksamen-klimaschutz-braucht/"
+					>Warum es wirksamen Klimaschutz braucht - spektrum.de (2021)</a
+				>
+			</div>
+
+			-->
 		</article>
 
 		<article>
 			<header>
-				<h2>📉 Wie steht es um das 1,5-Grad-Limit?</h2>
+				<h2 id="wie-steht-es-um-1-5-grad">📉 Wie steht es um das 1,5-Grad-Limit?</h2>
 			</header>
 			<p />
 			<p>
@@ -158,12 +232,30 @@
 					href="https://www.ardalpha.de/wissen/umwelt/klima/klimawandel/klimaabkommen-paris-protokoll-klimapolitik-klimawandel-102.html"
 					>Pariser Klimaabkommen</a
 				>
-				das Ziel gesetzt, die globale Erhitzung gemeinsam auf 1,5 Grad zu begrenzen. Der seit Jahrzehnten
-				aktive
-				<a href="https://de.wikipedia.org/wiki/Stefan_Rahmstorf">Klimaforscher Stefan Rahmstorf</a> beantwortete
-				die Frage "Können wir 1,5 Grad Erderwärmung überhaupt noch einhalten?" im November 2022 wie folgt
-				(2 Minuten):
+				das Ziel gesetzt, die globale Erhitzung gemeinsam auf 1,5 °C, höchstens 2 °C zu begrenzen. Der
+				seit Jahrzehnten aktive
+				<a href="https://de.wikipedia.org/wiki/Stefan_Rahmstorf">Klimaforscher Stefan Rahmstorf</a>
+				sagte am 31. Juli 2023, dass der politische Wille fehlt um die Erderhitzung auf 1,5 °C zu begrenzen:
 			</p>
+
+			<blockquote>
+				„Er betonte, rein physikalisch sei es noch möglich, unter dem Wert von 1,5 Grad zu bleiben.
+				Nur habe bei den allermeisten Regierungen der Klimaschutz keine Priorität.
+
+				<br /><br />Rahmstorf führte aus, man müsste das Thema anpacken, „wie wenn man in einer
+				Kriegssituation ist und das einfach die Top-Priorität hat.“ Es fehle nicht an Lösungen, es
+				gebe auch bereits die nötigen Technologien, doch es fehle der politische Wille – auch bei
+				Bundeskanzler Scholz.“<br />
+				<span class="image-source" style="padding-top:15px;">
+					<a
+						href="https://www.deutschlandfunk.de/es-mangelt-am-willen-klimaforscher-rahmstorf-haelt-1-5-grad-ziel-politisch-kaum-noch-fuer-erreichbar-100.html"
+						>„Es mangelt am Willen“ – Klimaforscher Rahmstorf hält 1,5-Grad-Ziel politisch kaum noch
+						für erreichbar
+					</a>(Deutschlandfunk, 31. Juli 2023)
+				</span>
+			</blockquote>
+
+			<p>Im November 2022 erklärte er die physikalische Machbarkeit so (2 Minuten):</p>
 
 			<!-- <h3>Können wir das "1,5 Grad"-Limit noch schaffen?</h3>-->
 
@@ -187,8 +279,8 @@
 			</div>
 
 			<p class="mt-25">
-				Physikalisch also noch definitiv machbar - praktisch (sozial und wirtschaftlich) aber kaum
-				noch erreichbar? Das sagt laut Medienberichten die Studie <a
+				Physikalisch also noch definitiv machbar - praktisch (politisch, wirtschaftlich und sozial)
+				aber nicht mehr erreichbar. Das sagt laut Medienberichten auch die Studie <a
 					href="https://www.cliccs.uni-hamburg.de/de/results/hamburg-climate-futures-outlook/download.html"
 					>"Hamburg Climate Futures Outlook 2023"</a
 				>. Der Standard zitiert die SprecherInnen hierzu:
@@ -215,25 +307,10 @@
 			</blockquote>
 
 			<p>
-				Doch selbst beim Überschreiten von 1,5 Grad zählt weiterhin jedes weitere Zehntelgrad. Diese
-				wurde auch noch einmal in Bezug auf die Studie von den AutorInnen <a
-					href="https://www.deutschlandfunk.de/erreichen-des-1-5-grad-ziels-unplausibel-100.html"
-					>im Deutschlandfunk</a
-				> betont:
+				Auf Webseiten wie <a href="https://climateactiontracker.org/countries/" target="_blank"
+					>climateactiontracker.org/countries/</a
+				> gibt es konkreten Analysen dazu, inwiefern Staaten die vereinbarten Ziele nicht einhalten.
 			</p>
-
-			<blockquote>
-				Für jedes halbe Grad zusätzlicher Globalerwärmung bekommen wir eine deutlich wahrnehmbarere
-				Risikozunahme durch Hitzewellen, Überschwemmungen und Dürren. Und das bedeutet: Egal,
-				welches Maß an globaler Erwärmung bereits geschehen ist – man mindert immer das weitere
-				Risiko, indem man weitere Erwärmung verhindert.“<br />
-				<span class="image-source">
-					Jochem Marotzke, Direktor am Max-Planck-Institut für Meteorologie - Quelle: <a
-						href="https://www.deutschlandfunk.de/erreichen-des-1-5-grad-ziels-unplausibel-100.html"
-						>Deutschlandfunk (2023)</a
-					></span
-				>
-			</blockquote>
 
 			<details style="margin-top:20px;">
 				<summary role="button" class="secondary">Wie kam das 1,5-Grad-Ziel zustande?</summary>
@@ -273,31 +350,83 @@
 
 		<article>
 			<header>
-				<h2>📊 Auf welchem Pfad sind wir?</h2>
+				<h2 id="welchen-unterschied-macht-das">
+					📈 1,5 Grad wird überschritten - dann ist jetzt eh alles egal?
+				</h2>
 			</header>
 
-			<!-- Auf welche Erhitzung bewegen wir uns zu?-->
-
-			<!-- TODO: mark second param as optional in JSDoc-->
-			<!-- <TwoClickPrivacyEmbed provider="twitter">
-				<blockquote class="twitter-tweet">
-					<p lang="de" dir="ltr">
-						Können wir 1,5 Grad Erderwärmung überhaupt noch einhalten?<br />Hab’s kurz erklärt
-						gestern Abend bei Europe calling u.a. mit Außenministerin Baerbock live von der
-						<a href="https://twitter.com/hashtag/COP27?src=hash&amp;ref_src=twsrc%5Etfw">#COP27</a>.
-						<a href="https://t.co/muo8xcuX0F">pic.twitter.com/muo8xcuX0F</a>
-					</p>
-					&mdash; Stefan Rahmstorf 🌏 fediscience.org/@rahmstorf 🦣 (@rahmstorf)<a
-						href="https://twitter.com/rahmstorf/status/1593495465261256707?ref_src=twsrc%5Etfw"
-						>November 18, 2022</a
-					>
-				</blockquote>
-				<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-			</TwoClickPrivacyEmbed>-->
-
 			<p>
-				Die gute Nachricht: Wir befinden uns nicht mehr auf einem +5 Grad Pfad. Derzeit befinden wir
-				uns dennoch auf dem Weg zu einer +3-Grad-Erwärmung:
+				Doch selbst beim Überschreiten von 1,5 °C oder 2 °C zählt weiterhin jedes weitere
+				Zehntelgrad. Diese wurde auch noch einmal in Bezug auf die Hamburger Outlook-Studie von den
+				AutorInnen <a
+					href="https://www.deutschlandfunk.de/erreichen-des-1-5-grad-ziels-unplausibel-100.html"
+					>im Deutschlandfunk</a
+				> betont:
+			</p>
+
+			<blockquote>
+				Für jedes halbe Grad zusätzlicher Globalerwärmung bekommen wir eine deutlich wahrnehmbarere
+				Risikozunahme durch Hitzewellen, Überschwemmungen und Dürren. Und das bedeutet: Egal,
+				welches Maß an globaler Erwärmung bereits geschehen ist – man mindert immer das weitere
+				Risiko, indem man weitere Erwärmung verhindert.“<br />
+				<span class="image-source">
+					Jochem Marotzke, Direktor am Max-Planck-Institut für Meteorologie - Quelle: <a
+						href="https://www.deutschlandfunk.de/erreichen-des-1-5-grad-ziels-unplausibel-100.html"
+						>Deutschlandfunk (2023)</a
+					></span
+				>
+			</blockquote>
+
+			<p>Ein Grad Unterschied klingt wenig, hat aber massive Auswirkungen:</p>
+
+			<a href={img5GradPng}>
+				<picture>
+					<source type="image/webp" srcset={img5GradWebP} />
+					<source type="image/png" srcset={img5GradPng} />
+					<img
+						src={img5GradPng}
+						alt="Infografik von moment.at: Was die Klimakrise für uns Menschen bedeutet, Szenarien aufgeteilt nach der jeweiligen Grad-Erhöhung"
+					/>
+				</picture></a
+			>
+			<div class="image-source">
+				Quelle / Urheberrechte: <a
+					href="https://www.moment.at/story/klimakrise-so-heiss-koennte-es-deinem-leben-noch-werden"
+					>moment.at - So heiß könnte es in deinem Leben noch werden (Juli 2021)</a
+				>
+			</div>
+		</article>
+
+		<article>
+			<header><h2 id="warum-erhitzt-co2">Warum erhitzt CO2 den Planeten</h2></header>
+
+			<ul>
+				<li>
+					<a href="https://crunchtime2030.de/reel-warum-erhitzt-co2-den-planeten/"
+						>Reel: Warum erhitzt CO2 den Planeten?</a
+					>
+				</li>
+				<li>
+					<a
+						href="https://www.zdf.de/dokumentation/terra-x/lesch-und-co-klimawandel-der-co2-beweis-100.html"
+						>Klimawandel: der CO2-Beweis (TerraX)</a
+					>
+				</li>
+				<li>
+					<a href="https://klimakrise-schnelldurchlauf.mandrasch.eu/">Schnelldurchlauf Klimakrise</a
+					>
+				</li>
+			</ul>
+		</article>
+
+		<article>
+			<header><h2 id="erfolge">Gab es gar keine Erfolge?</h2></header>
+			<p>
+				Eine der guten Nachrichten: Wir befinden uns nicht mehr auf einem +5, +6 Grad Pfad, wie es
+				ohne breite Diskussion, wissenschaftliche Erkenntnisse und aktivistisches Engagement
+				weltweit der Fall wäre. Zu den Erfolgen zählt auch der weltweise Ausbau der Erneuerbaren
+				Energien, die stärkere Diskussion um eine umweltfreundliches und soziales Zusammenleben in
+				Zukunft, etc.
 			</p>
 
 			<TwoClickPrivacyEmbed
@@ -319,46 +448,6 @@
 					(YouTube)
 				</a>
 			</div>
-
-			<!-- <TwoClickPrivacyEmbed provider="twitter">
-				<blockquote class="twitter-tweet">
-					<p lang="de" dir="ltr">
-						Auf welchem Emissionspfad sind wir, und wo sollten wir zur Einhaltung von 1,5 Grad sein? <br
-						/>Hab’s kurz erklärt gestern Abend bei Europe Calling u.a. mit Außenministerin Baerbock
-						live von der
-						<a href="https://twitter.com/hashtag/COP27?src=hash&amp;ref_src=twsrc%5Etfw">#COP27</a>
-						. <a href="https://t.co/VwOwtSOw3A">pic.twitter.com/VwOwtSOw3A</a>
-					</p>
-					&mdash; Stefan Rahmstorf 🌏 fediscience.org/@rahmstorf 🦣 (@rahmstorf)<a
-						href="https://twitter.com/rahmstorf/status/1593536876312420352?ref_src=twsrc%5Etfw"
-						>November 18, 2022</a
-					>
-				</blockquote>
-				<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-			</TwoClickPrivacyEmbed> -->
-		</article>
-
-		<article>
-			<header>
-				<h2 id="welchen-unterschied-macht-das">📈 Welchen Unterschied macht das?</h2>
-			</header>
-			<p>Ein Grad Unterschied klingt wenig, hat aber massive Auswirkungen:</p>
-			<a href={img5GradPng}>
-				<picture>
-					<source type="image/webp" srcset={img5GradWebP} />
-					<source type="image/png" srcset={img5GradPng} />
-					<img
-						src={img5GradPng}
-						alt="Infografik von moment.at: Was die Klimakrise für uns Menschen bedeutet, Szenarien aufgeteilt nach der jeweiligen Grad-Erhöhung"
-					/>
-				</picture></a
-			>
-			<div class="image-source">
-				Quelle / Urheberrechte: <a
-					href="https://www.moment.at/story/klimakrise-so-heiss-koennte-es-deinem-leben-noch-werden"
-					>moment.at - So heiß könnte es in deinem Leben noch werden (Juli 2021)</a
-				>
-			</div>
 		</article>
 
 		<article>
@@ -369,7 +458,7 @@
 				Der schwer verdauliche Fakt: Die nächsten 7 Jahren werden massiv darüber entscheiden, wie
 				stark die Konsequenzen der Klimakrise für uns alle ausfallen werden. Außerdem entscheidet
 				sich bis 2030, in welchen Regionen für zukünftige Generationen überhaupt ein normales
-				Überleben möglich ist. 🤯
+				Überleben möglich ist.
 			</p>
 			<p>
 				<a href="https://de.wikipedia.org/wiki/Stefan_Rahmstorf">Klimaforscher Stefan Rahmstorf</a> schreibt
@@ -440,7 +529,7 @@
 
 		<article>
 			<header>
-				<h2>🔥 Welche Erhitzung erleben wir?</h2>
+				<h2 id="auswirkungen">🔥 Welche Erhitzung und Auswirkungen erleben wir?</h2>
 			</header>
 			<p>
 				Wenn es bei den derzeitigen, unzureichenden Maßnahmen bleibt und sich die Erde weiter stark
@@ -463,6 +552,23 @@
 					>moment.at - So heiß könnte es in deinem Leben noch werden (Juli 2021)</a
 				>
 			</div>
+
+			<p style="margin-top:25px;">
+				Was machen diese Auswirkungen mit Gesellschaften und den staatlichen und wirtschaflichen
+				Systemen? Journalistin Aditi Rajagopal ging dieser Frage im Mai 2023 nach:
+			</p>
+
+			<TwoClickPrivacyEmbed
+				provider="youtube"
+				contentId="v=JB6smZzFgVY"
+				placeholderImg="{base}/images/screenshot_are_doomers_right_deutsche_welle.png"
+			/>
+			<div class="image-source">
+				Video: <a href="https://www.youtube.com/watch?v=JB6smZzFgVY"
+					>Are climate doomers right? (Deutsche Welle Planet A, Mai 2023)</a
+				>
+			</div>
+
 			<details class="mt-25">
 				<summary role="button" class="secondary">Datenquellen</summary>
 				<p>
@@ -480,7 +586,7 @@
 
 		<article>
 			<header>
-				<h2>🌱 Maßnahmen gegen die Klimakrise</h2>
+				<h2 id="massnahmen">🌱 Maßnahmen gegen die Klimakrise</h2>
 			</header>
 
 			<p>
@@ -532,7 +638,7 @@
 		</article>
 
 		<article>
-			<header><h2>🧒 Die Kinder-Frage</h2></header>
+			<header><h2 id="kinder-frage">🧒 Die Kinder-Frage</h2></header>
 			<p>
 				<a href="https://boku.ac.at/wiso/infer/personen/reinhard-steurer">Reinhard Steurer</a>,
 				Professor für Klimapolitik und Klimaforscher
@@ -636,7 +742,7 @@
 		</article>-->
 		<article>
 			<header>
-				<h2>🐞 Artensterben / Biodiversitätskrise</h2>
+				<h2 id="artensterben">🐞 Artensterben / Biodiversitätskrise</h2>
 			</header>
 
 			<p>
@@ -788,7 +894,7 @@
 
 		<article>
 			<header>
-				<h2>🏭 Warum hat es niemand verhindert?</h2>
+				<h2 id="warum-hat-es-niemand-verhindert">🏭 Warum hat es niemand verhindert?</h2>
 			</header>
 
 			<p>
@@ -797,7 +903,7 @@
 					>"Was man in den 70ern wusste – und verschwiegen hat (Harald Lesch, Oktober 2021)</a
 				>
 				" sowie in der Dokumentation
-				<a href="https://filmsfortheearth.org/filme/die-erdzerstoerer/"
+				<a href="https://www.arte.tv/de/videos/073938-000-A/die-erdzerstoerer/"
 					>Die Erdzerstörer (ARTE, 2019)"</a
 				>.
 			</p>
@@ -814,8 +920,8 @@
 				Die Dokumentation Oeconomia (2020) ist in der <a
 					href="https://www.3sat.de/film/dokumentarfilm/oeconomia-100.html">3sat Mediathek</a
 				>
-				abrufbar. Ein Bericht zum Film von Carmen Losmann findet sich in der SZ:<a
-					href="https://www.sueddeutsche.de/kultur/kino-doku-oeconomica-1.5068338"
+				abrufbar. Ein Bericht zum Film von Carmen Losmann findet sich in der SZ:
+				<a href="https://www.sueddeutsche.de/kultur/kino-doku-oeconomica-1.5068338"
 					>Zum Wachstum verdammt
 				</a>.
 			</div>
@@ -846,7 +952,7 @@
 
 		<article>
 			<header>
-				<h2>📚 Mangelt es an Klimakrise-Wissen?</h2>
+				<h2 id="mangelt-es-an-wissen">📚 Mangelt es an Klimakrise-Wissen?</h2>
 			</header>
 			<p>
 				Müssen einfach mehr Menschen Bescheid wissen? Der Ausspruch <a
@@ -874,7 +980,7 @@
 		</article>
 		<article>
 			<header>
-				<h2>🌍 Mein Land hat doch nur kleinen Anteil?!</h2>
+				<h2 id="mein-land-hat-nur-kleinen-anteil">🌍 Mein Land hat doch nur kleinen Anteil?!</h2>
 			</header>
 			<p>
 				In jedem Land gibt es Argumente wie "Aber wir verursachen doch derzeit nur einen kleinen
@@ -902,7 +1008,7 @@
 		</article>
 		<article>
 			<header>
-				<h2>🤯🙆 Klima-Sorgen? Du bist nicht allein!</h2>
+				<h2 id="klimasorgen">🤯🙆 Klima-Sorgen? Du bist nicht allein!</h2>
 			</header>
 
 			<p>
@@ -966,8 +1072,13 @@
 
 		<article>
 			<header>
-				<h2>✊ Stay connected</h2>
+				<h2 id="stay-connected">✊ Stay connected</h2>
 			</header>
+
+			<p>Mein persönlicher Blog hierzu:</p>
+			<ul>
+				<li><a href="https://crunchtime2030.de">crunchtime2030.de</a></li>
+			</ul>
 
 			<p>Instagram-Profile, um auf dem aktuellen Stand zu bleiben:</p>
 
@@ -1036,6 +1147,7 @@
 				Außerdem steht die Frage im Raum:
 				<a href="https://www.youtube.com/watch?v=YxJrBR0lg6s">"Green Growth vs. Degrowth?".</a>
 			</p>
+
 			<!-- <p style="text-align:center;font-weight:bold;">
 				Der nächste <a href="https://fridaysforfuture.de/globaler-klimastreik/"
 					>globale Klimastreik</a
@@ -1045,7 +1157,7 @@
 		<!-- style="margin-bottom:35vh;" -->
 		<article>
 			<header>
-				<h2>📝 Über diese Webseite</h2>
+				<h2 id="about">📝 Über diese Webseite</h2>
 			</header>
 
 			<a href="https://open-educational-resources.de/">
