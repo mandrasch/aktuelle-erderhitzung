@@ -55,38 +55,134 @@
 				<h2 id="aktuelle-erhitzung">🌡 Wie hoch ist die Erhitzung, worauf steuern wir zu?</h2>
 			</header>
 
-			<p>Zehn Spiegelstriche zum aktuellen Stand, aus europäischer Perspektive:</p>
+			<p>Zehn Bullet Points zum aktuellen Stand, aus europäischer Perspektive:</p>
 			<ol>
 				<li>
 					Der Planet Erde hat sich im globalen Durchschnitt bereits um <span style="color:red;"
 						>+ 1,1 °C</span
 					>
-					erhitzt.<br /><br />
+					erhitzt. <br /><br />
 
 					<ChartGlobalTempChange />
-					<span class="image-source">Datenquelle: IPCC AR6 Bericht, 2021, s.u.</span>
+
+					<details style="margin-top:20px;">
+						<summary role="button" class="secondary" id="datenquelle"
+							>Datenquelle: IPCC Bericht 2021 (AR6)</summary
+						>
+						<p>
+							Im
+							<a href="https://www.de-ipcc.de/media/content/AR6-WGI-SPM_deutsch_barrierefrei.pdf"
+								>Sechsten Sachstandsbericht (AR6 = Sixth Assessment Report, 2021)
+							</a> des zwischenstaatlichen Ausschusses IPCC heißt es:
+						</p>
+						<blockquote>
+							„Es ist eindeutig, dass der Einfluss des Menschen die Atmosphäre, den Ozean und die
+							Landflächen erwärmt hat. Es haben weitverbreitete und schnelle Veränderungen in der
+							Atmosphäre, dem Ozean, der Kryosphäre und der Biosphäre stattgefunden. [...] Jedes der
+							vergangenen vier Jahrzehnte war jeweils wärmer als alle Jahrzehnte davor seit 1850.
+							[...] <strong
+								>Die globale Oberflächentemperatur war im Zeitraum 2011–2020 um 1,09 [0,95–1,20] °C
+								höher als 1850–1900</strong
+							>[.]“ <br /><span class="image-source"
+								>(<a
+									href="https://www.de-ipcc.de/media/content/AR6-WGI-SPM_deutsch_barrierefrei.pdf"
+									>IPCC AR6 - Klimawandel 2021 Naturwissenschaftliche Grundlagen Zusammenfassung für
+									die politische Entscheidungsfindung
+								</a>, S.3)</span
+							>
+						</blockquote>
+
+						<p>
+							Daten-Quelle für das Diagramm:
+
+							<a href="https://data.ceda.ac.uk/badc/ar6_wg1/data/spm/spm_01/v20221116/panel_b"
+								>gmst_changes_model_and_obs.csv</a
+							>
+							(Spalte 8 "Global Surface Temperature Anomalies [GSTA] relative to 1850-1900 from observations
+							assessed in IPCC AR6 WG1 Chapter 2") via
+							<a
+								href="https://www.ipcc.ch/report/ar6/wg1/figures/summary-for-policymakers/figure-spm-1/"
+								>Figure SPM.1 - IPCC AR6</a
+							>.
+						</p>
+
+						<p>
+							Der <a href="https://www.ipcc.ch/">Intergovernmental Panel on Climate Change (IPCC)</a
+							>, oft umgangssprachlich als "Weltklimarat" bezeichnet, wurde gegründet, „um für
+							politische Entscheidungsträger den Stand der wissenschaftlichen Forschung zum
+							Klimawandel zusammenzufassen. [...] Der IPCC gilt als „Goldstandard“ der
+							Klimaforschung.“ (<a
+								href="https://de.wikipedia.org/wiki/Intergovernmental_Panel_on_Climate_Change"
+								>Wikipedia</a
+							>). Mehr dazu im Podcast Das Klima:
+							<a href="https://dasklima.podigee.io/2-dk002-was-ist-ein-ipcc">Was ist ein IPCC?</a>
+						</p>
+
+						<p>
+							Aktuelle Daten zur Erderhitzung und Klimakrise finden sich u.a. auf <a
+								href="https://klimadashboard.at">klimadashboard.at</a
+							>.<!--					sowie im jährlichen Faktenpapier
+							<a href="https://www.helmholtz-klima.de/aktuelles/aktuelle-fakten-zum-klimawandel"
+								>Aktuelle Fakten zum Klimawandel - Helmholtz Klima
+							</a>.-->
+							Von klimadashboard.at habe ich auch die Formulierung "Erderhitzung" übernommen:
+						</p>
+						<blockquote>
+							Wir verwenden das Wort 'Erhitzung' anstatt 'Erwärmung' da es sprachlich gesehen
+							deutlicher macht, wie viel Unterschied zwischen jedem Zehntel-Grad zusätzlicher
+							Erhitzung für das Weltklima, die Artenvielfalt und das gesellschaftliche Zusammenleben
+							besteht.
+						</blockquote>
+						<p>
+							Deep dive: Der Sechste IPCC-Sachstandsbericht (August 2021) wird u.a. im Podcast
+							<a href="https://dasklima.podigee.io/">Das Klima</a> Kapitel für Kapitel besprochen.
+						</p>
+					</details>
+				</li>
+
+				<li style="padding-top:20px;">
+					Die <span style="color:red;">1,5-Grad-Grenze</span> könnte bereits in den nächsten fünf
+					Jahren bis 2027 erstmals überschritten werden. (<a
+						href="https://science.orf.at/stories/3219374/">Quelle</a
+					>).
 				</li>
 
 				<li style="padding-top:20px;">
 					Aktuell befindet sich die Menschheit auf dem <span style="color:red;">
-						Pfad zu + 3,2 °C
+						Pfad zu + 3,2 °C Erhitzung
 					</span>
-					bis zum Jahr 2100 - falls nicht doch noch radikale Gegenmaßnahmen erfolgen (<a
-						href="https://www.dwd.de/DE/wetter/thema_des_tages/2023/3/25.html">Quelle</a
-					>).
-					<br />Somit werden die Ziele des Pariser Klimaabkommens, zu welchem sich alle Staaten der
-					Welt verpflichtet hatten, nicht erreicht: Die Begrenzung der Erhitzung auf maximal 2°C,
-					idealerweise 1,5°C.
+					bis zum Jahr 2100 (<a href="https://www.dwd.de/DE/wetter/thema_des_tages/2023/3/25.html"
+						>Quelle</a
+					>) - falls nicht doch noch radikalere und effektivere Gegenmaßnahmen erfolgen.<br />
+					<br />Somit werden die Ziele des Pariser Klimaabkommens nicht erreicht: Die Begrenzung der
+					Erhitzung auf maximal 2°C, idealerweise 1,5°C. <br /><br />
+
+					Alle Staaten der Welt hatten die Ziele
+					<a
+						href="https://treaties.un.org/Pages/ViewDetails.aspx?src=IND&mtdsg_no=XXVII-7-d&chapter=27&clang=_en"
+						>unterzeichnet</a
+					>, um gemeinsam die massive Gefahren abzuwenden, welche bei über 2 Grad folgen können:
+					<a
+						href="https://www.moment.at/story/klimakrise-so-heiss-koennte-es-deinem-leben-noch-werden"
+					>
+						<img src="{base}/images/5_grad_grafik_moment_at.webp" alt="" /></a
+					>
+					<span class="image-source"
+						>Grafik-Quelle: <a
+							href="https://www.moment.at/story/klimakrise-so-heiss-koennte-es-deinem-leben-noch-werden"
+							>moment.at</a
+						></span
+					>
 				</li>
 
 				<li style="padding-top:20px;">
-					Die 1,5-Grad-Grenze könnte bereits in den nächsten fünf Jahren bis 2027 erstmals
-					überschritten werden. (<a href="https://science.orf.at/stories/3219374/">Quelle</a>).
-				</li>
-				<li style="padding-top:20px;">
-					Seit 1960 wird der Treibhausgas-Anteil in der Atmosphäre gemessen. Auch 2022 stieg der
-					Anteil von Treibhausgasen in der Atmosphäre - wie jedes Jahr seit 1960 - weiter an:<br
-					/><br />
+					Seit 1958 wird der Treibhausgas-Anteil in der Atmosphäre gemessen, weil <a
+						href="https://www.youtube.com/shorts/nEvWK3-UOis"
+						>das durch Menschen (und Industrie) zusätzlich verursachte Treibhausgas das reflektierte
+						Sonnenlicht am Austritt aus der Atmosphäre hindert</a
+					>
+					und die Erde so unnatürlich stark erhitzt. Hier gibt es seit 1958 jedes Jahr die selbe Meldung:
+					Auch 2022 stieg der Anteil von Treibhausgasen in der Atmosphäre weiter an:<br /><br />
 					<a href="https://keelingcurve.ucsd.edu/">
 						<img src="{base}/images/keeling_kurve_full_record_16092023.jpg" alt="" /></a
 					>
@@ -98,8 +194,8 @@
 				</li>
 				<li style="padding-top:20px;">
 					Nach Berechnungen von WissenschaftlerInnen, u.a. mit Hilfe von Gesteinsbohrungen, gab es
-					in den letzten 20'000 Jahren keine vergleichbare Durchschnitts-Temperatur. Die moderne
-					Menschheit betritt hier also komplett neues Terrain:<br /><br />
+					in den letzten 20'000 Jahren keine vergleichbare Durchschnitts-Temperatur, die ähnlich der
+					jetzigen Erderhitzung ist. Die moderne Menschheit betritt hier neues Terrain:<br /><br />
 
 					<img src="{base}/images/safe_climate_zone.jpg" alt="" />
 					<span class="image-source"
@@ -114,11 +210,12 @@
 					Atmosphäre, bis es wieder abgebaut ist (<a
 						href="https://www.umweltbundesamt.de/themen/klima-energie/klimaschutz-energiepolitik-in-deutschland/treibhausgas-emissionen/die-treibhausgase"
 						>Quelle</a
-					>). Daher entscheidet jeder aktuelle Treibhausgas-Ausstoß in den nächsten Jahren über die
-					tatsächlich daraus folgende Erderhitzung in den kommenden Jahrzehnten. <br /><br
-					/>Prognosen gehen - basierend auf Zielen von Regierungen und Unternehmen - von einer
-					Stagnation der Treibhausgase in den nächsten Jahrzehnten aus. Dies wäre ein minimaler
-					Teilerfolg im Kampf gegen die Erderhitzung:<br />
+					>). Daher entscheidet jeder aktuelle Treibhausgas-Ausstoß über die tatsächlich daraus
+					folgende Erderhitzung in den kommenden Jahrzehnten (Stichwort:
+					<a href="https://taz.de/Neue-CO2-Uhr-auf-tazde/!5810221/">„verbleibendes CO2-Budget“</a
+					>)<br /><br />Prognosen gehen - basierend auf geplanten Maßnahmen von Regierungen und
+					Unternehmen - von einer Stagnation der Treibhausgase in der Atmosphäre in den nächsten
+					Jahrzehnten aus. Dies wäre ein wichtiger Teilerfolg im Kampf gegen die Erderhitzung:<br />
 
 					<TwoClickPrivacyEmbed
 						provider="youtube"
@@ -141,48 +238,82 @@
 					</div>
 				</li>
 				<li style="padding-top:20px;">
-					Die Auswirkungen der Erderhitzung verlaufen nicht streng linear und sind nicht immer
-					eindeutig prognostizierbar: <a
+					Die Auswirkungen der Erderhitzung verlaufen nicht streng linear und sind nicht eindeutig
+					prognostizierbar: <a
 						href="https://www.spiegel.de/wissenschaft/natur/klimawandel-das-sind-die-gefaehrlichsten-kipppunkte-des-klimas-a-ce62231c-6520-4166-9267-8d5b3045f432"
 						>Kipppunkte</a
-					> können schwere Folgen nach sich ziehen - wenn sie überschritten werden. Diese ökologischen
-					Veränderungen sind dann wiederum unumkehrbar laut Wissenschaft.
+					>
+					können beispielsweise schwere Folgen nach sich ziehen - wenn sie überschritten werden. Diese
+					ökologischen Veränderungen sind dann gegebenfalls unumkehrbar ("irreversibel"):
+
+					<TwoClickPrivacyEmbed provider="youtube" contentId="Mp3z9z3Ecv4" />
+					<div class="image-source">
+						Video:
+						<a href="https://www.youtube.com/watch?v=Mp3z9z3Ecv4">
+							Maja Göpel, Pressekonferenz der Scientists for Future vom 12.03.2019 (Ausschnitt)</a
+						>, Originalvideo:
+						<a href="https://www.youtube.com/watch?v=OAoPkVfeTo0&t=0s"
+							>BPK: "Scientists for Future" zu den Protesten für mehr Klimaschutz (Jung & Naiv)</a
+						>
+					</div>
 				</li>
 				<li style="padding-top:20px;">
-					Nicht nur der massive, menschengemachte Treibhausgas-Ausstoß ist gefährlich für den
-					Planeten. Auch andere, jetzige Arten des Wirtschaftens mit den natürlichen Ressourcen
-					belasten die Widerstandsfähigkeit: <a
+					Nicht nur der massive, menschengemachte Treibhausgas-Ausstoß ist gefährlich für gute
+					Lebensbedingungen für Menschen und Tiere auf dem Planeten. Auch andere, jetzige Arten des
+					Wirtschaftens mit den natürlichen Ressourcen belasten die Widerstandsfähigkeit: <a
 						href="https://www.deutschlandfunk.de/studie-planetare-grenzen-ueberschritten-lebensgrundlage-mensch-100.html"
 						>„Studie zu planetaren Grenzen: Die Menschheit ruiniert ihre Lebensgrundlage“</a
-					> (2023).
+					> (2023). Das massiv auftretende Artensterben von Tieren und Pflanzen wird bspw. als "Zwillingskrise"
+					der Klimakrise bezeichnet.
 				</li>
+
 				<li style="padding-top:20px;">
-					Die Klimakrise ist eine enorme Herausforderung in Bezug auf das wirtschaftlich-soziale
-					Zusammenwirken aller Systeme, welches komplett auf Klimaneutralität umgestellt werden muss
-					in den nächsten Jahrzehnten - mit allen sozialen Negativfolgen, die hierbei abgefedert
-					werden müssen. Die nächsten Jahre der Umgestaltung könnten somit auch ein harter Test für
-					Demokratien als auch für viele Bürger:innen individuell sein.<br /><br />
-					Riskante Technologie-Themen aus dem Bereich Geo-Engineering könnten zudem beim Scheitern der
-					Pariser Klimaziele zukünftig ebenfalls stärker in den Fokus rücken. Hier betritt die Menschheit
-					ebenso Neuland.
+					Alles in allem ist die Lage zwiespältig: <br /><br />Durch das Engagement und den Protest
+					zahlreicher Menschen und Organisationen für Klimaschutz wurde weltweit viel Positives in
+					Bewegung gesetzt, Gesetze wurden verabschiedet, Branchen setzen Pläne hin zur
+					Klimaneutralität um, der Anteil von erneuerbarer Energie steigt weltweit, etc.<br /><br />
+					Zeitgleich wird in der Gesamtbetrachtung aber immer wieder wissenschaftlich festgestellt, dass
+					die globale Transformation zur Klimaneutralität immer noch viel zu langsam geschieht, um die
+					Erderhitzung effektiv zu begrenzen. Die Physik, die Biologie und die Ökosysteme des Planeten
+					kann man nicht besänftigen mit Greenwashing-Ankündingungen. <br /><br />Dieser Zwiespalt-
+					zwischen stetigem Fortschritt und zeitgleichem Misserfolg in der Gesamtbetrachung - wird
+					vermutlich immer wieder ein kräftezehrendes, gesellschaftliches Thema sein (persönliche
+					These).
 				</li>
+
 				<li style="padding-top:20px;">
-					Nicht zuletzt existiert eine große mentale Challenge: <br /><br />
-					Durch das Engagement und den Protest zahlreicher Menschen und Organisationen für Klimaschutz
-					wurde weltweit viel Positives in Bewegung gesetzt. Die Energiewende läuft beispielsweise an,
-					der Anteil von erneuerbarer Energie steigt weltweit, etc. etc. <br /><br /> Zeitgleich
-					wird in der Gesamtheit aber immer wieder wissenschaftlich festgestellt, dass die globale
-					Transformation zur Klimaneutralität immer noch viel zu langsam geschieht, um die
-					Erderhitzung effektiv zu begrenzen. Die Physik, die Biologie und die Ökosysteme des
-					Planeten kann man nicht bestechen oder besänftigen mit Greenwashing-Ankündingungen.<br
-					/><br />Dieser Zwiespalt- zwischen stetigem Fortschritt und zeitgleichem Misserfolg in der
-					Gesamtbetrachung - wird vermutlich immer wieder ein kräftezehrendes, gesellschaftliches
-					Thema sein.
+					Die Menschheit wird sich zukünftig also potenziell schwierigen, in dieser Form noch nie
+					dagewesenen Herausforderungen stellen müssen auf einem veränderten Planeten; während
+					zeitgleich versucht wird, jedes Viertelgrad weitere Erderhitzung zu verhindern. Es wird
+					wohl insbesondere auf Werte wie Solidarität ankommen in Zukunft (persönliche These).<br
+					/><br />
+					Sascha Friesike verweist hierbei auch darauf, dass es sich bei der Klimakrise um eine zeitlich
+					entgrenzte "creeping crisis" handelt. Hiermit sinnvoll umgehen zu können, muss auch von Gesellschaften
+					erst erlernt werden:
+
+					<TwoClickPrivacyEmbed provider="youtube" contentId="c8uZbS_wWPI" />
+					<div class="image-source">
+						Video: <a href="https://www.youtube.com/watch?v=c8uZbS_wWPI"
+							>Krise, was ist das eigentlich? | Wissenschaft erklärt
+						</a>
+					</div>
 				</li>
 			</ol>
 
 			<hr />
 
+			<!-- <br /><br />Dies ist nicht zuletzt eine mentale Herausforderung:<br /><br />
+					Durch das Engagement und den Protest zahlreicher Menschen und Organisationen für Klimaschutz
+					wurde weltweit viel Positives in Bewegung gesetzt. Die Energiewende läuft beispielsweise an,
+					der Anteil von erneuerbarer Energie steigt weltweit, etc. etc. <br /><br /> Zeitgleich
+					wird in der Gesamtbetrachtung aber immer wieder wissenschaftlich festgestellt, dass die
+					globale Transformation zur Klimaneutralität immer noch viel zu langsam geschieht, um die
+					Erderhitzung effektiv zu begrenzen. Die Physik, die Biologie und die Ökosysteme des
+					Planeten kann man nicht bestechen oder besänftigen mit Greenwashing-Ankündingungen.<br
+					/><br />Dieser Zwiespalt- zwischen stetigem Fortschritt und zeitgleichem Misserfolg in der
+					Gesamtbetrachung - wird vermutlich immer wieder ein kräftezehrendes, gesellschaftliches
+					Thema sein (persönliche These).
+				-->
 			<!--
 			<div class="image-source">
 				Video: <a href="https://youtu.be/atQbbMhZkbc"
@@ -263,8 +394,8 @@
 			</ul>
 
 			<details style="margin-top:20px;">
-				<summary role="button" class="secondary"
-					>Datenquelle Diagramm: IPCC Bericht 2021 (AR6)</summary
+				<summary role="button" class="secondary" id="datenquelle"
+					>Datenquelle für Diagramm: IPCC Bericht 2021 (AR6)</summary
 				>
 				<p>
 					Im
@@ -358,9 +489,10 @@
 			-->
 		</article>
 
-		<article>
+		<!-- TODO: Work in Progress, add id="was-zuvor-geschah" to h2 -->
+		<!-- <article >
 			<header>
-				<h2 id="was-zuvor-geschah">Was zuvor geschah</h2>
+				<h2>Was zuvor geschah</h2>
 			</header>
 			<p>Was zuvor geschah:</p>
 			<ol>
@@ -411,7 +543,7 @@
 					begrenzen.
 				</li>
 			</ol>
-		</article>
+		</article>-->
 
 		<article>
 			<header>
@@ -424,7 +556,7 @@
 					>Pariser Klimaabkommen</a
 				>
 				das Ziel gesetzt, die globale Erhitzung gemeinsam auf 1,5 °C, höchstens 2 °C zu begrenzen. Die
-				Unterschriften aller Staaten sind einsehbar hier einsehbar:
+				Unterschriften aller Staaten hier einsehbar:
 				<a
 					href="https://treaties.un.org/Pages/ViewDetails.aspx?src=IND&mtdsg_no=XXVII-7-d&chapter=27&clang=_en"
 					>treaties.un.org</a
@@ -432,12 +564,9 @@
 			</p>
 
 			<p>
-				Dies Ziel wird - Stand jetzt - mit hoher Wahrscheinlichkeit nicht erreicht, weil die Staaten
-				ihre Treibhausgas-Ausstöße nicht wie vereinbart massiv reduziert haben.
-			</p>
-
-			<p>
-				Der seit Jahrzehnten aktive
+				Dieses Ziel wird - Stand jetzt - mit hoher Wahrscheinlichkeit nicht erreicht, weil die
+				Staaten ihre Treibhausgas-Ausstöße nicht wie vereinbart massiv reduziert haben. Der seit
+				Jahrzehnten aktive
 				<a href="https://de.wikipedia.org/wiki/Stefan_Rahmstorf">Klimaforscher Stefan Rahmstorf</a>
 				sagte am 31. Juli 2023, dass der politische Wille fehlt um die Erderhitzung auf 1,5 °C zu begrenzen:
 			</p>
