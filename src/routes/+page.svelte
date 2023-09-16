@@ -55,18 +55,217 @@
 				<h2 id="aktuelle-erhitzung">🌡 Wie hoch ist die Erhitzung, worauf steuern wir zu?</h2>
 			</header>
 
-			<p style="font-weight:bold;margin-top:25px;">
-				Die aktuelle Erderhitzung beträgt derzeit bereits <span style="color:red;"
-					>1,1 Grad Celsius</span
-				>.
+			<p>Zehn Spiegelstriche zum aktuellen Stand, aus europäischer Perspektive:</p>
+			<ol>
+				<li>
+					Der Planet Erde hat sich im globalen Durchschnitt bereits um <span style="color:red;"
+						>+ 1,1 °C</span
+					>
+					erhitzt.<br /><br />
+
+					<ChartGlobalTempChange />
+					<span class="image-source">Datenquelle: IPCC AR6 Bericht, 2021, s.u.</span>
+				</li>
+
+				<li style="padding-top:20px;">
+					Aktuell befindet sich die Menschheit auf dem <span style="color:red;">
+						Pfad zu + 3,2 °C
+					</span>
+					bis zum Jahr 2100 - falls nicht doch noch radikale Gegenmaßnahmen erfolgen (<a
+						href="https://www.dwd.de/DE/wetter/thema_des_tages/2023/3/25.html">Quelle</a
+					>).
+					<br />Somit werden die Ziele des Pariser Klimaabkommens, zu welchem sich alle Staaten der
+					Welt verpflichtet hatten, nicht erreicht: Die Begrenzung der Erhitzung auf maximal 2°C,
+					idealerweise 1,5°C.
+				</li>
+
+				<li style="padding-top:20px;">
+					Die 1,5-Grad-Grenze könnte bereits in den nächsten fünf Jahren bis 2027 erstmals
+					überschritten werden. (<a href="https://science.orf.at/stories/3219374/">Quelle</a>).
+				</li>
+				<li style="padding-top:20px;">
+					Seit 1960 wird der Treibhausgas-Anteil in der Atmosphäre gemessen. Auch 2022 stieg der
+					Anteil von Treibhausgasen in der Atmosphäre - wie jedes Jahr seit 1960 - weiter an:<br
+					/><br />
+					<a href="https://keelingcurve.ucsd.edu/">
+						<img src="{base}/images/keeling_kurve_full_record_16092023.jpg" alt="" /></a
+					>
+					<span class="image-source"
+						>Grafik-Quelle: <a href="https://keelingcurve.ucsd.edu/"
+							>Keeling Curve, Scripps Institution of Oceanography at UC San Diego</a
+						></span
+					>
+				</li>
+				<li style="padding-top:20px;">
+					Nach Berechnungen von WissenschaftlerInnen, u.a. mit Hilfe von Gesteinsbohrungen, gab es
+					in den letzten 20'000 Jahren keine vergleichbare Durchschnitts-Temperatur. Die moderne
+					Menschheit betritt hier also komplett neues Terrain:<br /><br />
+
+					<img src="{base}/images/safe_climate_zone.jpg" alt="" />
+					<span class="image-source"
+						>Grafik aus 2018, inzwischen hat sich die aktuelle Pfad-Prognose auf +3,2°C verbessert (<a
+							href="https://jpratt27.wordpress.com/2018/12/04/sir-david-attenborough-climatechange-our-greatest-threat-auspol-qldpol-heatwave-bushfire-flood-stopadani-climatestrike-extinctionrebellion-thedrum-qanda-cop24/"
+							>Quelle</a
+						>)</span
+					>
+				</li>
+				<li style="padding-top:20px;">
+					Das große physikalische Problem: Das Treibhausgas CO2 bleibt über 1000 Jahre in der
+					Atmosphäre, bis es wieder abgebaut ist (<a
+						href="https://www.umweltbundesamt.de/themen/klima-energie/klimaschutz-energiepolitik-in-deutschland/treibhausgas-emissionen/die-treibhausgase"
+						>Quelle</a
+					>). Daher entscheidet jeder aktuelle Treibhausgas-Ausstoß in den nächsten Jahren über die
+					tatsächlich daraus folgende Erderhitzung in den kommenden Jahrzehnten. <br /><br
+					/>Prognosen gehen - basierend auf Zielen von Regierungen und Unternehmen - von einer
+					Stagnation der Treibhausgase in den nächsten Jahrzehnten aus. Dies wäre ein minimaler
+					Teilerfolg im Kampf gegen die Erderhitzung:<br />
+
+					<TwoClickPrivacyEmbed
+						provider="youtube"
+						contentId="atQbbMhZkbc"
+						placeholderImg="{base}/images/screenshot_youtube_rahmstorf_welcher_pfad.png"
+					/>
+					<div class="image-source">
+						Video: <a href="https://youtu.be/atQbbMhZkbc"
+							>Re-Upload: Auf welchem Emissionspfad sind wir, und wo sollten wir zur Einhaltung von
+							1,5 Grad sein?</a
+						>
+						(Original-Quelle:
+						<a href="https://twitter.com/rahmstorf/status/1593536876312420352"
+							>Stefan Rahmstorf - Twitter 18. November 2022</a
+						>, gesamte Diskussion:
+						<a href="https://www.youtube.com/watch?v=xrdKdlZRb5M"
+							>Europe Calling Live von der Klimakonferenz #cop27 - Disaster oder Hoffnungsschimmer?
+							(YouTube)
+						</a>
+					</div>
+				</li>
+				<li style="padding-top:20px;">
+					Die Auswirkungen der Erderhitzung verlaufen nicht streng linear und sind nicht immer
+					eindeutig prognostizierbar: <a
+						href="https://www.spiegel.de/wissenschaft/natur/klimawandel-das-sind-die-gefaehrlichsten-kipppunkte-des-klimas-a-ce62231c-6520-4166-9267-8d5b3045f432"
+						>Kipppunkte</a
+					> können schwere Folgen nach sich ziehen - wenn sie überschritten werden. Diese ökologischen
+					Veränderungen sind dann wiederum unumkehrbar laut Wissenschaft.
+				</li>
+				<li style="padding-top:20px;">
+					Nicht nur der massive, menschengemachte Treibhausgas-Ausstoß ist gefährlich für den
+					Planeten. Auch andere, jetzige Arten des Wirtschaftens mit den natürlichen Ressourcen
+					belasten die Widerstandsfähigkeit: <a
+						href="https://www.deutschlandfunk.de/studie-planetare-grenzen-ueberschritten-lebensgrundlage-mensch-100.html"
+						>„Studie zu planetaren Grenzen: Die Menschheit ruiniert ihre Lebensgrundlage“</a
+					> (2023).
+				</li>
+				<li style="padding-top:20px;">
+					Die Klimakrise ist eine enorme Herausforderung in Bezug auf das wirtschaftlich-soziale
+					Zusammenwirken aller Systeme, welches komplett auf Klimaneutralität umgestellt werden muss
+					in den nächsten Jahrzehnten - mit allen sozialen Negativfolgen, die hierbei abgefedert
+					werden müssen. Die nächsten Jahre der Umgestaltung könnten somit auch ein harter Test für
+					Demokratien als auch für viele Bürger:innen individuell sein.<br /><br />
+					Riskante Technologie-Themen aus dem Bereich Geo-Engineering könnten zudem beim Scheitern der
+					Pariser Klimaziele zukünftig ebenfalls stärker in den Fokus rücken. Hier betritt die Menschheit
+					ebenso Neuland.
+				</li>
+				<li style="padding-top:20px;">
+					Nicht zuletzt existiert eine große mentale Challenge: <br /><br />
+					Durch das Engagement und den Protest zahlreicher Menschen und Organisationen für Klimaschutz
+					wurde weltweit viel Positives in Bewegung gesetzt. Die Energiewende läuft beispielsweise an,
+					der Anteil von erneuerbarer Energie steigt weltweit, etc. etc. <br /><br /> Zeitgleich
+					wird in der Gesamtheit aber immer wieder wissenschaftlich festgestellt, dass die globale
+					Transformation zur Klimaneutralität immer noch viel zu langsam geschieht, um die
+					Erderhitzung effektiv zu begrenzen. Die Physik, die Biologie und die Ökosysteme des
+					Planeten kann man nicht bestechen oder besänftigen mit Greenwashing-Ankündingungen.<br
+					/><br />Dieser Zwiespalt- zwischen stetigem Fortschritt und zeitgleichem Misserfolg in der
+					Gesamtbetrachung - wird vermutlich immer wieder ein kräftezehrendes, gesellschaftliches
+					Thema sein.
+				</li>
+			</ol>
+
+			<hr />
+
+			<!--
+			<div class="image-source">
+				Video: <a href="https://youtu.be/atQbbMhZkbc"
+					>Re-Upload: Auf welchem Emissionspfad sind wir, und wo sollten wir zur Einhaltung von 1,5
+					Grad sein?</a
+				>
+				(Original-Quelle:
+				<a href="https://twitter.com/rahmstorf/status/1593536876312420352"
+					>Stefan Rahmstorf - Twitter 18. November 2022</a
+				>, gesamte Diskussion:
+				<a href="https://www.youtube.com/watch?v=xrdKdlZRb5M"
+					>Europe Calling Live von der Klimakonferenz #cop27 - Disaster oder Hoffnungsschimmer?
+					(YouTube)
+				</a>
+			</div>
+
+
+			<p style="margin-top:25px;line-height:1rem;">
+				<img
+					src="{base}/images/rahmstorf_pfad_november_2022.png"
+					alt="Grafik mit drei Pfaden: Hier sind wir - 3 Grad, hier sollten wir sein - 1,5 Grad, dazwischen 2 Grad."
+				/>
+				<span class="image-source"
+					>Screenshot aus Video
+					<a href="https://twitter.com/rahmstorf/status/1593536876312420352"
+						>Stefan Rahmstorf - Twitter 18. November 2022</a
+					>, gesamte Diskussion:
+					<a href="https://www.youtube.com/watch?v=xrdKdlZRb5M"
+						>Europe Calling Live von der Klimakonferenz #cop27 - Disaster oder Hoffnungsschimmer?
+						(YouTube)
+					</a></span
+				>
 			</p>
 
-			<ChartGlobalTempChange />
+			-->
+			<!-- <p>
+				Das Erschreckende: Alle Staaten dieser Welt hatten sich mit dem Pariser Klimaabkommen im
+				Jahr 2015 auf eine Begrenzung von maximal 2 °C, besser 1,5 °C geeinigt - um massive Schäden
+				und Gefahren für die Menschheit und Ökosysteme zu verhindern.
+			</p>
+
+			<p>
+				Um die Erderhitzung unter 3 °C zu stoppen, müssen Treibhausgas-Ausstoße massiv reduziert und
+				schließlich auf Netto-Null gebracht werden in den nächsten Jahrzehnten. (Klimaneutralität)
+				Nach aktuellen Prognosen wird der Ausstoß von Treibhausgas in Zukunft aber nur stagnieren,
+				wenn man sich die Ziele der Regierungen und Wirtschaft anschaut.
+			</p> -->
+
+			<!-- 
+			<div style="margin-top:25px;">
+				<img
+					src="{base}/images/keeling_kurve_full_record_16092023.jpg"
+					alt="Keeling Kurve 2000 Jahre zurück"
+				/>
+			</div>-->
+
+			<p style="margin-top:25px;">Mehr aktuelle Informationen:</p>
+			<p style="margin-top:20px;" />
+			<ul>
+				<li>
+					<a
+						href="https://www.riffreporter.de/de/wissen/ipcc-klimawandel-klima-global-deutschland-generationen-gesundheit"
+						target="_blank">„Das sind die zentralen Aussagen des Weltklimarats – in 7 Grafiken“</a
+					> (riffreporter.de, März 2023)
+				</li>
+				<li>
+					Das aktuelle Szenarien-Bild aus dem IPCC Synthesebericht 2023:<br />
+					<div style="margin-top:25px;">
+						<img src="{base}/images/ipcc_synthesebericht_2023.jpg" alt="" />
+					</div>
+					<div class="image-source">
+						Quelle: <a
+							href="https://www.ipcc.ch/report/sixth-assessment-report-cycle/"
+							target="_blank">Figure SPM.5, IPCC AR6 Synthesebericht 2023</a
+						>
+					</div>
+				</li>
+			</ul>
+
 			<details style="margin-top:20px;">
 				<summary role="button" class="secondary"
 					>Datenquelle Diagramm: IPCC Bericht 2021 (AR6)</summary
 				>
-
 				<p>
 					Im
 					<a href="https://www.de-ipcc.de/media/content/AR6-WGI-SPM_deutsch_barrierefrei.pdf"
@@ -133,77 +332,14 @@
 				</p>
 			</details>
 
-			<p style="margin-top:25px;">
-				Aktuell befinden wir uns auf einem Weg zu +3 °C Grad Erderhitzung. Alle Staaten dieser Welt
-				hatten sich gemeinsam im Jahr 2015 verpflichtet, die Erhitzung auf 1,5 °C, höchstens 2 °C zu
-				begrenzen (<a
+			<!--<p style="margin-top:25px;">
+				Alle Staaten dieser Welt hatten sich gemeinsam im Jahr 2015 verpflichtet, die Erhitzung auf
+				1,5 °C, höchstens 2 °C, zu begrenzen (<a
 					href="https://treaties.un.org/Pages/ViewDetails.aspx?src=IND&mtdsg_no=XXVII-7-d&chapter=27&clang=_en"
 					>Pariser Klima-Abkommen</a
 				>). Dies Ziel wird mit hoher Wahrscheinlichkeit nicht erreicht, weil die Staaten ihre
 				Treibhausgas-Ausstöße nicht wie vereinbart massiv reduziert haben.
-			</p>
-
-			<p style="margin-top:25px;">
-				Der seit Jahrzehnten aktive
-				<a href="https://de.wikipedia.org/wiki/Stefan_Rahmstorf">Klimaforscher Stefan Rahmstorf</a> erklärte
-				den aktuellen Pfad im November 2022 so (2 Minuten):
-			</p>
-
-			<p style="margin-top:25px;line-height:1rem;">
-				<img
-					src="{base}/images/rahmstorf_pfad_november_2022.png"
-					alt="Grafik mit drei Pfaden: Hier sind wir - 3 Grad, hier sollten wir sein - 1,5 Grad, dazwischen 2 Grad."
-				/>
-				<span class="image-source"
-					>Screenshot aus Video
-					<a href="https://twitter.com/rahmstorf/status/1593536876312420352"
-						>Stefan Rahmstorf - Twitter 18. November 2022</a
-					>, gesamte Diskussion:
-					<a href="https://www.youtube.com/watch?v=xrdKdlZRb5M"
-						>Europe Calling Live von der Klimakonferenz #cop27 - Disaster oder Hoffnungsschimmer?
-						(YouTube)
-					</a></span
-				>
-			</p>
-
-			<TwoClickPrivacyEmbed
-				provider="youtube"
-				contentId="atQbbMhZkbc"
-				placeholderImg="{base}/images/screenshot_youtube_rahmstorf_welcher_pfad.png"
-			/>
-			<div class="image-source">
-				Video: <a href="https://youtu.be/atQbbMhZkbc"
-					>Re-Upload: Auf welchem Emissionspfad sind wir, und wo sollten wir zur Einhaltung von 1,5
-					Grad sein?</a
-				>
-				(Original-Quelle:
-				<a href="https://twitter.com/rahmstorf/status/1593536876312420352"
-					>Stefan Rahmstorf - Twitter 18. November 2022</a
-				>, gesamte Diskussion:
-				<a href="https://www.youtube.com/watch?v=xrdKdlZRb5M"
-					>Europe Calling Live von der Klimakonferenz #cop27 - Disaster oder Hoffnungsschimmer?
-					(YouTube)
-				</a>
-			</div>
-
-			<p style="margin-top:20px;">Das aktuelle Szenarien-Bild aus dem IPCC Synthesebericht 2023:</p>
-
-			<div style="margin-top:25px;">
-				<img src="{base}/images/ipcc_synthesebericht_2023.jpg" alt="" />
-			</div>
-			<div class="image-source">
-				Quelle: <a href="https://www.ipcc.ch/report/sixth-assessment-report-cycle/" target="_blank"
-					>Figure SPM.5, IPCC AR6 Synthesebericht 2023</a
-				>
-			</div>
-
-			<p style="margin-top:25px;">
-				Mehr aktuelle Informationen: <a
-					href="https://www.riffreporter.de/de/wissen/ipcc-klimawandel-klima-global-deutschland-generationen-gesundheit"
-					target="_blank"
-					>„Klimakrise: Das sind die zentralen Aussagen des Weltklimarats – in 7 Grafiken“</a
-				> (riffreporter.de, März 2023)
-			</p>
+			</p> -->
 
 			<!-- 
 			<a href="https://www.spektrum.de/news/klimawandel-warum-es-wirksamen-klimaschutz-braucht/">
@@ -224,16 +360,84 @@
 
 		<article>
 			<header>
+				<h2 id="was-zuvor-geschah">Was zuvor geschah</h2>
+			</header>
+			<p>Was zuvor geschah:</p>
+			<ol>
+				<li>
+					Schon 1850 findet die Wissenschaft erste Hinweise auf Erwärmung und CO2, 1971 warnt die
+					Deutsche Physikalische Gesellschaft zum ersten Mal (<a
+						href="https://www.ardalpha.de/wissen/umwelt/klima/klimawandel/klimawandel-klimaforschung-geschichte-historisch-100.html"
+						>Quelle</a
+					>)
+				</li>
+				<li>
+					Ab 1977 prognostizieren WissenschaftlerInnen des Öl-Unternehmens Exxon intern die jetzige
+					Erhitzung realistisch, öffentlich wird der Zusammenhang von Öl, Kohle, Gas verbrennen und
+					Erderhitzung stattdessen geleugnet (<a
+						href="https://www.klimareporter.de/gesellschaft/exxon-wusste-alles">Quelle 2</a
+					>)
+				</li>
+				<li>
+					1979 findet die erste Weltklimakonferenz statt, 1988 wird der Weltklimarat (IPPC) ins
+					Leben gerufen, ... (<a
+						href="https://www.ardalpha.de/wissen/umwelt/klima/klimawandel/klimawandel-klimaforschung-geschichte-historisch-100.html"
+						>Quelle</a
+					>)
+				</li>
+				<li>
+					Im Jahr 2015 verpflichten sich alle Staaten der Welt, die Erderhitzung auf maximal 2 Grad,
+					idealerweise auf 1,5 Grad zu begrenzen.
+				</li>
+				<li>
+					Grund: Um massive Gefahren und Folgeschäden von der Menschheit und von Ökosystemen
+					abzuwenden, wenn sich der Planet unnatürlich hoch erhitzt.
+				</li>
+				<li>
+					Um die Erhitzung zu begrenzen, muss der Treibhausgas-Ausstoß aller Länder massiv reduziert
+					werden - bis hin zur Klimaneutralität. Dies ist unbedingt nötig, weil einmal augestoßenes
+					Treibhausgas, bspw. durch Verbrennen von Diesel in einem Motor oder Kohle in einem
+					Kraftwerk, über 1'000 Jahre in der Atmosphäre verbleibt.
+				</li>
+				<li>
+					Das von der Menschheit zusätzlich ausgestoßene Treibhausgas hindert die
+					<a href="https://www.youtube.com/shorts/nEvWK3-UOis"
+						>reflektierten Sonnenstrahlen beim Verlassen aus der Atmosphäre</a
+					> - was zur jetzigen steigenden Erhitzung des Planeten Erde führt.
+				</li>
+				<li>
+					WissenschaftlerInnen haben deshalb für das Pariser Klimaabkommen berechnet, wie viel
+					Treibhausgas die Menschheit noch ausstoßen darf, um die globale Erhitzung auf 1,5°C zu
+					begrenzen.
+				</li>
+			</ol>
+		</article>
+
+		<article>
+			<header>
 				<h2 id="wie-steht-es-um-1-5-grad">📉 Wie steht es um das 1,5-Grad-Limit?</h2>
 			</header>
-			<p />
+
 			<p>
 				Alle Staaten dieser Welt haben sich mit dem <a
 					href="https://www.ardalpha.de/wissen/umwelt/klima/klimawandel/klimaabkommen-paris-protokoll-klimapolitik-klimawandel-102.html"
 					>Pariser Klimaabkommen</a
 				>
-				das Ziel gesetzt, die globale Erhitzung gemeinsam auf 1,5 °C, höchstens 2 °C zu begrenzen. Der
-				seit Jahrzehnten aktive
+				das Ziel gesetzt, die globale Erhitzung gemeinsam auf 1,5 °C, höchstens 2 °C zu begrenzen. Die
+				Unterschriften aller Staaten sind einsehbar hier einsehbar:
+				<a
+					href="https://treaties.un.org/Pages/ViewDetails.aspx?src=IND&mtdsg_no=XXVII-7-d&chapter=27&clang=_en"
+					>treaties.un.org</a
+				>.
+			</p>
+
+			<p>
+				Dies Ziel wird - Stand jetzt - mit hoher Wahrscheinlichkeit nicht erreicht, weil die Staaten
+				ihre Treibhausgas-Ausstöße nicht wie vereinbart massiv reduziert haben.
+			</p>
+
+			<p>
+				Der seit Jahrzehnten aktive
 				<a href="https://de.wikipedia.org/wiki/Stefan_Rahmstorf">Klimaforscher Stefan Rahmstorf</a>
 				sagte am 31. Juli 2023, dass der politische Wille fehlt um die Erderhitzung auf 1,5 °C zu begrenzen:
 			</p>
