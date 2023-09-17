@@ -1,42 +1,30 @@
 {
-	"name": "wie-stehts-ums-klima-so",
-	"version": "0.0.1",
-	"private": true,
-	"scripts": {
-		"dev": "vite dev",
-		"build": "vite build",
-		"preview": "vite preview",
-		"check": "svelte-kit sync && svelte-check --tsconfig ./jsconfig.json",
-		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./jsconfig.json --watch",
-		"test": "playwright test",
-		"test:unit": "vitest",
-		"lint": "prettier --plugin-search-dir . --check . && eslint .",
-		"format": "prettier --plugin-search-dir . --write ."
-	},
-	"devDependencies": {
-		"@playwright/test": "^1.28.1",
-		"@sveltejs/adapter-auto": "^1.0.0",
-		"@sveltejs/adapter-static": "^1.0.6",
-		"@sveltejs/kit": "^1.0.0",
-		"eslint": "^8.28.0",
-		"eslint-config-prettier": "^8.5.0",
-		"eslint-plugin-svelte3": "^4.0.0",
-		"prettier": "^2.8.3",
-		"prettier-plugin-svelte": "^2.9.0",
-		"sass": "^1.57.1",
-		"svelte": "^3.54.0",
-		"svelte-check": "^3.0.1",
-		"typescript": "^4.9.3",
-		"vite": "^4.0.0",
-		"vitest": "^0.25.3"
-	},
-	"type": "module",
-	"dependencies": {
-		"@fontsource/playfair-display": "^4.5.13",
-		"@picocss/pico": "^1.5.6",
-		"chart.js": "^4.2.0",
-		"svelte-chartjs": "^3.1.2",
-		"svelte-local-storage-store": "^0.4.0",
-		"svelte-toc": "^0.5.2"
-	}
+  "name": "",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/starlight": "^0.10.0",
+    "@astrojs/svelte": "^4.0.2",
+    "astro": "^3.0.6",
+    "chart.js": "^4.4.0",
+    "sharp": "^0.32.5",
+    "svelte": "^4.2.0",
+    "svelte-chartjs": "^3.1.2"
+  },
+  "devDependencies": {
+    "prettier": "3.0.3",
+    "sass": "^1.67.0"
+  },
+  "overrides": {
+    "svelte-chartjs": {
+      "svelte": ">=4.x"
+    }
+  }
 }

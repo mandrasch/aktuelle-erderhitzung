@@ -1,93 +1,51 @@
-Static generated site about the current state of climate emergency.
-
-https://aktuelle-erderhitzung.de
-
-Built with
-
-- [SvelteKit](https://sveltekit.org)
-- [Pico.css](https://picocss.com/)
-- [fontsource](https://fontsource.org/)
-- [svelte-toc](https://github.com/janosh/svelte-toc)
-
-Deployed via [adapter-static](https://kit.svelte.dev/docs/adapter-static) to Mittwald SpaceServer lite.
+# Starlight Starter Kit: Basics
 
 ```
-# You must create an `.env` file before using this
-cd /home/ploi/aktuelle-erderhitzung.de
-git pull origin main
-npm install
-npm run build
-echo "🚀 Application deployed!"
+npm create astro@latest -- --template starlight
 ```
 
-For demo purposes - also deployed via [adapter-static](https://kit.svelte.dev/docs/adapter-static) on GitHub pages: https://mandrasch.github.io/aktuelle-erderhitzung
+[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/starlight/tree/main/examples/basics)
+[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/starlight/tree/main/examples/basics)
 
-## TODOs / ideas
+> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
 
-- [ ] FEAT: Add linkable headings, see e.g. GitHub readmes
-- [ ] CHORE: Add imprint + privacy link on bottom left, see e.g. elk
-- [ ] BUG: Direct visit to /impressum does not work with nginx?
-- [ ] FIX: og:image must be added with full path - how can we get this via Github Action node env?
-- [ ] FIX: process.env.BUILD_DATETIME can't be used in components? How to import?
-- [ ] FEAT: add favicon
+## 🚀 Project Structure
 
-- [ ] Add carton in the end https://www.slanecartoon.com/-/galleries/climate-quest-cartoons/-/medias/c368ca68-0ef0-44bf-8275-3d2475b09e70-choosing-our-degrees
-- [ ] Implement accessible modal to accept all social media embed providers at one (cookie banner), e.g. https://github.com/AgnosticUI/svelte-a11y-dialog?
-- [ ] Add Theme switcher dark/light mode
-- [ ] a11y check
+Inside of your Astro + Starlight project, you'll see the following folders and files:
 
-## How was it created?
-
-```bash
-npm create svelte@latest .
-npm i @picocss/pico
-npm i -D sass
-
-npm install -D svelte-preprocess
-npm i svelte-local-storage-store
+```
+.
+├── public/
+├── src/
+│   ├── assets/
+│   ├── content/
+│   │   ├── docs/
+│   │   └── config.ts
+│   └── env.d.ts
+├── astro.config.mjs
+├── package.json
+└── tsconfig.json
 ```
 
-Resources used:
+Starlight looks for `.md` or `.mdx` files in the `src/content/docs/` directory. Each file is exposed as a route based on its file name.
 
-- https://joyofcode.xyz/using-pico-css-with-svelte
+Images can be added to `src/assets/` and embedded in Markdown with a relative link.
 
-<hr>
+Static assets, like favicons, can be placed in the `public/` directory.
 
-# create-svelte
+## 🧞 Commands
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+All commands are run from the root of the project, from a terminal:
 
-## Creating a project
+| Command                   | Action                                           |
+| :------------------------ | :----------------------------------------------- |
+| `npm install`             | Installs dependencies                            |
+| `npm run dev`             | Starts local dev server at `localhost:4321`      |
+| `npm run build`           | Build your production site to `./dist/`          |
+| `npm run preview`         | Preview your build locally, before deploying     |
+| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
+| `npm run astro -- --help` | Get help using the Astro CLI                     |
 
-If you're seeing this, you've probably already done this step. Congrats!
+## 👀 Want to learn more?
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
-
-# create a new project in my-app
-npm create svelte@latest my-app
-```
-
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+Check out [Starlight’s docs](https://starlight.astro.build/), read [the Astro documentation](https://docs.astro.build), or jump into the [Astro Discord server](https://astro.build/chat).

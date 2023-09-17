@@ -1,0 +1,12 @@
+/* TODO: convert everything to rem */
+/* inline usage */
+.image-source {
+  font-size: 0.75rem;
+  color: #666;
+}
+/* block usage */
+div.image-source {
+  padding-top: 8px;
+  margin-top: 0px !important;
+  padding-bottom: 15px;
+}

@@ -1,5 +1,5 @@
 <script>
-	import { gdprAcceptedEmbedProvidersStore } from './../stores.js';
+	import { gdprAcceptedEmbedProvidersStore } from './stores.js';
 
 	/** @type {String[]} */
 	let gdprAcceptedEmbedProviders = [];

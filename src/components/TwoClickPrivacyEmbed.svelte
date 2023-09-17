@@ -1,5 +1,5 @@
 <script>
-	import { gdprAcceptedEmbedProvidersStore } from './../stores.js';
+	import { gdprAcceptedEmbedProvidersStore } from './stores.js';
 
 	// Old implementation via
 	// https://github.com/joshnuss/svelte-local-storage-store
@@ -37,6 +37,7 @@
 	*/
 
 	function acceptProvider() {
+	
 		// current manual approach, each video/embed has its own activation
 		isAccepted = true;
 		return;
@@ -76,6 +77,7 @@ IsAccepted?{JSON.stringify(isAccepted)}; Provider: {JSON.stringify(provider)}; -
 
 <div class="two-click-privacy-box" style="--placeholderImgUrl: {placeholderImgUrl}">
 	<!-- {JSON.stringify(gdprAcceptedEmbedProvidersValue)} -->
+
 
 	{#if provider === 'youtube'}
 		{#if !isAccepted}
@@ -153,7 +155,7 @@ IsAccepted?{JSON.stringify(isAccepted)}; Provider: {JSON.stringify(provider)}; -
 		background-size: cover;
 
 		.dialog {
-			background-color: rgba(0, 0, 0, 0.65);
+			background-color: rgba(200, 214, 229,0.65);
 
 			border: 1px dashed var(--secondary);
 			padding: 10px;
@@ -169,24 +171,28 @@ IsAccepted?{JSON.stringify(isAccepted)}; Provider: {JSON.stringify(provider)}; -
 				background-color: white;
 				border-radius: 5px;
 				padding: 20px;
+
 				button {
+					cursor:pointer;
 					width: 200px;
-					margin: 0 auto;
+					margin: 10px auto;
+					
 				}
-				button.twitter {
+				/*button.twitter {
 					background-color: #1c9bef;
 					border-color: #1c9bef;
 				}
 				button.youtube {
 					background-color: #ff3932;
 					border-color: #ff3932;
-				}
+				}*/
 			}
 		}
 
 		.embed-display {
 			display: flex;
 			justify-content: center;
+			min-height: 375px;
 		}
 	}
 </style>
