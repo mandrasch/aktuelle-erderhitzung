@@ -7,6 +7,13 @@ import svelte from "@astrojs/svelte";
 export default defineConfig({
 	integrations: [starlight({
 		title: 'Aktuelle Erderhitzung',
+		defaultLocale: 'root', // optional
+		locales: {
+			root: {
+				label: 'Deutsch',
+				lang: 'de', // lang is required for root locales
+			},
+		},
 		favicon: '/images/earth_flaticon_2072130.png',
 		customCss: [
 			// Relative path to your custom CSS file
@@ -60,9 +67,9 @@ export default defineConfig({
 					link: '/themen/wirtschaftliche-herausforderungen'
 				}]
 			}, {
-				label: 'Reference',
+				label: 'Über',
 				autogenerate: {
-					directory: 'reference'
+					directory: 'about'
 				}
 			}]
 	}), svelte()]
