@@ -52,7 +52,11 @@ export default defineConfig({
 					link: '/themen/1-5-grad-wird-ueberschritten'
 				},
 				{
-					label: 'Kipppunkte',
+					label: 'Gesellschaftliche Herausforderungen',
+					link: '/themen/gesellschaftliche-herausforderungen'
+				},
+				{
+					label: 'Kipppunkte und Unumkehrbarkeit',
 					link: '/themen/kipppunkte-und-unumkehrbarkeit'
 				},
 				{
@@ -60,12 +64,23 @@ export default defineConfig({
 					link: '/themen/neue-lebensbedingungen'
 				},
 				{
-					label: 'Gesellschaftliche Herausforderungen',
-					link: '/themen/gesellschaftliche-herausforderungen'
-				}, {
 					label: 'Wirtschaftliche Herausforderungen',
 					link: '/themen/wirtschaftliche-herausforderungen'
-				}]
+				},
+				{
+					label: 'Planetare Grenzen und Zwillingskrise',
+					link: '/themen/planetare-grenzen-und-zwillingskrise-biodiversitaet'
+				},
+				{
+					label: 'Fortschritte, Solidarität und Anpassung',
+					link: '/themen/fortschritte-solidaritaet-und-anpassung'
+				}
+				]
+			}, {
+				label: 'Sonstige Ressourcen',
+				autogenerate: {
+					directory: 'sonstige-ressourcen'
+				}
 			}, {
 				label: 'Über',
 				autogenerate: {
