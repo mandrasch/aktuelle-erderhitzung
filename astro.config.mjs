@@ -5,6 +5,9 @@ import svelte from "@astrojs/svelte";
 
 // https://astro.build/config
 export default defineConfig({
+	// this will enable a sitemap
+	site: 'https://aktuelle-erderhitzung.de',
+
 	integrations: [starlight({
 		title: 'Aktuelle Erderhitzung',
 		defaultLocale: 'root', // optional
@@ -28,8 +31,8 @@ export default defineConfig({
 				// Each item here is one entry in the navigation menu.
 				items: [
 					{
-						label: 'Kurz-Zusammenfassung',
-						link: '/intro/kurz-zusammenfassung/'
+						label: 'Der aktuelle Stand',
+						link: '/intro/aktueller-stand/'
 					}
 				]
 			},
@@ -50,10 +53,6 @@ export default defineConfig({
 				{
 					label: '1,5-Grad wird überschritten',
 					link: '/themen/1-5-grad-wird-ueberschritten'
-				},
-				{
-					label: 'Gesellschaftliche Herausforderungen',
-					link: '/themen/gesellschaftliche-herausforderungen'
 				},
 				{
 					label: 'Kipppunkte und Unumkehrbarkeit',
