@@ -22,7 +22,7 @@
   <div class="modal-overlay">
     <div class="modal">
       <p class="p-6">
-        Hi! Diese Webseite nutzt eingebette YouTube-Videos (<a
+        Hi! Diese Webseite nutzt eingebettete YouTube-Videos (<a
           class="underline"
           href="https://policies.google.com/privacy?hl=de"
           target="_blank">Datenschutz</a
