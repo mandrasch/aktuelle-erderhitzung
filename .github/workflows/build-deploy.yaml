@@ -21,7 +21,7 @@ jobs:
       - name: Setup Node LTS
         uses: actions/setup-node@v3
         with:
-          node-version: '18' # lts
+          node-version: '20' # lts
 
       # Create an .env file, this will be used in svelte.config.js
       # https://stackoverflow.com/a/63350136,
@@ -43,7 +43,7 @@ jobs:
           switches: -avzr --delete
           # TODO: add --delete flag once path is correct
           # build path:
-          path: /build/
+          path: /dist/
           # Something like '/home/sites/site100XXXX5/web/aktuelle-erderhitzung.de/'
           remote_path: ${{ secrets.SSH_PATH }}
           remote_host: ngcobalt384.manitu.net
