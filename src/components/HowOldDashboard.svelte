@@ -17,6 +17,10 @@
       return "-";
     }
 
+    if(age > 120){
+      return "> 120";
+    }
+
     return  age + " Jahre";
   }
 
