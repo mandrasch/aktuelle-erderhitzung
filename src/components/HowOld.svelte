@@ -10,7 +10,7 @@
     }
 
     return futureYear - birthYear + " Jahre";
-  }
+  } 
 </script>
 
 <div class="w-full">

@@ -1,116 +1,161 @@
 ---
-import { Image } from 'astro:assets';
-import klimaprotestImg from "../images/klimaprotest_at_flickr_cc_by_shareaelike.jpg"; 
-import YouTubeVideo from '../components/YouTubeVideo.svelte';
+import { Image } from "astro:assets";
+import klimaprotestImg from "../images/klimaprotest_at_flickr_cc_by_shareaelike.jpg";
+import YouTubeVideo from "../components/YouTubeVideo.svelte";
 ---
 
 <div class="p-4 md:w-2/3" id="ziele">
-    <div class="h-full rounded-xl shadow-cla-blue bg-gradient-to-r from-orange-50 to-red-50 overflow-hidden">
-      <div class="p-6 prose">
-        <h2 class="tracking-widest text-xs title-font font-medium text-black-400 mb-1">
-          Start with why
-        </h2>
-        <h3 class="title-font text-3xl font-bold text-gray-600 mb-3">
-          Die zwei großen Ziele dieses Jahrzehnts 💪
-        </h3>
-    
-       
-    
-          <p class="leading-relaxed text-sm mb-3">
-            Auch wenn es im alltäglichen Leben oft untergeht - wir leben in einer der größten Transformationen der modernen Menschheitsgeschichte. Dabei gibt es zwei große Ziele: 
-          </p>
-  
-          <ol class="list-decimal text-sm mb-3">
-            <li class="text-sm"><strong>Klimaneutralität</strong>: So schnell wie möglich klimaneutral leben und wirtschaften, um die weitere Erderhitzung so gering wie möglich zu halten.</li>
-            <li class="text-sm"><strong>Klimafolgenanpassung</strong>: Sich an die jetzige und zukünftige Erhitzung anpassen, die nicht mehr verhindert werden kann. Also an Folgen wie zunehmendes Extremwetter und Hitze.</li>
-          </ol>
-  
-          <p class="leading-relaxed text-sm mb-3">
-            Das Problem: Seit der Industralisierung verbrennen Industriestaaten in großem Ausmaß Kohle, Öl und Erdgas. Dadurch erhitzt sich der Planet Erde immer stärker. Alle Staaten der Welt haben mit dem Pariser Klimaabkommen 2015 vereinbart, diese Erhitzung zu stoppen. Die Weltgemeinschaft ist seitdem offiziell auf dem Weg zur Klimaneutralität - theoretisch. 
-          </p>
-          <p class="leading-relaxed text-sm mb-3">
-            Aktuell geht es in der Praxis - trotz vieler Erfolge - nicht schnell  genug voran.
-          </p>
-  
-            <p class="leading-relaxed text-sm mb-3">
-                UN-Generalsekretär António Guterres warnte im September 2023
-              erneut: „«Die Menschheit hat das Tor zur Hölle
-              aufgestossen.» Beim Ersetzen von fossilen Brenn- und
-              Treibstoffen hinke man Jahrzehnte hinterher: «Unsere Taten
-              halten bei Weitem nicht Schritt mit den Notwendigkeiten.»“ (<a
-                href="https://www.srf.ch/news/international/guterres-zum-klimawandel-uno-klimagipfel-die-saeumigen-muessen-schweigen"
-                class="underline">srf.ch</a
-              >). 
-            </p>
-  
-  
-          <p class="leading-relaxed text-sm mb-3">
-            Laut IPPC-Chef Jim Skea wird beim Überschreiten von 1,5 °C
-            die Welt nicht untergehen - „Es wird jedoch eine
-            gefährlichere Welt sein. Die Länder werden mit vielen
-            Problemen kämpfen, es wird soziale Spannungen geben.“ (<a
-              class="underline"
-              href="https://www.tagesschau.de/ausland/skea-weltklima-100.html"
-              >tagesschau</a
-            >, Juli 2023). Er rief zum Engagement auf.
-          </p>
+  <div
+    class="h-full rounded-xl shadow-cla-blue bg-gradient-to-r from-orange-50 to-red-50 overflow-hidden"
+  >
+    <div class="p-6 prose">
+      <h2
+        class="tracking-widest text-xs title-font font-medium text-black-400 mb-1"
+      >
+        Start with why
+      </h2>
+      <h3 class="title-font text-3xl font-bold text-gray-600 mb-3">
+        Die zwei großen Ziele dieses Jahrzehnts 💪
+      </h3>
 
-          <p class="leading-relaxed text-sm mb-3">
-          Zahlreiche Protestgruppen und WissenschaftlerInnen appellieren ebenfalls seit Jahren - teils verzweifelt, teils wütend - an Regierungen, Wirtschaft und EntscheiderInnen wirksam zu handeln und die vereinbarten Klimaziele einzuhalten. <!--Was WissenschaftlerInnen teils große Sorgen bereitet: In Zukunft könnten durch die Erhitzung Kipppunkte der Ökosysteme überschritten werden.  --> 
-          </p>
-  
-           <!-- <p class="leading-relaxed text-sm mb-3">
+      <p class="leading-relaxed text-sm mb-3">
+        Auch wenn es im alltäglichen Leben oft untergeht - wir leben in einer
+        der größten Transformationen der modernen Menschheitsgeschichte. Dabei
+        gibt es zwei große Ziele:
+      </p>
+
+      <ol class="list-decimal text-sm mb-3">
+        <li class="text-sm">
+          <strong>Klimaneutralität</strong>: So schnell wie möglich klimaneutral
+          leben und wirtschaften, um die weitere Erderhitzung so gering wie
+          möglich zu halten.
+        </li>
+        <li class="text-sm">
+          <strong>Klimafolgenanpassung</strong>: Sich an die jetzige und
+          zukünftige Erhitzung anpassen, die nicht mehr verhindert werden kann.
+          Also an Folgen wie zunehmendes Extremwetter und Hitze.
+        </li>
+      </ol>
+
+      <p class="leading-relaxed text-sm mb-3">
+        Das Problem: Seit der Industralisierung verbrennen Industriestaaten in
+        großem Ausmaß Kohle, Öl und Erdgas. Dadurch erhitzt sich der Planet Erde
+        immer stärker. Alle Staaten der Welt haben mit dem Pariser Klimaabkommen
+        2015 vereinbart, diese Erhitzung zu stoppen. Die Weltgemeinschaft ist
+        seitdem offiziell auf dem Weg zur Klimaneutralität - theoretisch.
+      </p>
+      <p class="leading-relaxed text-sm mb-3">
+        Aktuell geht es in der Praxis - trotz vieler Erfolge - nicht schnell
+        genug voran.
+      </p>
+
+      <p class="leading-relaxed text-sm mb-3">
+        UN-Generalsekretär António Guterres warnte im September 2023 erneut:
+        „«Die Menschheit hat das Tor zur Hölle aufgestossen.» Beim Ersetzen von
+        fossilen Brenn- und Treibstoffen hinke man Jahrzehnte hinterher: «Unsere
+        Taten halten bei Weitem nicht Schritt mit den Notwendigkeiten.»“ (<a
+          href="https://www.srf.ch/news/international/guterres-zum-klimawandel-uno-klimagipfel-die-saeumigen-muessen-schweigen"
+          class="underline">srf.ch</a
+        >).
+      </p>
+
+      <p class="leading-relaxed text-sm mb-3">
+        Laut IPPC-Chef Jim Skea wird beim Überschreiten von 1,5 °C die Welt
+        nicht untergehen - „Es wird jedoch eine gefährlichere Welt sein. Die
+        Länder werden mit vielen Problemen kämpfen, es wird soziale Spannungen
+        geben.“ (<a
+          class="underline"
+          href="https://www.tagesschau.de/ausland/skea-weltklima-100.html"
+          >tagesschau</a
+        >, Juli 2023). Er rief zum Engagement auf.
+      </p>
+
+      <p class="leading-relaxed text-sm mb-3">
+        Zahlreiche Protestgruppen und WissenschaftlerInnen appellieren ebenfalls
+        seit Jahren - teils verzweifelt, teils wütend - an Regierungen,
+        Wirtschaft und EntscheiderInnen wirksam zu handeln und die vereinbarten
+        Klimaziele einzuhalten. <!--Was WissenschaftlerInnen teils große Sorgen bereitet: In Zukunft könnten durch die Erhitzung Kipppunkte der Ökosysteme überschritten werden.  -->
+      </p>
+
+      <!-- <p class="leading-relaxed text-sm mb-3">
               Parallel dazu wird an Maßnahmen und Pläne gearbeitet, um sich an Folgen wie häufigeres Extremwetter, Hitze, Dürren, etc. anzupassen: Die sogenannte <i>Klimafolgenanpassung</i>. 
             </p> -->
-        
-      </div>
     </div>
   </div>
+</div>
 
-  <div class="p-4 md:w-1/3">
-    <div
-      class="h-full rounded-xl shadow-cla-pink bg-gradient-to-r from-fuchsia-50 to-pink-50 overflow-hidden"
+<div class="p-4 md:w-1/3">
+  <div
+    class="h-full rounded-xl shadow-cla-pink bg-gradient-to-r from-fuchsia-50 to-pink-50 overflow-hidden"
+  >
+    <div class="p-6 prose">
+      <h2
+        class="tracking-widest text-xs title-font font-medium text-black-400 mb-1"
+      >
+        Begrenzung der Erhitzung
+      </h2>
+      <h3 class="title-font text-3xl font-bold text-gray-600 mb-3">
+        2-Grad-Limit
+      </h3>
+
+      <p class="leading-relaxed text-sm mb-3">
+        Das 1,5- sowie auch das 2-Grad-Ziel wurde auf Basis von Klimaprognosen
+        politisch vereinbart um massive Folgeschäden abzuwenden:
+      </p>
+
+      <blockquote class="text-sm">
+        „In der Klimapolitik besteht ein weitreichender Konsens darüber, dass
+        bei einer Begrenzung der globalen Erwärmung auf 2° C [..] über dem
+        vorindustriellen Wert eine gefährliche Störung des Klimasystems durch
+        den Menschen gerade noch vermieden werden kann. Bei einer Überschreitung
+        der 2(1,5)-Grad-Grenze würden die Folgen des Klimawandels nicht mehr
+        kontrolliert werden können. Wetterextreme und andere Klimafolgen würden
+        ein gefährliches und kaum zu bewältigendes Maß annehmen und die
+        ökonomischen Kosten unvertretbar hoch ansteigen lassen.“ (<a
+          href="https://wiki.bildungsserver.de/klimawandel/index.php/2-Grad-Ziel"
+          >bildungsserver.de</a
+        >)
+      </blockquote>
+
+      <p class="leading-relaxed text-sm mb-3">
+        Was WissenschaftlerInnen teils große Sorgen bereitet: In Zukunft könnten
+        durch die Erhitzung Kipppunkte der Ökosysteme überschritten werden.
+      </p>
+    </div>
+  </div>
+</div>
+
+<div class="p-4 md:w-1/2">
+  <div
+    class="h-full rounded-xl shadow-cla-blue bg-gradient-to-r from-orange-50 to-red-50 overflow-hidden"
+  >
+    <Image
+      class="h-full w-full object-cover"
+      src={klimaprotestImg}
+      alt="Klimaprotest von jungen Menschen"
+    />
+  </div>
+  <div class="text-xs mt-2">
+    Foto: <a
+      href="https://www.flickr.com/photos/145406411@N05/46820046244"
+      class="underline">klimaprotest.at</a
+    >, <a
+      href="https://creativecommons.org/licenses/by-sa/2.0/"
+      class="underline">CC BY-ShareAlike 2.0</a
     >
-      <div class="p-6 prose">
-         <h2
-          class="tracking-widest text-xs title-font font-medium text-black-400 mb-1"
-        >
-          Begrenzung der Erhitzung
-        </h2>
-        <h3 class="title-font text-3xl font-bold text-gray-600 mb-3">
-          2-Grad-Limit
-        </h3> 
-
-        <p class="leading-relaxed text-sm mb-3">Das 1,5- sowie auch das 2-Grad-Ziel wurde auf Basis von  Klimaprognosen politisch vereinbart um massive Folgeschäden abzuwenden:</p>
-
-        <blockquote class="text-sm">
-            „In der Klimapolitik besteht ein weitreichender Konsens darüber, dass bei einer Begrenzung der globalen Erwärmung auf 2° C [..] über dem vorindustriellen Wert eine gefährliche Störung des Klimasystems durch den Menschen gerade noch vermieden werden kann. Bei einer Überschreitung der 2(1,5)-Grad-Grenze würden die Folgen des Klimawandels nicht mehr kontrolliert werden können. Wetterextreme und andere Klimafolgen würden ein gefährliches und kaum zu bewältigendes Maß annehmen und die ökonomischen Kosten unvertretbar hoch ansteigen lassen.“ (<a href="https://wiki.bildungsserver.de/klimawandel/index.php/2-Grad-Ziel">bildungsserver.de</a>)
-          </blockquote>
-
-
-        <p class="leading-relaxed text-sm mb-3">
-
-            Was WissenschaftlerInnen teils große Sorgen bereitet: In Zukunft könnten durch die Erhitzung Kipppunkte der Ökosysteme überschritten werden.
-          </p>
-       
-      </div>
-    </div>
   </div>
+</div>
 
-  
-  
-  <div class="p-4 md:w-1/2">
-    <div
-      class="h-full rounded-xl shadow-cla-blue bg-gradient-to-r from-orange-50 to-red-50 overflow-hidden"
-    >
-      <Image class="h-full w-full object-cover" src={klimaprotestImg} alt="Klimaprotest von jungen Menschen" />
-    </div>
-    <div class="text-xs mt-2">
-    Foto: <a href="https://www.flickr.com/photos/145406411@N05/46820046244" class="underline">klimaprotest.at</a>, <a href="https://creativecommons.org/licenses/by-sa/2.0/" class="underline">CC BY-ShareAlike 2.0</a>
-    </div>
-  </div>
-  
+<YouTubeVideo
+  client:load
+  videoId="J5dF3O7s7JA"
+  classWidth="w-full md:w-1/2"
+  classHeight="h-[500px]"
+/>
 
-  <YouTubeVideo client:load videoId="J5dF3O7s7JA" classWidth="w-full md:w-1/2" classHeight="h-[500px]" />
-  
-  <YouTubeVideo client:load videoId="ReIDe_R7CNM" classWidth="w-full" classHeight="h-[500px]" />
+<YouTubeVideo
+  client:load
+  videoId="ReIDe_R7CNM"
+  classWidth="w-full"
+  classHeight="h-[500px]"
+/>

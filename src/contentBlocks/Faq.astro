@@ -4,86 +4,85 @@ import { Accordion, AccordionItem, Modal } from "accessible-astro-components";
 ---
 
 <div class="p-6">
+  <h2 class="mt-2">FAQ</h2>
+  <Accordion>
+    <AccordionItem header="Was genau steht im IPPC-Bericht zur Erderhitzung?">
+      <div class="prose">
+        <p>
+          Im
+          <a
+            href="https://www.de-ipcc.de/media/content/AR6-WGI-SPM_deutsch_barrierefrei.pdf"
+            >Sechsten Sachstandsbericht (AR6 = Sixth Assessment Report, 2021)</a
+          > des zwischenstaatlichen Ausschusses IPCC heißt es:
+        </p>
 
-<h2 class="mt-2">FAQ</h2>
-    <Accordion>
-        <AccordionItem header="Was genau steht im IPPC-Bericht zur Erderhitzung?">
-            <div class="prose">
-            <p>
-                Im
-                <a
-                href="https://www.de-ipcc.de/media/content/AR6-WGI-SPM_deutsch_barrierefrei.pdf"
-                >Sechsten Sachstandsbericht (AR6 = Sixth Assessment Report, 2021)</a
-                > des zwischenstaatlichen Ausschusses IPCC heißt es:
-            </p>
+        <blockquote>
+          „Es ist eindeutig, dass der Einfluss des Menschen die Atmosphäre, den
+          Ozean und die Landflächen erwärmt hat. Es haben weitverbreitete und
+          schnelle Veränderungen in der Atmosphäre, dem Ozean, der Kryosphäre
+          und der Biosphäre stattgefunden. [...] Jedes der vergangenen vier
+          Jahrzehnte war jeweils wärmer als alle Jahrzehnte davor seit 1850.
+          [...] <strong class="svelte-1vd8jrp"
+            >Die globale Oberflächentemperatur war im Zeitraum 2011–2020 um 1,09
+            [0,95–1,20] °C höher als 1850–1900</strong
+          >[.]“<span class="image-source svelte-1vd8jrp"
+            >(<a
+              href="https://www.de-ipcc.de/media/content/AR6-WGI-SPM_deutsch_barrierefrei.pdf"
+              class="svelte-1vd8jrp"
+              >IPCC AR6 - Klimawandel 2021 Naturwissenschaftliche Grundlagen
+              Zusammenfassung für die politische Entscheidungsfindung
+            </a>, S.3)</span
+          >
+        </blockquote>
+        <p>
+          Daten-Quelle für das Diagramm:
 
-            <blockquote>
-                „Es ist eindeutig, dass der Einfluss des Menschen die Atmosphäre, den
-                Ozean und die Landflächen erwärmt hat. Es haben weitverbreitete und
-                schnelle Veränderungen in der Atmosphäre, dem Ozean, der Kryosphäre und
-                der Biosphäre stattgefunden. [...] Jedes der vergangenen vier Jahrzehnte
-                war jeweils wärmer als alle Jahrzehnte davor seit 1850. [...] <strong
-                class="svelte-1vd8jrp"
-                >Die globale Oberflächentemperatur war im Zeitraum 2011–2020 um 1,09
-                [0,95–1,20] °C höher als 1850–1900</strong
-                >[.]“<span class="image-source svelte-1vd8jrp"
-                >(<a
-                    href="https://www.de-ipcc.de/media/content/AR6-WGI-SPM_deutsch_barrierefrei.pdf"
-                    class="svelte-1vd8jrp"
-                    >IPCC AR6 - Klimawandel 2021 Naturwissenschaftliche Grundlagen
-                    Zusammenfassung für die politische Entscheidungsfindung
-                </a>, S.3)</span
-                >
-            </blockquote>
-            <p>
-                Daten-Quelle für das Diagramm:
+          <a
+            href="https://data.ceda.ac.uk/badc/ar6_wg1/data/spm/spm_01/v20221116/panel_b"
+            class="svelte-1vd8jrp">gmst_changes_model_and_obs.csv</a
+          >
+           (Spalte 8 "Global Surface Temperature Anomalies [GSTA] relative to
+          1850-1900 from observations assessed in IPCC AR6 WG1 Chapter 2") via
 
-                <a
-                href="https://data.ceda.ac.uk/badc/ar6_wg1/data/spm/spm_01/v20221116/panel_b"
-                class="svelte-1vd8jrp">gmst_changes_model_and_obs.csv</a
-                >
-                (Spalte 8 "Global Surface Temperature Anomalies [GSTA] relative to
-                1850-1900 from observations assessed in IPCC AR6 WG1 Chapter 2") via
+          <a
+            href="https://www.ipcc.ch/report/ar6/wg1/figures/summary-for-policymakers/figure-spm-1/"
+            class="svelte-1vd8jrp">Figure SPM.1 - IPCC AR6</a
+          >.
+        </p>
+      </div>
+    </AccordionItem>
+    <AccordionItem header="Warum erhitzt Treibhausgas den Planeten?">
+      <p>
+        Warum erhitzt sich dadurch die Erde? Treffen Sonnenstrahlen auf die
+        Erde, so wird ein Großteil zurück ins Weltall reflektiert. Ein Teil der
+        Sonnenstrahlen verbleibt in der Atmosphäre. Ein natürlicher Vorgang.
+        Durch das zusätzliche Verbrennen von Kohle, Öl und Erdgas seit der
+        Industralisierung gelangt jedoch immer mehr Treibhausgas in die
+        Atmosphäre. Das zusätzliche Treibhausgas hindert nun immer mehr
+        Sonnenstrahlen am Austritt aus der Atmosphäre: Die Erde erhitzt sich
+        immer mehr. Das große physikalische Problem: Das Treibhausgas CO2 bleibt
+        über 1'000 Jahre in der Atmosphäre bis es wieder abgebaut ist.
+        Hauptgrund: Das Verbrennen von Kohle, Öl und Erdgas. Diese fossilen
+        Energieträger werden für Industrie, Heizen, Mobilität und Landwirtschaft
+        genutzt. Durch das Verbrennen gelangt mehr Treibhausgas in die
+        Atmosphäre und verursacht die jetzt zu beobachtende Erderhitzung. Seit
+        1958 wird in der Messstation Mauna Loa der Anteil des Treibhausgases CO2
+        (Kohlenstoffdioxid) in der Atmosphäre aufgezeichnet - jedes Jahr gab es
+        seitdem einen neuen Rekord-Höchstwert (<a
+          class="underline"
+          href="https://keelingcurve.ucsd.edu/"
+          target="_blank">Keeling-Kurve</a
+        >).
+      </p>
 
-                <a
-                href="https://www.ipcc.ch/report/ar6/wg1/figures/summary-for-policymakers/figure-spm-1/"
-                class="svelte-1vd8jrp">Figure SPM.1 - IPCC AR6</a
-                >.
-            </p>
-            </div>
-        </AccordionItem>
-        <AccordionItem header="Warum erhitzt Treibhausgas den Planeten?">
-            <p>
-            Warum erhitzt sich dadurch die Erde? Treffen Sonnenstrahlen auf die Erde,
-            so wird ein Großteil zurück ins Weltall reflektiert. Ein Teil der
-            Sonnenstrahlen verbleibt in der Atmosphäre. Ein natürlicher Vorgang. Durch
-            das zusätzliche Verbrennen von Kohle, Öl und Erdgas seit der
-            Industralisierung gelangt jedoch immer mehr Treibhausgas in die
-            Atmosphäre. Das zusätzliche Treibhausgas hindert nun immer mehr
-            Sonnenstrahlen am Austritt aus der Atmosphäre: Die Erde erhitzt sich immer
-            mehr. Das große physikalische Problem: Das Treibhausgas CO2 bleibt über
-            1'000 Jahre in der Atmosphäre bis es wieder abgebaut ist. Hauptgrund: Das
-            Verbrennen von Kohle, Öl und Erdgas. Diese fossilen Energieträger werden
-            für Industrie, Heizen, Mobilität und Landwirtschaft genutzt. Durch das
-            Verbrennen gelangt mehr Treibhausgas in die Atmosphäre und verursacht die
-            jetzt zu beobachtende Erderhitzung. Seit 1958 wird in der Messstation
-            Mauna Loa der Anteil des Treibhausgases CO2 (Kohlenstoffdioxid) in der
-            Atmosphäre aufgezeichnet - jedes Jahr gab es seitdem einen neuen
-            Rekord-Höchstwert (<a
-                class="underline"
-                href="https://keelingcurve.ucsd.edu/"
-                target="_blank">Keeling-Kurve</a
-            >).
-            </p>
-
-            <p>
-            Siehe: <a href="https://www.youtube.com/shorts/nEvWK3-UOis"
-                >Planet A Video</a
-            >, <a
-                href="https://www.zdf.de/dokumentation/terra-x/themenpaket-klimawandel-forschung-100.html"
-                >TerraX Vides</a
-            >
-            </p>
-        </AccordionItem>
-    </Accordion>
+      <p>
+        Siehe: <a href="https://www.youtube.com/shorts/nEvWK3-UOis"
+          >Planet A Video</a
+        >, <a
+          href="https://www.zdf.de/dokumentation/terra-x/themenpaket-klimawandel-forschung-100.html"
+          >TerraX Vides</a
+        >
+      </p>
+    </AccordionItem>
+  </Accordion>
 </div>

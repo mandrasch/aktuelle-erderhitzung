@@ -1,90 +1,81 @@
 ---
-import HowOldDashboard from "../components/HowOldDashboard.svelte"
+import HowOldDashboard from "../components/HowOldDashboard.svelte";
 ---
 
 <div class="p-4 w-full md:w-1/4">
-    <a href="#aktuelle-erderhitzung">
-        <div
-          class="h-full rounded-xl shadow-cla-blue bg-gradient-to-r from-orange-50 to-red-50 overflow-hidden"
+  <a href="#aktuelle-erderhitzung">
+    <div
+      class="h-full rounded-xl shadow-cla-blue bg-gradient-to-r from-orange-50 to-red-50 overflow-hidden"
+    >
+      <div class="p-6">
+        <h2
+          class="tracking-widest text-xs title-font font-medium text-black-400 mb-1"
         >
-          <div class="p-6">
-            <h2
-              class="tracking-widest text-xs title-font font-medium text-black-400 mb-1"
-            >
-              Aktuelle Erderhitzung seit der Industralisierung
-            </h2>
-            <h3 class="title-font text-3xl font-bold text-gray-600 mb-3">
-              + 1,2 °C
-            </h3>
-  
-          </div>
-        </div>
+          Aktuelle Erderhitzung seit der Industralisierung
+        </h2>
+        <h3 class="title-font text-3xl font-bold text-gray-600 mb-3">
+          + 1,2 °C
+        </h3>
       </div>
-    </a>
-  </div>
-  
-  <div class="p-4  w-full md:w-1/4">
-    <a href="#aktueller-pfad">
-      <div
-        class="h-full rounded-xl shadow-cla-blue bg-gradient-to-r from-orange-50 to-red-50 overflow-hidden"
-      >
-        <div class="p-6">
-          <h2
-            class="tracking-widest text-xs title-font font-medium text-black-400 mb-1"
-          >
-            Erstmaliges Überschreiten des 1,5-Grad-Limits
-          </h2>
-          <h3 class="title-font text-3xl font-bold text-gray-600 mb-3">
-            bis 2027
-          </h3>
-  
+    </div>
+  </a>
+</div>
+
+<div class="p-4 w-full md:w-1/4">
+  <a href="#aktueller-pfad">
+    <div
+      class="h-full rounded-xl shadow-cla-blue bg-gradient-to-r from-orange-50 to-red-50 overflow-hidden"
+    >
+      <div class="p-6">
+        <h2
+          class="tracking-widest text-xs title-font font-medium text-black-400 mb-1"
+        >
+          Erstmaliges Überschreiten des 1,5-Grad-Limits
+        </h2>
+        <h3 class="title-font text-3xl font-bold text-gray-600 mb-3">
+          bis 2027
+        </h3>
+      </div>
+    </div>
+  </a>
+</div>
+
+<div class="p-4 w-full md:w-1/4">
+  <a href="#aktueller-pfad">
+    <div
+      class="h-full rounded-xl shadow-cla-blue bg-gradient-to-r from-orange-50 to-red-50 overflow-hidden"
+    >
+      <div class="p-6">
+        <h2
+          class="tracking-widest text-xs title-font font-medium text-black-400 mb-1"
+        >
+          Erstmaliges Überschreiten des 2-Grad-Limits
+        </h2>
+        <h3 class="title-font text-3xl font-bold text-gray-600 mb-3">
+          ca. 2042
+        </h3>
+      </div>
+    </div>
+  </a>
+</div>
+
+<div class="p-4 w-full md:w-1/4">
+  <a href="#aktueller-pfad">
+    <div
+      class="h-full rounded-xl shadow-cla-blue bg-gradient-to-r from-orange-50 to-red-50 overflow-hidden"
+    >
+      <div class="p-6">
+        <div
+          class="tracking-widest text-xs title-font font-medium text-black-400 mb-1"
+        >
+          Aktuell prognostizierter Pfad (bis zum Jahr 2100)
+        </div>
+        <div class="title-font text-3xl font-bold text-red-600 mb-3">
+          + 2,8°C
         </div>
       </div>
     </div>
   </a>
-  </div>
-  
-  <div class="p-4  w-full md:w-1/4">
-    <a href="#aktueller-pfad">
-        <div
-          class="h-full rounded-xl shadow-cla-blue bg-gradient-to-r from-orange-50 to-red-50 overflow-hidden"
-        >
-          <div class="p-6">
-            <h2
-              class="tracking-widest text-xs title-font font-medium text-black-400 mb-1"
-            >
-              Erstmaliges Überschreiten des 2-Grad-Limits
-            </h2>
-            <h3 class="title-font text-3xl font-bold text-gray-600 mb-3">
-              ca. 2042
-            </h3>
-  
-          </div>
-        </div>
-      </div>
-    </a>
-  </div>
-  
-  <div class="p-4  w-full md:w-1/4">
-    <a href="#aktueller-pfad">
-      <div
-        class="h-full rounded-xl shadow-cla-blue bg-gradient-to-r from-orange-50 to-red-50 overflow-hidden"
-      >
-        <div class="p-6">
-          <div
-            class="tracking-widest text-xs title-font font-medium text-black-400 mb-1"
-          >
-            Aktuell prognostizierter Pfad (bis zum Jahr 2100)
-          </div>
-          <div class="title-font text-3xl font-bold text-red-600 mb-3">
-            + 2,8°C
-          </div>
-  
-        </div>
-      </div>
-    </div>
-  </a>
-  </div>
+</div>
 
-  <HowOldDashboard client:load />
-
+<HowOldDashboard client:load />

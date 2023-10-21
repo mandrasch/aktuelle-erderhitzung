@@ -3,21 +3,21 @@ import BaseHead from "./BaseHead.astro";
 import Footer from "./Footer.astro";
 
 export interface Props {
-    title: string;
-    description: string;
+  title: string;
+  description: string;
 }
 const { title, description } = Astro.props;
 
-const language = "en-gb";
+const language = "de";
 ---
 
 <html lang={language}>
-    <head>
-        <BaseHead {title} {description} />
-    </head>
+  <head>
+    <BaseHead {title} {description} />
+  </head>
 
-    <body class="font-junction">
-        <slot />
-        <Footer />
-    </body>
+  <body class="font-junction">
+    <slot />
+    <Footer />
+  </body>
 </html>

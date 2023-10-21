@@ -1,6 +1,7 @@
 ---
-import YouTubeVideo from '../components/YouTubeVideo.svelte';
+import YouTubeVideo from "../components/YouTubeVideo.svelte";
 ---
+
 <div class="p-4 md:w-1/2">
   <div
     class="h-full rounded-xl shadow-cla-violate bg-gradient-to-r from-green-50 to-green-100 overflow-hidden"
@@ -54,61 +55,97 @@ import YouTubeVideo from '../components/YouTubeVideo.svelte';
       </p>
 
       <p class="leading-relaxed text-sm mb-3">
-        Es gibt zahlreiche Dokumentationen und Artikel darüber, welche Maßnahmen nötig sind um die Erderhitzung unter 2-Grad zu begrenzen. Auch der Weltklimarat (IPCC) empfiehlt immer wieder Maßnahmen in seinen Berichten: <a
-        href="https://www.moment.at/IPCC-Bericht-2023"
-        class="underline"
-        >„IPCC Bericht: Wie wir das Klima retten können (noch)“</a
-      > (moment.at, März 2023).
+        Es gibt zahlreiche Dokumentationen und Artikel darüber, welche Maßnahmen
+        nötig sind um die Erderhitzung unter 2-Grad zu begrenzen. Auch der
+        Weltklimarat (IPCC) empfiehlt immer wieder Maßnahmen in seinen
+        Berichten: <a
+          href="https://www.moment.at/IPCC-Bericht-2023"
+          class="underline"
+          >„IPCC Bericht: Wie wir das Klima retten können (noch)“</a
+        > (moment.at, März 2023).
       </p>
     </div>
   </div>
 </div>
 
-
 <div class="p-4 md:w-1/2">
-    <div
-      class="h-full rounded-xl shadow-cla-pink bg-gradient-to-r from-fuchsia-50 to-pink-50 overflow-hidden"
-    >
-      <div class="p-6">
-        <h2
-          class="tracking-widest text-xs title-font font-medium text-black-400 mb-1"
-        >
-          Verantwortung
-        </h2>
-        <h3 class="title-font text-3xl font-bold text-gray-600 mb-3">
-          Wer sitzt am Hebel?
-        </h3>
+  <div
+    class="h-full rounded-xl shadow-cla-pink bg-gradient-to-r from-fuchsia-50 to-pink-50 overflow-hidden"
+  >
+    <div class="p-6">
+      <h2
+        class="tracking-widest text-xs title-font font-medium text-black-400 mb-1"
+      >
+        Verantwortung
+      </h2>
+      <h3 class="title-font text-3xl font-bold text-gray-600 mb-3">
+        Wer sitzt am Hebel?
+      </h3>
 
+      <p class="leading-relaxed text-sm mb-3">
+        Für 81 % der weltweiten Treibhausgas-Ausstöße waren 2021 die G20-Staaten
+        verantwortlich (<a
+          href="https://www.destatis.de/DE/Themen/Laender-Regionen/Internationales/Thema/umwelt-energie/umwelt/G20_CO2.html"
+          class="underline">destatis.de</a
+        >). Sie haben es noch in der Hand, gemeinsam die Emissionen in großem
+        Ausmaß zu reduzieren. Wohlhabende und reiche Menschen verursachen zudem
+        deutlich mehr CO2.
+      </p>
 
-        <p class="leading-relaxed text-sm mb-3">
-            Für 81 % der weltweiten
-            Treibhausgas-Ausstöße waren 2021 die G20-Staaten
-            verantwortlich (<a
-              href="https://www.destatis.de/DE/Themen/Laender-Regionen/Internationales/Thema/umwelt-energie/umwelt/G20_CO2.html"
-              class="underline">destatis.de</a
-            >). Sie haben es noch in der Hand, gemeinsam die Emissionen in
-            großem Ausmaß zu reduzieren. Wohlhabende und reiche Menschen
-            verursachen zudem deutlich mehr CO2. 
-          </p>
+      <p class="leading-relaxed text-sm mb-3">
+        Auch Lobby-Interessen und Einmischung von Lobby-Gruppen spielen eine
+        Rolle bei der Klimakrise: der Öl-Konzern Exxon verschleierte
+        jahrzehntelang wissenschaftliche Fakten und streute falsche
+        Informationen und öffentliche Zweifel. Kohle, Öl und Erdgas waren nie
+        alternativlos - erneuerbare Energieformen sind seit langer Zeit ebenso
+        verfügbar. Eine Film-Empfehlung zu diesem Thema: <a
+          href="https://crunchtime2030.de/die-erdzerstoerer-wie-lange-haelt-die-erde-den-menschen-noch-aus-dokumentation/"
+          class="underline"
+          target="_blank">Die Erdzerstörer</a
+        > (Jean-Robert Viallet / ARTE, 2019).
+      </p>
 
-          <p class="leading-relaxed text-sm mb-3">Auch Lobby-Interessen und Einmischung von Lobby-Gruppen spielen eine Rolle bei der Klimakrise: der Öl-Konzern Exxon verschleierte jahrzehntelang wissenschaftliche Fakten und streute falsche Informationen und öffentliche Zweifel. Kohle, Öl und Erdgas waren nie alternativlos - erneuerbare Energieformen sind seit langer Zeit ebenso verfügbar. Eine Film-Empfehlung zu diesem Thema: <a href="https://crunchtime2030.de/die-erdzerstoerer-wie-lange-haelt-die-erde-den-menschen-noch-aus-dokumentation/" class="underline" target="_blank">Die Erdzerstörer</a> (Jean-Robert Viallet / ARTE, 2019).</p>
-
-          <p class="leading-relaxed text-sm mb-3">Nicht zuletzt entscheiden aber auch WählerInnen in Demokratien darüber, welche Parteien an die Macht gelangen und wie effektiv Klimaschutz regional und in globaler Abstimmung umgesetzt wird. Politischer Protest ist eine weitere Möglichkeit, auf effektiven Klimaschutz hinzuarbeiten.</p>
-      </div>
+      <p class="leading-relaxed text-sm mb-3">
+        Nicht zuletzt entscheiden aber auch WählerInnen in Demokratien darüber,
+        welche Parteien an die Macht gelangen und wie effektiv Klimaschutz
+        regional und in globaler Abstimmung umgesetzt wird. Politischer Protest
+        ist eine weitere Möglichkeit, auf effektiven Klimaschutz hinzuarbeiten.
+      </p>
     </div>
   </div>
+</div>
 
+<YouTubeVideo
+  client:load
+  videoId="itllxeBM8ro"
+  classWidth="w-full"
+  classHeight="h-[500px]"
+/>
 
-  <YouTubeVideo client:load videoId="itllxeBM8ro" classWidth="w-full" classHeight="h-[500px]" />
-  
-  <YouTubeVideo client:load videoId="13PvzPB54JQ" classWidth="w-full" classHeight="h-[500px]" />
-  
-  <YouTubeVideo client:load videoId="kmIWTioLtCM" classWidth="w-full" classHeight="h-[500px]" />
+<YouTubeVideo
+  client:load
+  videoId="13PvzPB54JQ"
+  classWidth="w-full"
+  classHeight="h-[500px]"
+/>
 
-  <YouTubeVideo client:load videoId="3RRJSx7_sbA" classWidth="w-full" classHeight="h-[500px]" />
-  
-  <YouTubeVideo client:load videoId="ljKWk9P3cWw" classWidth="w-full" classHeight="h-[500px]" />
-  
+<YouTubeVideo
+  client:load
+  videoId="kmIWTioLtCM"
+  classWidth="w-full"
+  classHeight="h-[500px]"
+/>
 
- 
+<YouTubeVideo
+  client:load
+  videoId="3RRJSx7_sbA"
+  classWidth="w-full"
+  classHeight="h-[500px]"
+/>
 
+<YouTubeVideo
+  client:load
+  videoId="ljKWk9P3cWw"
+  classWidth="w-full"
+  classHeight="h-[500px]"
+/>

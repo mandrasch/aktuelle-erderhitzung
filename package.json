@@ -16,7 +16,9 @@
         "@astrojs/tailwind": "^5.0.0",
         "accessible-astro-components": "^2.2.1",
         "astro": "^3.1.0",
-        "postcss": "^8.4.29"
+        "postcss": "^8.4.29",
+        "prettier": "^3.0.3",
+        "prettier-plugin-svelte": "^3.0.3"
     },
     "dependencies": {
         "@astrojs/rss": "^3.0.0",

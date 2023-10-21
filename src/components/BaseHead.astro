@@ -1,8 +1,8 @@
 ---
-import { ViewTransitions } from 'astro:transitions';
+import { ViewTransitions } from "astro:transitions";
 export interface Props {
-    title: string;
-    description: string;
+  title: string;
+  description: string;
 }
 const { title, description } = Astro.props;
 const canonicalURL = new URL(Astro.url.pathname, Astro.site);
@@ -30,4 +30,4 @@ const permalink = `${canonicalURL.href}`;
 <meta property="twitter:image" content="/assets/logo.webp" />
 
 <link rel="stylesheet" href="/assets/main.css" />
-  <ViewTransitions />
+<ViewTransitions />
