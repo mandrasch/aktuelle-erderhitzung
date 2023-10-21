@@ -1,0 +1,95 @@
+---
+import YouTubeVideo from "../components/YouTubeVideo.svelte"
+---
+<div class="p-4 md:w-1/2" id="aktueller-pfad">
+    <div
+      class="h-full rounded-xl shadow-cla-violate bg-gradient-to-r from-pink-50 to-red-50 overflow-hidden"
+    >
+
+      <div class="p-6">
+        <h2
+          class="tracking-widest text-xs title-font font-medium text-black-400 mb-1"
+        >
+          Aktueller Pfad
+        </h2>
+        <h3 class="title-font text-3xl font-bold text-red-600 mb-3">
+          + 2,8 °C
+        </h3>
+       
+
+        <p class="leading-relaxed text-sm mb-3">
+          Die gute Nachricht: Die Weltgemeinschaft befindet sich nicht
+          mehr auf dem Weg zu +4°C oder einer noch höheren Erhitzung
+          der Erde.
+        </p>
+
+        <p class="leading-relaxed text-sm mb-3">
+          Die schlechten Nachrichten: 
+        </p>
+        <p class="leading-relaxed text-sm mb-3">
+        Aktuell befindet sich die Menschheit auf dem Weg zu ca. 2,8
+          °C Erhitzung bis zum Jahr 2100 (<a
+            href="https://science.orf.at/stories/3215919/"
+            class="underline">science.orf.at</a
+          >, 2022).
+
+        <p class="leading-relaxed text-sm mb-3">
+          Die 1,5-Grad-Grenze könnte schon in den nächsten fünf Jahren
+          bis 2027 erstmalig überschritten werden (<a
+            class="underline"
+            href="https://www.rnd.de/wissen/globale-erwaermung-wird-1-5-grad-ueberschreiten-droht-ein-super-el-nino-KFT73LAN2VCZTFF7GKWPAMLVNM.html"
+            >rnd.de</a
+          >, Mai 2023). <br><br>
+      Die 2-Grad-Grenze könnte bereits 2042 überschritten werden (<a href="https://www.derstandard.at/story/3000000183104/zwei-grad-schwelle-duerfte-frueher-erreicht-werden-als-angenommen" class="underline">derstandard.at</a>, August 2023).
+        </p>
+
+        <!-- <p class="leading-relaxed text-sm mb-3">
+          Laut IPPC-Chef Jim Skea wird beim Überschreiten von 1,5 °C
+          die Welt nicht untergehen - „Es wird jedoch eine
+          gefährlichere Welt sein. Die Länder werden mit vielen
+          Problemen kämpfen, es wird soziale Spannungen geben.“ (<a
+            class="underline"
+            href="https://www.tagesschau.de/ausland/skea-weltklima-100.html"
+            >tagesschau</a
+          >, Juli 2023). Er rief zum Engagement auf.
+        </p> -->
+
+        <p class="leading-relaxed text-sm mb-3">
+          Klimaforscher Stefan Rahmstorf sagt am Ende seines <a
+            class="underline"
+            href="https://www.youtube.com/watch?v=M6NWcKb5QBs"
+            >aktuellen Vortrags</a
+          >: „Wir haben die Lösungen. [...] Aber es gibt nach wie vor
+          Bremser, die versuchen diese dringend notwendige Entwicklung
+          möglichst aufzuhalten oder zumindest zu verlangsamen, [...]
+          um noch etwas an Öl und Kohle zu verdienen. Das ist fatal.
+          [...] Es muss jetzt wahnsinnig schnell gehen“ (Oktober
+          2023).
+        </p>
+      </div>
+    </div>
+  </div>
+  
+
+
+  <div
+    class="p-4 md:w-1/2 w-full md:h-auto flex justify-center items-center h-[500px]"
+  >
+    <div class="w-full h-full bg-black rounded-xl">
+      <iframe
+        width="100%"
+        height="100%"
+        loading="lazy"
+        data-src="https://www.youtube-nocookie.com/embed/AAi_I73kqcE"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        class="rounded-xl"
+        allowfullscreen></iframe>
+    </div>
+  </div>
+
+
+  <YouTubeVideo client:load videoId="M6NWcKb5QBs" classWidth="w-full" classHeight="h-[500px]" />
+
+  <YouTubeVideo client:load videoId="uynhvHZUOOo" classWidth="w-full" classHeight="h-[500px]" />

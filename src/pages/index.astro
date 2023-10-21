@@ -1,0 +1,58 @@
+---
+import Page from "../components/Page.astro";
+import CookieBanner from "../components/CookieBanner.svelte";
+import SiteHeader from "../components/SiteHeader.astro";
+
+// content blocks
+import AktuelleErhitzung from "../contentBlocks/AktuelleErhitzung.astro";
+import AktuellerPfad from "../contentBlocks/AktuellerPfad.astro";
+import IntroDashboard from "../contentBlocks/IntroDashboard.astro";
+import IntroZiele from "../contentBlocks/IntroZiele.astro";
+import Klimaneutralitaet from "../contentBlocks/Klimaneutralitaet.astro";
+import ErfolgeUndFortschritte from "../contentBlocks/ErfolgeUndFortschritte.astro";
+import WasKommtAufMichZu from "../contentBlocks/WasKommtAufMichZu.astro";
+import Faq from "../contentBlocks/Faq.astro";
+import MentalHealthWarning from "../components/MentalHealthWarning.astro";
+
+const title = "Aktuelle Erderhitzung";
+const description =
+  "Wir alle hören täglich etwas über Klimawandel und Erderwärmung. Aber wie sehr hat sich unser Planet Erde schon erhitzt? Und wo steuern wir hin als Gemeinschaft?";
+---
+
+<Page {title} {description}>
+  <CookieBanner client:load />
+  <SiteHeader />
+
+  <div class="flex justify-center">
+    <div class="text-lg w-full lg:w-3/4">
+      <section class="text-gray-600 body-font mt-5">
+        <div class="container px-5 py-5 mx-auto">
+          <div class="flex flex-wrap -m-4">
+
+            <IntroDashboard />
+
+            <IntroZiele />
+
+            <MentalHealthWarning />
+
+            <AktuelleErhitzung />
+
+            <MentalHealthWarning />
+
+            <AktuellerPfad />
+
+            <Klimaneutralitaet />
+
+            <WasKommtAufMichZu />
+
+            <MentalHealthWarning />
+        
+            <ErfolgeUndFortschritte />
+
+
+          </div>
+        </div>
+      </section>
+    </div>
+  </div>
+</Page>
