@@ -57,7 +57,6 @@
     </label>
     <input
       type="number"
-      max="4"
       class="w-full p-2"
       bind:value={birthYear}
       on:change={updateURLWithBirthYear}
