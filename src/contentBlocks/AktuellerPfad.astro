@@ -1,5 +1,7 @@
 ---
 import YouTubeVideo from "../components/YouTubeVideo.svelte";
+import { Image } from "astro:assets";
+import currentPathImg from "../images/co2-emissions-peak-carbon-brief-10-2023.png";
 ---
 
 <div class="p-4 md:w-1/2" id="aktueller-pfad">
@@ -81,6 +83,36 @@ import YouTubeVideo from "../components/YouTubeVideo.svelte";
       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
       class="rounded-xl"
       allowfullscreen></iframe>
+  </div>
+</div>
+
+<div class="p-4 w-full h-auto md:h-[750px]">
+  <a
+    href="https://www.carbonbrief.org/analysis-global-co2-emissions-could-peak-as-soon-as-2023-iea-data-reveals/"
+    target="_blank"
+  >
+    <Image
+      class="h-full w-full object-contain"
+      src={currentPathImg}
+      alt="Global CO2 emissions from fossil fuels and industry, billion tonnes, 1965-2050. Chart shows historical emissions (black), pre-Paris policy baseline (grey, 2015 “current policies scenario”), policy in 2021-2023 (blue, “stated policies scenarios”), as well as pledges in 2023 (red, “announced pledges scenario”) and the IEA’s suggested path to staying below 1.5C (yellow, “net-zero emissions by 2050 scenario”). Source: Carbon Brief analysis by Simon Evans and Verner Viisainen of IEA world energy outlooks 2015-2023. Chart by Tom Prater for Carbon Brief."
+    />
+  </a>
+
+  <div class="text-xs mt-2">
+    Quelle: <a
+      href="https://www.carbonbrief.org/analysis-global-co2-emissions-could-peak-as-soon-as-2023-iea-data-reveals/"
+      class="underline"
+      target="_blank">carbonbrief.org</a
+    >, via <a
+      href="https://www.linkedin.com/posts/gwagner_for-the-mathematicians-in-the-room-thats-activity-7123626894708674560-vwTc?utm_source=share&utm_medium=member_desktop"
+      class="underline">Gernot Wagner</a
+    >. Siehe auch <a
+      href="https://www.youtube.com/watch?v=atQbbMhZkbc"
+      class="underline"
+      target="_blank"
+      >„Stefan Rahmstorf - Auf welchem Emissionspfad sind wir, wo sollten wir
+      für 1,5 Grad sein?“</a
+    >
   </div>
 </div>
 
