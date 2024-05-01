@@ -7,6 +7,9 @@ const { title, description, version } = content;
 const displayVersion = version ? "Version " + version : "";
 ---
 
+<!-- https://docs.astro.build/en/guides/client-side-scripts/#load-external-scripts -->
+<script is:inline defer data-domain="aktuelle-erderhitzung.de" src="https://plausible.coolify.mandrasch.dev/js/script.js"></script>
+
 <Page {title} {description}>
     <SiteHeader />
     <div class="flex justify-center text-zinc-700">
